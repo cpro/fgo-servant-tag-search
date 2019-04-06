@@ -43,9 +43,11 @@ export default class App extends Vue {
   private ownedServantDialog = false
   private aboutDialog = false
 
-  private async mounted() {
-    await this.$store.dispatch('fetchServants')
-    await this.$store.dispatch('fetchTags')
+  private async created() {
+    await Promise.all([
+      this.$store.dispatch('fetchServants'),
+      this.$store.dispatch('fetchTags'),
+    ])
     this.$store.dispatch('loadSelectionFromUrl')
     this.$store.dispatch('loadOwnedServants')
   }
