@@ -52,9 +52,11 @@ import TagIndicator from '@/components/TagIndicator.vue'
 import ServantEntryCardIndicator from '@/components/ServantEntryCardIndicator.vue'
 
 @Component({
+  name: 'ServantEntryNoblePhantasm',
   components: {
     TagIndicator,
     ServantEntryCardIndicator,
+    ServantEntryNoblePhantasm,
   },
 })
 export default class ServantEntryNoblePhantasm extends Vue {

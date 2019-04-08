@@ -44,8 +44,10 @@ import Tag from '@/models/tag'
 import TagIndicator from '@/components/TagIndicator.vue'
 
 @Component({
+  name: 'ServantEntrySkill',
   components: {
     TagIndicator,
+    ServantEntrySkill,
   },
 })
 export default class ServantEntrySkill extends Vue {
