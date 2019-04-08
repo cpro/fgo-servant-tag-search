@@ -1,9 +1,9 @@
 <template>
   <span class="share-buttons">
-    <v-btn :href="twitterShareUrl" target="_blank" icon class="elevation-2">
+    <v-btn :href="twitterShareUrl" target="_blank" icon small>
       <v-icon color="grey darken-2">mdi-twitter</v-icon>
     </v-btn>
-    <v-btn :href="hatebaBookmarkUrl" target="_blank" icon class="elevation-2">
+    <v-btn :href="hatebaBookmarkUrl" target="_blank" icon small>
       <v-icon color="grey darken-2">mdi-hatebu</v-icon>
     </v-btn>
   </span>

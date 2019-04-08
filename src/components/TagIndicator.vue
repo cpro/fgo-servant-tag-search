@@ -8,7 +8,7 @@
     @dblclick="dblclick"
   >
     <v-avatar v-if="!isStatic">
-      <v-icon v-if="tag.state == 'select'">check_circle</v-icon>
+      <v-icon v-if="tag.state == 'select'" :color="tagColor">check_circle</v-icon>
       <v-icon v-else-if="tag.state == 'exclude'" color="red">
         remove_circle
       </v-icon>
