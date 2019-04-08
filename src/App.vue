@@ -50,6 +50,11 @@ export default class App extends Vue {
     ])
     this.$store.dispatch('loadSelectionFromUrl')
     this.$store.dispatch('loadOwnedServants')
+
+    window.onpopstate = () => {
+      this.$store.commit('clearTagState')
+      this.$store.dispatch('loadSelectionFromUrl')
+    }
   }
 }
 </script>
