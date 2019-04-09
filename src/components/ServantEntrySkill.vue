@@ -8,6 +8,9 @@
           :
         </span>
         {{ skill.name }}
+        <span class="caption ml-2 grey--text text--darken-2">
+          CT {{ skill.ct }}-{{ skill.ct - 2 }}
+        </span>
         <v-btn round flat color="grey" small @click="showTags = !showTags">
           <span class="caption">タグ</span>
           <v-icon>{{ showTags ? 'arrow_drop_up' : 'arrow_drop_down' }}</v-icon>
