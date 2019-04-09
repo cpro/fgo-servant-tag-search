@@ -132,8 +132,13 @@ class NoblePhantasm
 end
 
 class Skill
-    attr_accessor :name, :description, :ct, :unlock, :upgrade
+    attr_accessor :name, :description, :ct, :unlock, :upgrade, :np_gain_min, :np_gain_max
     attr_reader :tags
+
+    def initialize
+        @np_gain_min = 0
+        @np_gain_max = 0
+    end
 
     def to_json(*a)
         {
@@ -428,12 +433,7 @@ def parse_description_to_tag(desc)
         elsif s[30]
             cat = '<buff><buff_np>'
             tags.push("#{cat}毎ターンNP獲得")
-            if target == '自身'
-                tags.push("#{cat}#{target_short}NP増加")
-            else
-                tags.push("#{cat}NP配布")
-                tags.push("#{cat}#{target_short}NP配布")
-            end
+            tags.push("#{cat}#{target_short}毎ターンNP獲得")
         elsif s[31]
             cat = '<debuff><debuff_slip>'
             tags.push("#{cat}スリップダメージ強化")
@@ -567,8 +567,12 @@ def parse_skill(node)
     nodes_datarow = node_skillbody.xpath('.//tr[2]/td')
     skill.ct = nodes_datarow[0].content.strip
     desc = parse_desc(nodes_datarow[1])
+    desc += parse_skill_npgain(nodes_datarow[2 .. -1], desc, skill)
+
     node_skillbody.xpath('.//tr[position()>2]').each do |n|
-        desc += parse_desc(n.at_xpath('./td[1]'))
+        next_desc = parse_desc(n.at_xpath('./td[1]'))
+        next_desc += parse_skill_npgain(n.xpath('./td[position()>=2]'), next_desc, skill)
+        desc += next_desc
     end
     skill.description = desc
 
@@ -594,6 +598,20 @@ def parse_desc(node)
     desc.gsub!(/\s*確率\d+[%％]\s*/, '')
 
     desc
+end
+
+def parse_skill_npgain(nodes, desc, skill)
+    if desc.match?(/NPを(?:少し|すごく|ものすごく)?増やす/)
+        skill.np_gain_min = nodes[0].content.strip.to_i
+        skill.np_gain_max = nodes[nodes.size - 1].content.strip.to_i
+        if skill.np_gain_min == skill.np_gain_max
+            return "(#{skill.np_gain_max})"
+        else
+            return "(#{skill.np_gain_min}-#{skill.np_gain_max})"
+        end
+    else
+        return ''
+    end
 end
 
 def parse_classskill(node)
