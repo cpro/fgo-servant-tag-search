@@ -1,5 +1,5 @@
 <template>
-  <v-expansion-panel-content>
+  <v-expansion-panel-content lazy>
     <template v-slot:header>
       {{ title }}
     </template>

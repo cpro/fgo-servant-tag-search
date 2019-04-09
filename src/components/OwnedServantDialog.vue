@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="visible" scrollable max-width="800px">
+  <v-dialog v-model="visible" scrollable max-width="800px" lazy>
     <v-card>
       <v-card-title class="title">
         所有サーヴァント管理

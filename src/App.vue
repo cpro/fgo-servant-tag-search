@@ -42,20 +42,6 @@ import SocialButtons from '@/components/SocialButtons.vue'
 export default class App extends Vue {
   private ownedServantDialog = false
   private aboutDialog = false
-
-  private async created() {
-    await Promise.all([
-      this.$store.dispatch('fetchServants'),
-      this.$store.dispatch('fetchTags'),
-    ])
-    this.$store.dispatch('loadSelectionFromUrl')
-    this.$store.dispatch('loadOwnedServants')
-
-    window.onpopstate = () => {
-      this.$store.commit('clearTagState')
-      this.$store.dispatch('loadSelectionFromUrl')
-    }
-  }
 }
 </script>
 

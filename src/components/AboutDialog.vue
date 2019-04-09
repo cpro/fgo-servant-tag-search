@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="visible" scrollable max-width="720px">
+  <v-dialog v-model="visible" scrollable max-width="720px" lazy>
     <v-card>
       <v-card-title class="headline">
         About: FGO Servant-Tag-Search
