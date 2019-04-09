@@ -23,7 +23,7 @@
       >
         <v-icon>keyboard_arrow_down</v-icon>
       </v-btn>
-      <v-tab-item v-for="(cat, i) in categories" :key="i">
+      <v-tab-item v-for="(cat, i) in categories" :key="i" layzy>
         <v-expansion-panel v-model="panel[i]" expand>
           <TagPaletteSubcategory
             v-for="subcat in subcategories[cat.category]"
