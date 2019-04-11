@@ -82,7 +82,22 @@ class Servant
 
         @tags += @noble_phantasm.tags
         @tags += @noble_phantasm.upgrade.tags if @noble_phantasm.upgrade
-        @tags += @skills.map {|skill| skill.tags + (skill.upgrade ? skill.upgrade.tags : [])} .flatten
+
+        skill_tags = @skills.map {|skill| skill.tags + (skill.upgrade ? skill.upgrade.tags : [])} .flatten
+        @tags += skill_tags
+        if skill_tags.index {|tag| tag.match(/NP(増加|配布)$/)}
+            np_gain = @skills.reduce(0) {|total, skill| total + (skill.upgrade ? skill.upgrade.np_gain_max : skill.np_gain_max)}
+            if np_gain <= 20
+                @tags.push("<buff><buff_np>NP#{$1 == '配布' ? '10-20' : np_gain}#{$1}")
+            elsif np_gain < 30
+                @tags.push("<buff><buff_np>NP25-27#{$1}")
+            elsif np_gain <= 50
+                @tags.push("<buff><buff_np>NP#{np_gain}#{$1}")
+            else
+                @tags.push("<buff><buff_np>NP51～#{$1}")
+            end
+        end
+
         @tags += @class_skills.map {|skill| skill.tags} .flatten
         @tags.uniq!
     end
