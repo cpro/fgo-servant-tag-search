@@ -82,7 +82,22 @@ class Servant
 
         @tags += @noble_phantasm.tags
         @tags += @noble_phantasm.upgrade.tags if @noble_phantasm.upgrade
-        @tags += @skills.map {|skill| skill.tags + (skill.upgrade ? skill.upgrade.tags : [])} .flatten
+
+        skill_tags = @skills.map {|skill| skill.tags + (skill.upgrade ? skill.upgrade.tags : [])} .flatten
+        @tags += skill_tags
+        if skill_tags.index {|tag| tag.match(/(?<!毎ターン)NP(獲得|配布)$/)}
+            np_gain = @skills.reduce(0) {|total, skill| total + (skill.upgrade ? skill.upgrade.np_gain_max : skill.np_gain_max)}
+            if np_gain <= 20
+                @tags.push("<buff><buff_np>NP#{$1 == '配布' ? '10-20' : np_gain}#{$1}")
+            elsif np_gain < 30
+                @tags.push("<buff><buff_np>NP25-27#{$1}")
+            elsif np_gain <= 50
+                @tags.push("<buff><buff_np>NP#{np_gain}#{$1}")
+            else
+                @tags.push("<buff><buff_np>NP51～#{$1}")
+            end
+        end
+
         @tags += @class_skills.map {|skill| skill.tags} .flatten
         @tags.uniq!
     end
@@ -132,8 +147,13 @@ class NoblePhantasm
 end
 
 class Skill
-    attr_accessor :name, :description, :ct, :unlock, :upgrade
+    attr_accessor :name, :description, :ct, :unlock, :upgrade, :np_gain_min, :np_gain_max
     attr_reader :tags
+
+    def initialize
+        @np_gain_min = 0
+        @np_gain_max = 0
+    end
 
     def to_json(*a)
         {
@@ -232,7 +252,7 @@ def parse_description_to_tag(desc)
     ]
 
     target = '自身'
-    target_short = '自己'
+    target_short = '[自]'
     is_ally = true
     desc.scan(Regexp.new(patterns.join('|'))).each do |s|
         cat = ''
@@ -318,10 +338,9 @@ def parse_description_to_tag(desc)
         elsif s[9]
             cat = '<buff><buff_np>'
             if target == '自身'
-                tags.push("#{cat}#{target_short}NP増加")
+                tags.push("#{cat}NP獲得")
             else
                 tags.push("#{cat}NP配布")
-                tags.push("#{cat}#{target_short}NP配布")
             end
         elsif s[10] and is_ally
             cat = '<buff><buff_heal>'
@@ -428,12 +447,7 @@ def parse_description_to_tag(desc)
         elsif s[30]
             cat = '<buff><buff_np>'
             tags.push("#{cat}毎ターンNP獲得")
-            if target == '自身'
-                tags.push("#{cat}#{target_short}NP増加")
-            else
-                tags.push("#{cat}NP配布")
-                tags.push("#{cat}#{target_short}NP配布")
-            end
+            tags.push("#{cat}#{target_short}毎ターンNP獲得")
         elsif s[31]
             cat = '<debuff><debuff_slip>'
             tags.push("#{cat}スリップダメージ強化")
@@ -567,8 +581,12 @@ def parse_skill(node)
     nodes_datarow = node_skillbody.xpath('.//tr[2]/td')
     skill.ct = nodes_datarow[0].content.strip
     desc = parse_desc(nodes_datarow[1])
+    desc += parse_skill_npgain(nodes_datarow[2 .. -1], desc, skill)
+
     node_skillbody.xpath('.//tr[position()>2]').each do |n|
-        desc += parse_desc(n.at_xpath('./td[1]'))
+        next_desc = parse_desc(n.at_xpath('./td[1]'))
+        next_desc += parse_skill_npgain(n.xpath('./td[position()>=2]'), next_desc, skill)
+        desc += next_desc
     end
     skill.description = desc
 
@@ -594,6 +612,20 @@ def parse_desc(node)
     desc.gsub!(/\s*確率\d+[%％]\s*/, '')
 
     desc
+end
+
+def parse_skill_npgain(nodes, desc, skill)
+    if desc.match?(/NPを(?:少し|すごく|ものすごく)?増やす/)
+        skill.np_gain_min = nodes[0].content.strip.to_i
+        skill.np_gain_max = nodes[nodes.size - 1].content.strip.to_i
+        if skill.np_gain_min == skill.np_gain_max
+            return "(#{skill.np_gain_max})"
+        else
+            return "(#{skill.np_gain_min}-#{skill.np_gain_max})"
+        end
+    else
+        return ''
+    end
 end
 
 def parse_classskill(node)

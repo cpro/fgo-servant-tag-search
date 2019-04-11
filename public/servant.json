@@ -86,7 +86,7 @@
       },
       {
         "name": "時に煙る白亜の壁",
-        "description": "味方単体に無敵状態を付与(1T)＆NPを増やす[Lv]",
+        "description": "味方単体に無敵状態を付与(1T)＆NPを増やす[Lv](10-20)",
         "ct": "9",
         "unlock": "初期",
         "upgrade": null,
@@ -94,8 +94,7 @@
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
           "<buff><buff_defence>[単]回避/無敵",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       },
       {
@@ -154,9 +153,9 @@
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[単]回避/無敵",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_defence>タゲ集中",
       "<buff><buff_np>[自]NP獲得量アップ",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -239,13 +238,13 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": {
           "name": "輝ける路 EX",
-          "description": "スターを大量獲得[Lv]＆NPを増やす[Lv]",
+          "description": "スターを大量獲得[Lv]＆NPを増やす[Lv](20-30)",
           "ct": "7",
           "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
             "<buff><buff_critical>スター獲得",
-            "<buff><buff_np>自己NP増加"
+            "<buff><buff_np>NP獲得"
           ]
         },
         "tags": [
@@ -296,7 +295,8 @@
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_np>自己NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -604,12 +604,12 @@
         "unlock": "初期",
         "upgrade": {
           "name": "富の杯 B",
-          "description": "自身のNPを増やす[Lv]＆〔水辺〕または〔都市〕のフィールドの時、Artsカード性能をアップ[Lv](3T)＆精神異常耐性をアップ[Lv](3T)＆HPを回復[Lv]",
+          "description": "自身のNPを増やす[Lv](20-30)＆〔水辺〕または〔都市〕のフィールドの時、Artsカード性能をアップ[Lv](3T)＆精神異常耐性をアップ[Lv](3T)＆HPを回復[Lv]",
           "ct": "7",
           "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_np>[自]NP増加",
+            "<buff><buff_np>NP獲得",
             "<buff><buff_attack>[自]A性能アップ",
             "<buff><buff_regist>精神異常耐性アップ",
             "<buff><buff_heal>HP回復",
@@ -688,11 +688,12 @@
       "<buff><buff_regist>精神異常耐性アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -1632,13 +1633,13 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": {
           "name": "バビロンの蔵 EX",
-          "description": "自身のスター集中度を大アップ[Lv](3T)＆NPを増やす[Lv]",
+          "description": "自身のスター集中度を大アップ[Lv](3T)＆NPを増やす[Lv](20-30)",
           "ct": "7",
           "unlock": "霊基再臨を３段階突破する＆「天の理」クリア後（絆Lv5が必要）",
           "upgrade": null,
           "tags": [
             "<buff><buff_critical>スター集中",
-            "<buff><buff_np>[自]NP増加"
+            "<buff><buff_np>NP獲得"
           ]
         },
         "tags": [
@@ -1696,7 +1697,8 @@
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_critical>スター集中",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性"
@@ -2028,14 +2030,14 @@
     "skills": [
       {
         "name": "吸血 C",
-        "description": "敵単体のチャージを中確率で減らす[Lv:確率]＋ 自身のNPを増やす[Lv]",
+        "description": "敵単体のチャージを中確率で減らす[Lv:確率]＋ 自身のNPを増やす[Lv](18-27)",
         "ct": "8",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -2114,8 +2116,9 @@
       "<debuff><debuff_attack>[単]攻撃ダウン",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]A性能アップ",
+      "<buff><buff_np>NP25-27獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性"
@@ -2191,12 +2194,12 @@
       },
       {
         "name": "弓矢作成 A",
-        "description": "自身のNPを増やす[Lv]＆HPを回復[Lv]",
+        "description": "自身のNPを増やす[Lv](20-30)＆HPを回復[Lv]",
         "ct": "8",
         "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[自]HP回復"
         ]
@@ -2242,9 +2245,10 @@
       "<other>デメリット",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_critical>[自]スター発生アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -3088,12 +3092,12 @@
       },
       {
         "name": "鮮血神殿 B",
-        "description": "自身のNPを増やす＆NP獲得量をアップ[Lv](3T)",
+        "description": "自身のNPを増やす(20)＆NP獲得量をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_np>[自]NP獲得量アップ"
         ]
       }
@@ -3156,8 +3160,9 @@
       "<debuff><debuff_delay>行動不能付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
       "<buff><buff_attack>[自]攻撃アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_np>[自]NP獲得量アップ",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>単独行動",
@@ -4174,12 +4179,12 @@
     "skills": [
       {
         "name": "高速神言 A",
-        "description": "自身のNPをものすごく増やす[Lv]",
+        "description": "自身のNPをものすごく増やす[Lv](80-150)",
         "ct": "9",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -4243,12 +4248,13 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[単]弱体解除",
       "<buff><buff_np>[単]NP獲得量アップ",
+      "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -4414,12 +4420,12 @@
       },
       {
         "name": "高速詠唱 E",
-        "description": "自身のNPをすごく増やす[Lv]",
+        "description": "自身のNPをすごく増やす[Lv](50-75)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -4436,8 +4442,7 @@
           "tags": [
             "<buff><buff_critical>毎ターンスター獲得",
             "<buff><buff_np>毎ターンNP獲得",
-            "<buff><buff_np>NP配布",
-            "<buff><buff_np>[単]NP配布"
+            "<buff><buff_np>[単]毎ターンNP獲得"
           ]
         },
         "tags": [
@@ -4486,12 +4491,12 @@
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[全]HP回復",
       "<buff><buff_critical>[全]クリティカル威力アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_critical>毎ターンスター獲得",
       "<other>デメリット",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
+      "<buff><buff_np>[単]毎ターンNP獲得",
+      "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -4573,13 +4578,12 @@
       },
       {
         "name": "国王一座 C",
-        "description": "味方単体のNPを増やす＆スター発生率をアップ[Lv](1T)",
+        "description": "味方単体のNPを増やす(20)＆スター発生率をアップ[Lv](1T)",
         "ct": "8",
         "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布",
           "<buff><buff_critical>[単]スター発生アップ"
         ]
       }
@@ -4623,8 +4627,8 @@
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/173.html",
@@ -4941,19 +4945,18 @@
     "skills": [
       {
         "name": "鑑識眼 A",
-        "description": "味方単体のクリティカル威力をアップ[Lv](3T)＆NPを増やす",
+        "description": "味方単体のクリティカル威力をアップ[Lv](3T)＆NPを増やす(30)",
         "ct": "7",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
           "<buff><buff_critical>[単]クリティカル威力アップ",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       },
       {
         "name": "軍師の忠言 A+",
-        "description": "味方全体の防御力をアップ[Lv](3T)＆被ダメージカット状態を付与[Lv](3T)＆NPを少し増やす",
+        "description": "味方全体の防御力をアップ[Lv](3T)＆被ダメージカット状態を付与[Lv](3T)＆NPを少し増やす(10)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
@@ -4961,20 +4964,18 @@
           "<buff><buff_defence>[全]防御アップ",
           "<buff><buff_defence>被ダメカット",
           "<buff><buff_defence>[全]被ダメカット",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       },
       {
         "name": "軍師の指揮 A+",
-        "description": "味方全体の攻撃力をアップ[Lv](3T)＆与ダメージプラス状態を付与[Lv](3T)＆NPを少し増やす",
+        "description": "味方全体の攻撃力をアップ[Lv](3T)＆与ダメージプラス状態を付与[Lv](3T)＆NPを少し増やす(10)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       }
     ],
@@ -5024,12 +5025,11 @@
       "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_critical>[単]クリティカル威力アップ",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_defence>[全]防御アップ",
       "<buff><buff_defence>被ダメカット",
       "<buff><buff_defence>[全]被ダメカット",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_np>NP50配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -5098,14 +5098,14 @@
         "unlock": "初期",
         "upgrade": {
           "name": "原初のルーン",
-          "description": "自身のクリティカル威力をアップ[Lv](3T)＆弱体耐性をアップ[Lv](3T)＆NPを増やす[Lv]",
+          "description": "自身のクリティカル威力をアップ[Lv](3T)＆弱体耐性をアップ[Lv](3T)＆NPを増やす[Lv](20-30)",
           "ct": "7",
           "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
             "<buff><buff_critical>[自]クリティカル威力アップ",
             "<buff><buff_regist>弱体耐性アップ",
-            "<buff><buff_np>[自]NP増加"
+            "<buff><buff_np>NP獲得"
           ]
         },
         "tags": [
@@ -5187,7 +5187,7 @@
       "<buff><buff_attack>宝具前カード性能アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_regist>弱体耐性アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
@@ -5196,6 +5196,7 @@
       "<buff><buff_heal>[自]弱体解除",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性"
     ],
@@ -5522,14 +5523,14 @@
     "skills": [
       {
         "name": "吸血 C",
-        "description": "敵単体のチャージを中確率で減らす[Lv:確率]＋自身のNPを増やす[Lv]",
+        "description": "敵単体のチャージを中確率で減らす[Lv:確率]＋自身のNPを増やす[Lv](18-27)",
         "ct": "8",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -5610,9 +5611,10 @@
       "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
+      "<buff><buff_np>NP25-27獲得",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>神性"
@@ -6166,14 +6168,14 @@
     "skills": [
       {
         "name": "吸血 C",
-        "description": "敵単体のチャージを中確率で減らす[Lv:確率]＋自身のNPを増やす[Lv]",
+        "description": "敵単体のチャージを中確率で減らす[Lv:確率]＋自身のNPを増やす[Lv](18-27)",
         "ct": "8",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -6235,10 +6237,11 @@
       "<buff><buff_attack>[自]攻撃アップ",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<buff><buff_critical>毎ターンスター獲得",
+      "<buff><buff_np>NP25-27獲得",
       "<servant><servant_classskill>気配遮断"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/90.html",
@@ -6665,14 +6668,14 @@
       },
       {
         "name": "不屈の意志 A",
-        "description": "自身にガッツ状態を付与(1回・5T)＆NPを増やす[Lv]",
+        "description": "自身にガッツ状態を付与(1回・5T)＆NPを増やす[Lv](10-30)",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
           "<buff><buff_defence>[自]ガッツ付与",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -6723,8 +6726,9 @@
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>狂化"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/77.html",
@@ -6778,12 +6782,12 @@
       },
       {
         "name": "動物会話 C",
-        "description": "自身のNPを増やす[Lv]",
+        "description": "自身のNPを増やす[Lv](30-50)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -6840,10 +6844,11 @@
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
       "<buff><buff_attack>[自]攻撃アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性"
     ],
@@ -6899,14 +6904,14 @@
     "skills": [
       {
         "name": "吸血 A",
-        "description": "敵単体のチャージを高確率で減らす[Lv:確率]＋自身のNPを増やす[Lv]",
+        "description": "敵単体のチャージを高確率で減らす[Lv:確率]＋自身のNPを増やす[Lv](20-30)",
         "ct": "8",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -6975,11 +6980,12 @@
       "<buff><buff_critical>スター獲得",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>狂化"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/87.html",
@@ -8187,8 +8193,7 @@
           "<buff><buff_skillcharge>スキルチャージ短縮",
           "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[全]HP回復",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       },
       "tags": [
@@ -8198,8 +8203,7 @@
         "<buff><buff_skillcharge>スキルチャージ短縮",
         "<buff><buff_heal>HP回復",
         "<buff><buff_heal>[全]HP回復",
-        "<buff><buff_np>NP配布",
-        "<buff><buff_np>[全]NP配布"
+        "<buff><buff_np>NP配布"
       ]
     },
     "skills": [
@@ -8297,7 +8301,6 @@
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[全]HP回復",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_attack>[全]宝具威力アップ",
@@ -8655,12 +8658,12 @@
       },
       {
         "name": "星の開拓者 EX",
-        "description": "自身のNPを増やす[Lv]＆無敵貫通状態を付与(3T)＋スターを獲得",
+        "description": "自身のNPを増やす[Lv](30-50)＆無敵貫通状態を付与(3T)＋スターを獲得",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>必中/無敵貫通",
           "<buff><buff_attack>無敵貫通",
           "<buff><buff_attack>[自]必中/無敵貫通",
@@ -8706,10 +8709,11 @@
       "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[全]宝具威力アップ",
       "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -8876,12 +8880,12 @@
     "skills": [
       {
         "name": "高速神言 A",
-        "description": "自身のNPをものすごく増やす[Lv]",
+        "description": "自身のNPをものすごく増やす[Lv](80-150)",
         "ct": "9",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -8958,12 +8962,13 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[全]弱体解除",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_heal>毒解除",
       "<buff><buff_heal>[全]毒解除",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[全]HP回復",
       "<buff><buff_heal>HP回復量アップ",
+      "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -9803,12 +9808,12 @@
       },
       {
         "name": "一方その頃 A",
-        "description": "自身のNPを増やす[Lv]＆HPを回復[Lv]＆自身の弱体状態を解除",
+        "description": "自身のNPを増やす[Lv](20-40)＆HPを回復[Lv]＆自身の弱体状態を解除",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[自]HP回復",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
@@ -9852,11 +9857,12 @@
       "<buff><buff_critical>スター集中",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_regist>弱体耐性アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
+      "<buff><buff_np>NP40獲得",
       "<servant><servant_classskill>陣地作成"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/522.html",
@@ -10067,7 +10073,7 @@
       },
       {
         "name": "不貞隠しの兜 EX",
-        "description": "自身の弱体状態を解除＆防御力を大アップ[Lv](1T)＆NPを増やす[Lv]",
+        "description": "自身の弱体状態を解除＆防御力を大アップ[Lv](1T)＆NPを増やす[Lv](10-30)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
@@ -10075,7 +10081,7 @@
           "<buff><buff_heal><buff_regist>弱体解除/無効",
           "<buff><buff_heal>[自]弱体解除",
           "<buff><buff_defence>[自]防御アップ",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -10124,7 +10130,8 @@
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
       "<buff><buff_defence>[自]防御アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -10225,12 +10232,12 @@
       },
       {
         "name": "星の開拓者 EX",
-        "description": "自身のNPを増やす[Lv]＆無敵貫通状態を付与(3T)＋スターを獲得",
+        "description": "自身のNPを増やす[Lv](30-50)＆無敵貫通状態を付与(3T)＋スターを獲得",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>必中/無敵貫通",
           "<buff><buff_attack>無敵貫通",
           "<buff><buff_attack>[自]必中/無敵貫通",
@@ -10285,11 +10292,12 @@
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_critical>スター獲得",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -10495,12 +10503,12 @@
     "skills": [
       {
         "name": "高速詠唱 A",
-        "description": "自身のNPをすごく増やす[Lv]",
+        "description": "自身のNPをすごく増やす[Lv](55-80)",
         "ct": "10",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -10573,10 +10581,11 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_attack>[全]攻撃ダウン",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[全]A性能アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[単]ガッツ付与",
+      "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -11043,12 +11052,12 @@
       },
       {
         "name": "授かりの英雄 A",
-        "description": "自身のNPを増やす＆毎ターンHP回復状態を付与[Lv](5T)＆毎ターンスター獲得状態を付与[Lv](5T)",
+        "description": "自身のNPを増やす(25)＆毎ターンHP回復状態を付与[Lv](5T)＆毎ターンスター獲得状態を付与[Lv](5T)",
         "ct": "12",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_heal>毎ターンHP回復",
           "<buff><buff_heal>[自]HP回復",
           "<buff><buff_critical>毎ターンスター獲得"
@@ -11114,12 +11123,13 @@
       "<buff><buff_critical>[自]スター発生アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
+      "<buff><buff_np>NP25-27獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性"
@@ -11204,12 +11214,12 @@
       },
       {
         "name": "無冠の武芸",
-        "description": "自身のNPを増やす＆スター発生率をアップ[Lv](3T)＆クリティカル威力をアップ[Lv](3T)",
+        "description": "自身のNPを増やす(25)＆スター発生率をアップ[Lv](3T)＆クリティカル威力をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_critical>[自]スター発生アップ",
           "<buff><buff_critical>[自]クリティカル威力アップ"
         ]
@@ -11269,9 +11279,10 @@
       "<debuff><debuff_delay>[単]宝具封印",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_critical>[自]スター発生アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<buff><buff_np>NP25-27獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -11506,13 +11517,13 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": {
           "name": "華麗奔放 A",
-          "description": "自身への攻撃を確率で回避[Lv:確率](1T)＆ターゲット集中状態を付与(1T)＆NPを増やす＆〔女性〕からの魅了耐性ダウン(3T)【デメリット】",
+          "description": "自身への攻撃を確率で回避[Lv:確率](1T)＆ターゲット集中状態を付与(1T)＆NPを増やす(20-30)＆〔女性〕からの魅了耐性ダウン(3T)【デメリット】",
           "ct": "9",
           "unlock": null,
           "upgrade": null,
           "tags": [
             "<buff><buff_defence>タゲ集中",
-            "<buff><buff_np>[自]NP増加",
+            "<buff><buff_np>NP獲得",
             "<other>デメリット"
           ]
         },
@@ -11577,8 +11588,9 @@
       "<buff><buff_np>[全]NP獲得量アップ",
       "<buff><buff_defence>タゲ集中",
       "<other>デメリット",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]A性能アップ",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>神性"
     ],
@@ -12239,12 +12251,12 @@
       },
       {
         "name": "陰陽魚 B",
-        "description": "自身のNPを増やす[Lv]＆HPを減少【デメリット】",
+        "description": "自身のNPを増やす[Lv](20-30)＆HPを減少【デメリット】",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<other>デメリット"
         ]
       }
@@ -12296,8 +12308,9 @@
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_critical>[自]クリティカル威力アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<other>デメリット",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>単独行動"
     ],
@@ -12373,7 +12386,7 @@
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減",
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>[自]毎ターンNP獲得"
         ]
       },
       {
@@ -12436,7 +12449,7 @@
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>行動不能付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
@@ -12529,13 +12542,13 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": {
           "name": "理性蒸発 D+",
-          "description": "自身に毎ターン確率でスターを獲得する状態を付与[Lv](5T)＆スター発生率を確率でアップ[Lv](5T)＆クリティカル威力を確率でアップ[Lv](5T)＆NPを増やす[Lv]",
+          "description": "自身に毎ターン確率でスターを獲得する状態を付与[Lv](5T)＆スター発生率を確率でアップ[Lv](5T)＆クリティカル威力を確率でアップ[Lv](5T)＆NPを増やす[Lv](30-50)",
           "ct": "10",
           "unlock": "霊基再臨を３段階突破する＆「ローランを待ちながら」クリア後",
           "upgrade": null,
           "tags": [
             "<buff><buff_critical>スター獲得",
-            "<buff><buff_np>[自]NP増加"
+            "<buff><buff_np>NP獲得"
           ]
         },
         "tags": [
@@ -12595,7 +12608,8 @@
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>単独行動"
@@ -13229,7 +13243,7 @@
           "<buff><buff_heal>毎ターンHP回復",
           "<buff><buff_heal>[自]HP回復",
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>[自]毎ターンNP獲得"
         ]
       },
       {
@@ -13324,7 +13338,7 @@
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
       "<buff><buff_heal>HP回復",
@@ -13390,13 +13404,12 @@
     "skills": [
       {
         "name": "魔力同調 C",
-        "description": "味方全体のNPを増やす[Lv]",
+        "description": "味方全体のNPを増やす[Lv](10-20)",
         "ct": "9",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       },
       {
@@ -13464,12 +13477,12 @@
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_attack>[全]A性能アップ",
       "<buff><buff_attack>[全]B性能アップ",
       "<buff><buff_attack>[全]Q性能アップ",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -13832,7 +13845,7 @@
         "tags": [
           "<buff><buff_critical>毎ターンスター獲得",
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>[自]毎ターンNP獲得"
         ]
       },
       {
@@ -13893,7 +13906,7 @@
       "<buff><buff_skillcharge>スキルチャージ短縮",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_critical>[単]スター発生アップ",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -14098,12 +14111,12 @@
       },
       {
         "name": "クイックドロウ A+",
-        "description": "自身のNPを増やす[Lv]",
+        "description": "自身のNPを増やす[Lv](30-50)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -14161,10 +14174,11 @@
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<buff><buff_critical>[自]クリティカル威力アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -15196,12 +15210,12 @@
     "skills": [
       {
         "name": "高速読経 A",
-        "description": "自身のNPをすごく増やす[Lv]＆宝具威力をアップ[Lv](1T)",
+        "description": "自身のNPをすごく増やす[Lv](50-80)＆宝具威力をアップ[Lv](1T)",
         "ct": "9",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>[自]宝具威力アップ"
         ]
       },
@@ -15269,7 +15283,7 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<servant><servant_noblephantasm>防御力無視宝具",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>タゲ集中",
       "<buff><buff_defence>被ダメカット",
@@ -15278,6 +15292,7 @@
       "<buff><buff_critical>[全]スター発生アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[全]弱体無効",
+      "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性"
     ],
@@ -15465,12 +15480,12 @@
       },
       {
         "name": "動物会話 C",
-        "description": "自身のNPを増やす[Lv]",
+        "description": "自身のNPを増やす[Lv](30-50)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -15520,10 +15535,11 @@
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
       "<buff><buff_critical>[自]スター発生アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_trait><servant_classskill>神性"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/1084.html",
@@ -15823,13 +15839,12 @@
       },
       {
         "name": "太陽神の加護 A",
-        "description": "味方全体のNPを増やす＆強化成功率をアップ[Lv](1T)",
+        "description": "味方全体のNPを増やす(20)＆強化成功率をアップ[Lv](1T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布",
           "<buff><buff_probability>強化成功率アップ"
         ]
       }
@@ -15885,8 +15900,8 @@
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_probability>強化成功率アップ",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -15954,12 +15969,12 @@
       },
       {
         "name": "最果ての加護 EX",
-        "description": "自身のNPを増やす[Lv]＆弱体状態を解除",
+        "description": "自身のNPを増やす[Lv](30-50)＆弱体状態を解除",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
           "<buff><buff_heal>[自]弱体解除"
         ]
@@ -16009,9 +16024,10 @@
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -16078,12 +16094,12 @@
       },
       {
         "name": "高速神言 B",
-        "description": "自身のNPをものすごく増やす[Lv]",
+        "description": "自身のNPをものすごく増やす[Lv](60-120)",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -16150,11 +16166,12 @@
       "<buff><buff_probability>即死成功率アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
+      "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_trait><servant_classskill>神性"
@@ -16199,12 +16216,12 @@
     "skills": [
       {
         "name": "湖の騎士 A",
-        "description": "自身のNPを増やす＆スターを獲得[Lv]",
+        "description": "自身のNPを増やす(30)＆スターを獲得[Lv]",
         "ct": "8",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_critical>スター獲得"
         ]
       },
@@ -16269,11 +16286,12 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -16350,12 +16368,12 @@
       },
       {
         "name": "祝福されぬ生誕 B",
-        "description": "自身のNPを増やす[Lv]＆宝具封印状態を付与(1T)【デメリット】",
+        "description": "自身のNPを増やす[Lv](30-50)＆宝具封印状態を付与(1T)【デメリット】",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<other>デメリット"
         ]
       },
@@ -16421,11 +16439,12 @@
       "<buff><buff_defence>[全]回避/無敵",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[全]HP回復",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<other>デメリット",
       "<debuff><debuff_antibuff>強化解除",
       "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -16493,12 +16512,12 @@
       },
       {
         "name": "ベルシラックの帯 EX",
-        "description": "自身のNPを増やす＆スターを獲得[Lv]＆ガッツ状態を付与[Lv](1回・1T)",
+        "description": "自身のNPを増やす(20)＆スターを獲得[Lv]＆ガッツ状態を付与[Lv](1回・1T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_critical>スター獲得",
           "<buff><buff_defence>ガッツ",
           "<buff><buff_defence>[自]ガッツ付与"
@@ -16550,10 +16569,11 @@
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -16921,12 +16941,12 @@
       },
       {
         "name": "沈着冷静 B",
-        "description": "自身のNPを増やす＆精神異常弱体耐性をアップ[Lv](3T)",
+        "description": "自身のNPを増やす(30)＆精神異常弱体耐性をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_regist>弱体耐性アップ"
         ]
       },
@@ -16982,9 +17002,10 @@
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
       "<buff><buff_attack>[全]宝具威力アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_defence>[全]防御アップ",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -17063,17 +17084,17 @@
           "<buff><buff_heal>毎ターンHP回復",
           "<buff><buff_heal>[自]HP回復",
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>[自]毎ターンNP獲得"
         ]
       },
       {
         "name": "星の開拓者 EX",
-        "description": "自身のNPを増やす[Lv]＆無敵貫通状態を付与(3T)＋スターを獲得",
+        "description": "自身のNPを増やす[Lv](30-50)＆無敵貫通状態を付与(3T)＋スターを獲得",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>必中/無敵貫通",
           "<buff><buff_attack>無敵貫通",
           "<buff><buff_attack>[自]必中/無敵貫通",
@@ -17127,11 +17148,13 @@
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_critical>スター獲得",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -17716,14 +17739,14 @@
       },
       {
         "name": "終わらぬ夏 B",
-        "description": "自身にガッツ状態を付与(1回・3T)＆NPを増やす[Lv]",
+        "description": "自身にガッツ状態を付与(1回・3T)＆NPを増やす[Lv](20-30)",
         "ct": "9",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
           "<buff><buff_defence>[自]ガッツ付与",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -17774,7 +17797,8 @@
       "<buff><buff_critical>[自]スター発生アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/1238.html",
@@ -18047,12 +18071,12 @@
     "skills": [
       {
         "name": "水辺の聖女 B+",
-        "description": "自身のNPを増やす[Lv]＆〔水辺〕のあるフィールドにおいてのみ、自身の攻撃力をアップ[Lv](3T)",
+        "description": "自身のNPを増やす[Lv](20-30)＆〔水辺〕のあるフィールドにおいてのみ、自身の攻撃力をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>[自]攻撃アップ"
         ]
       },
@@ -18112,7 +18136,7 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_defence>宝具前防御ダウン",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
@@ -18121,6 +18145,7 @@
       "<buff><buff_extradamage>神性特攻",
       "<buff><buff_extradamage>悪魔特攻",
       "<buff><buff_extradamage>死霊特攻",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/1261.html",
@@ -18329,23 +18354,23 @@
       },
       {
         "name": "キス魔 B",
-        "description": "自身のNPを増やす[Lv]＆スター発生率をアップ[Lv](3T)",
+        "description": "自身のNPを増やす[Lv](30-50)＆スター発生率をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": {
           "name": "キス魔 B++",
-          "description": "自身のNPを増やす[Lv]＆スター発生率をアップ[Lv](3T)＋味方全体の〔イリヤ〕の強化成功率をアップ(3T)",
+          "description": "自身のNPを増やす[Lv](30-50)＆スター発生率をアップ[Lv](3T)＋味方全体の〔イリヤ〕の強化成功率をアップ(3T)",
           "ct": "8",
           "unlock": "霊基再臨を３段階突破する＆「クロエのおやつ」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_np>[自]NP増加",
+            "<buff><buff_np>NP獲得",
             "<buff><buff_critical>[自]スター発生アップ",
             "<buff><buff_probability>強化成功率アップ"
           ]
         },
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_critical>[自]スター発生アップ"
         ]
       }
@@ -18397,9 +18422,10 @@
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_attack>[自]B性能アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_critical>[自]スター発生アップ",
       "<buff><buff_probability>強化成功率アップ",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -18619,7 +18645,7 @@
         "tags": [
           "<buff><buff_np>[自]NP獲得量アップ",
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>[自]毎ターンNP獲得",
           "<buff><buff_heal>毎ターンHP回復",
           "<buff><buff_heal>[自]HP回復"
         ]
@@ -18684,7 +18710,7 @@
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_defence>回避/無敵",
@@ -18864,12 +18890,12 @@
       },
       {
         "name": "自己変革 A",
-        "description": "自身のNPを増やす＆弱体耐性をアップ[Lv](3T)",
+        "description": "自身のNPを増やす(20)＆弱体耐性をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_regist>弱体耐性アップ"
         ]
       },
@@ -18922,13 +18948,14 @@
       "<buff><buff_heal>HP回復量アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[単]HP回復",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
       "<other>デメリット",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/1522.html",
@@ -18980,7 +19007,7 @@
       },
       {
         "name": "輝ける大王冠 A",
-        "description": "自身に無敵貫通状態を付与(1T)＆無敵状態を付与(1T)＆NPを増やす [Lv]",
+        "description": "自身に無敵貫通状態を付与(1T)＆無敵状態を付与(1T)＆NPを増やす [Lv](30-50)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
@@ -18991,7 +19018,7 @@
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
           "<buff><buff_defence>[自]回避/無敵",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -19058,8 +19085,9 @@
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]攻撃アップ",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性"
@@ -19261,14 +19289,14 @@
       },
       {
         "name": "自由なる闘争 EX",
-        "description": "自身のスター集中度をアップ[Lv](1T)＆クリティカル威力をアップ[Lv](1T)＆NPを増やす[Lv]",
+        "description": "自身のスター集中度をアップ[Lv](1T)＆クリティカル威力をアップ[Lv](1T)＆NPを増やす[Lv](20-30)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_critical>スター集中",
           "<buff><buff_critical>[自]クリティカル威力アップ",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -19327,7 +19355,8 @@
       "<buff><buff_attack>[単]B性能アップ",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>[自]クリティカル威力アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -19641,8 +19670,7 @@
           "<debuff><debuff_slip>スリップダメージ",
           "<debuff><debuff_slip>[全]スリップダメージ",
           "<debuff><debuff_slip>呪い付与",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       },
       "tags": [
@@ -19653,8 +19681,7 @@
         "<debuff><debuff_slip>スリップダメージ",
         "<debuff><debuff_slip>[全]スリップダメージ",
         "<debuff><debuff_slip>呪い付与",
-        "<buff><buff_np>NP配布",
-        "<buff><buff_np>[全]NP配布"
+        "<buff><buff_np>NP配布"
       ]
     },
     "skills": [
@@ -19741,7 +19768,6 @@
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
@@ -19923,22 +19949,20 @@
         "<buff><buff_heal>毎ターンHP回復",
         "<buff><buff_heal>[全]HP回復",
         "<buff><buff_np>毎ターンNP獲得",
-        "<buff><buff_np>NP配布",
-        "<buff><buff_np>[全]NP配布",
+        "<buff><buff_np>[全]毎ターンNP獲得",
         "<buff><buff_critical>毎ターンスター獲得"
       ]
     },
     "skills": [
       {
         "name": "夢幻のカリスマ A",
-        "description": "味方全体の攻撃力をアップ[Lv](3T)＆NPを増やす",
+        "description": "味方全体の攻撃力をアップ[Lv](3T)＆NPを増やす(20)",
         "ct": "7",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       },
       {
@@ -20012,10 +20036,10 @@
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[全]HP回復",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
+      "<buff><buff_np>[全]毎ターンNP獲得",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_np>NP配布",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[全]回避/無敵",
@@ -20024,6 +20048,7 @@
       "<buff><buff_attack>[単]B性能アップ",
       "<buff><buff_heal>最大HPアップ",
       "<buff><buff_critical>[単]クリティカル威力アップ",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -20465,24 +20490,24 @@
       },
       {
         "name": "蜘蛛糸の果て A++",
-        "description": "<スターが10個以上ある場合のみ使用可能>自身のNPを増やす[Lv]＆宝具威力をアップ(3T)＋スターを10個減らす【デメリット】",
+        "description": "<スターが10個以上ある場合のみ使用可能>自身のNPを増やす[Lv](30-50)＆宝具威力をアップ(3T)＋スターを10個減らす【デメリット】",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": {
           "name": "蜘蛛糸の果て A+++",
-          "description": "<スターが10個以上ある場合のみ使用可能>自身のNPを増やす[Lv]＆宝具威力をアップ(3T)＋自身を除く味方全体に〔悪〕特性を付与(3T)",
+          "description": "<スターが10個以上ある場合のみ使用可能>自身のNPを増やす[Lv](30-50)＆宝具威力をアップ(3T)＋自身を除く味方全体に〔悪〕特性を付与(3T)",
           "ct": "8",
           "unlock": "霊基再臨を１段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
             "<other>使用条件付き",
-            "<buff><buff_np>[自]NP増加",
+            "<buff><buff_np>NP獲得",
             "<buff><buff_attack>[自]宝具威力アップ"
           ]
         },
         "tags": [
           "<other>使用条件付き",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>[自]宝具威力アップ",
           "<other>デメリット"
         ]
@@ -20540,11 +20565,12 @@
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_critical>スター集中",
       "<other>使用条件付き",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<other>デメリット",
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -21014,13 +21040,13 @@
       },
       {
         "name": "巨獣狩り A",
-        "description": "自身に〔超巨大〕特攻状態を付与[Lv](1T)＆NPを増やす",
+        "description": "自身に〔超巨大〕特攻状態を付与[Lv](1T)＆NPを増やす(20)",
         "ct": "7",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_extradamage>超巨大特攻",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -21067,7 +21093,8 @@
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_extradamage>超巨大特攻",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -21238,7 +21265,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>[自]毎ターンNP獲得",
           "<buff><buff_np>[自]NP獲得量アップ"
         ]
       },
@@ -21297,7 +21324,7 @@
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>やけど付与",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_critical>スター集中ダウン",
@@ -21705,7 +21732,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>[自]毎ターンNP獲得",
           "<buff><buff_attack>必中/無敵貫通",
           "<buff><buff_attack>必中",
           "<buff><buff_attack>[自]必中/無敵貫通",
@@ -21765,7 +21792,7 @@
       "<debuff><debuff_delay>[単]行動不能系付与",
       "<debuff><debuff_attack>[単]攻撃ダウン",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>必中",
       "<buff><buff_attack>[自]必中/無敵貫通",
@@ -21805,8 +21832,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<debuff><debuff_regist>弱体耐性ダウン",
-        "<buff><buff_np>NP配布",
-        "<buff><buff_np>[全]NP配布"
+        "<buff><buff_np>NP配布"
       ]
     },
     "skills": [
@@ -21893,7 +21919,6 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[単]弱体解除",
       "<buff><buff_heal>HP回復",
@@ -21950,12 +21975,12 @@
     "skills": [
       {
         "name": "千里眼（獣） D",
-        "description": "敵単体の弱体耐性をダウン[Lv](1T)＋自身のNPを増やす[Lv]",
+        "description": "敵単体の弱体耐性をダウン[Lv](1T)＋自身のNPを増やす[Lv](30-50)",
         "ct": "9",
         "unlock": "初期",
         "upgrade": {
           "name": "千里眼（獣） D+++",
-          "description": "敵単体の弱体耐性をダウン[Lv](1T)＆Artsカード耐性をダウン[Lv](1T)＋自身のNPを増やす[Lv]",
+          "description": "敵単体の弱体耐性をダウン[Lv](1T)＆Artsカード耐性をダウン[Lv](1T)＋自身のNPを増やす[Lv](30-50)",
           "ct": "8",
           "unlock": "「強化クエスト」クリア後",
           "upgrade": null,
@@ -21963,12 +21988,12 @@
             "<debuff><debuff_regist>弱体耐性ダウン",
             "<debuff><debuff_defence>カード耐性ダウン",
             "<debuff><debuff_defence>A耐性ダウン",
-            "<buff><buff_np>[自]NP増加"
+            "<buff><buff_np>NP獲得"
           ]
         },
         "tags": [
           "<debuff><debuff_regist>弱体耐性ダウン",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -22068,7 +22093,7 @@
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<debuff><debuff_regist>弱体耐性ダウン",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<debuff><debuff_defence>カード耐性ダウン",
       "<debuff><debuff_defence>A耐性ダウン",
       "<debuff><debuff_delay>チャージ減",
@@ -22083,6 +22108,7 @@
       "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_regist>弱体耐性アップ",
       "<other>デメリット",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>単独顕現",
       "<buff><buff_extradamage>ルーラー特攻"
     ],
@@ -22397,7 +22423,7 @@
           "<buff><buff_heal><buff_regist>弱体解除/無効",
           "<buff><buff_regist>[自]弱体無効",
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>[自]毎ターンNP獲得"
         ]
       },
       {
@@ -22455,7 +22481,7 @@
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_attack>[全]B性能アップ",
       "<buff><buff_extradamage>ギリシャ神話系男性特攻",
       "<servant><servant_classskill>狂化",
@@ -22523,14 +22549,14 @@
       },
       {
         "name": "不屈の意志 C",
-        "description": "自身にガッツ状態を付与(1回・3T)＆NPを増やす[Lv]",
+        "description": "自身にガッツ状態を付与(1回・3T)＆NPを増やす[Lv](10-30)",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
           "<buff><buff_defence>[自]ガッツ付与",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -22586,9 +22612,10 @@
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>スター獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -22854,12 +22881,12 @@
     "skills": [
       {
         "name": "暴走特権 EX",
-        "description": "自身のNPを増やす[Lv]＆HPが50%以下の間NP獲得量がアップ[Lv](3T)",
+        "description": "自身のNPを増やす[Lv](30-50)＆HPが50%以下の間NP獲得量がアップ[Lv](3T)",
         "ct": "8",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_np>[自]NP獲得量アップ"
         ]
       },
@@ -22937,7 +22964,7 @@
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_attack>[自]宝具威力アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>[自]防御アップ",
@@ -22945,6 +22972,7 @@
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[単]ガッツ付与",
       "<buff><buff_attack>[単]攻撃アップ",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -23267,8 +23295,7 @@
           "<buff><buff_heal>毎ターンHP回復",
           "<buff><buff_heal>[全]HP回復",
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布"
+          "<buff><buff_np>[全]毎ターンNP獲得"
         ]
       },
       {
@@ -23326,8 +23353,7 @@
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[全]HP回復",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
+      "<buff><buff_np>[全]毎ターンNP獲得",
       "<buff><buff_critical>スター集中",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>必中",
@@ -23501,13 +23527,12 @@
     "skills": [
       {
         "name": "サマー・バケーション！ A+",
-        "description": "味方全体のNPを増やす[Lv]＋自身に毎ターンスター獲得状態を付与(5T)",
+        "description": "味方全体のNPを増やす[Lv](10-20)＋自身に毎ターンスター獲得状態を付与(5T)",
         "ct": "10",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布",
           "<buff><buff_critical>毎ターンスター獲得"
         ]
       },
@@ -23573,13 +23598,13 @@
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_critical>毎ターンスター獲得",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -23896,8 +23921,7 @@
         "<debuff><debuff_delay>行動不能系付与",
         "<debuff><debuff_delay>魅了付与",
         "<debuff><debuff_delay>[全]行動不能系付与",
-        "<buff><buff_np>NP配布",
-        "<buff><buff_np>[全]NP配布"
+        "<buff><buff_np>NP配布"
       ]
     },
     "skills": [
@@ -23927,7 +23951,7 @@
       },
       {
         "name": "女神の恩恵 A+",
-        "description": "<自身のNPが10%以上ある時のみ使用可能>自身のNPを減らす【デメリット】＋味方単体のNPを増やす[Lv]＆HPを回復[Lv]",
+        "description": "<自身のNPが10%以上ある時のみ使用可能>自身のNPを減らす【デメリット】＋味方単体のNPを増やす[Lv](10-20)＆HPを回復[Lv]",
         "ct": "7",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
@@ -23935,7 +23959,6 @@
           "<other>使用条件付き",
           "<other>デメリット",
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布",
           "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[単]HP回復"
         ]
@@ -23982,7 +24005,6 @@
       "<debuff><debuff_delay>魅了付与",
       "<debuff><debuff_delay>[全]行動不能系付与",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_attack>[自]攻撃アップ",
@@ -23991,9 +24013,9 @@
       "<buff><buff_regist>弱体耐性アップ",
       "<other>使用条件付き",
       "<other>デメリット",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[単]HP回復",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>神性"
     ],
@@ -24192,7 +24214,7 @@
       },
       {
         "name": "甲賀流 A",
-        "description": "自身に回避状態を付与(1T)＆NPを増やす[Lv]",
+        "description": "自身に回避状態を付与(1T)＆NPを増やす[Lv](20-30)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
@@ -24200,7 +24222,7 @@
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>回避",
           "<buff><buff_defence>[自]回避/無敵",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -24242,7 +24264,8 @@
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>気配遮断"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/2436.html",
@@ -24669,13 +24692,12 @@
       },
       {
         "name": "\n千代紙操法\n(ちよがみそうほう) EX",
-        "description": "味方単体のNPを増やす[Lv]＆スター発生率をアップ[Lv](3T)",
+        "description": "味方単体のNPを増やす[Lv](10-20)＆スター発生率をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布",
           "<buff><buff_critical>[単]スター発生アップ"
         ]
       },
@@ -24742,11 +24764,11 @@
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_critical>[単]スター発生アップ",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_antibuff>強化解除",
       "<debuff><debuff_antibuff>[単]強化解除",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_trait><servant_classskill>神性"
@@ -24800,12 +24822,12 @@
       },
       {
         "name": "オーバーロード改 C",
-        "description": "自身のNPを増やす[Lv]＆HPを減少【デメリット】",
+        "description": "自身のNPを増やす[Lv](10-20)＆HPを減少【デメリット】",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<other>デメリット"
         ]
       },
@@ -24862,10 +24884,11 @@
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_defence>[自]防御アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<other>デメリット",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>道具作成"
     ],
@@ -24918,12 +24941,12 @@
       },
       {
         "name": "オーバーロード改 C",
-        "description": "自身のNPを増やす[Lv]＆HPを減少【デメリット】",
+        "description": "自身のNPを増やす[Lv](10-20)＆HPを減少【デメリット】",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<other>デメリット"
         ]
       },
@@ -24980,10 +25003,11 @@
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_defence>[自]防御アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<other>デメリット",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>道具作成"
     ],
@@ -25026,12 +25050,12 @@
     "skills": [
       {
         "name": "高速神言 B",
-        "description": "自身のNPをものすごく増やす[Lv]",
+        "description": "自身のNPをものすごく増やす[Lv](60-120)",
         "ct": "9",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -25100,7 +25124,7 @@
       "<debuff><debuff_delay>豚化付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>毒付与",
@@ -25108,6 +25132,7 @@
       "<buff><buff_critical>[全]スター発生アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[全]弱体解除",
+      "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -25162,14 +25187,14 @@
       },
       {
         "name": "\n霊珠子\n(れいじゅし) A",
-        "description": "自身にガッツ状態(1回・5T)を付与[Lv]＆NPを増やす[Lv]",
+        "description": "自身にガッツ状態(1回・5T)を付与[Lv]＆NPを増やす[Lv](10-20)",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
           "<buff><buff_defence>[自]ガッツ付与",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -25223,10 +25248,11 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_critical>スター集中",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/2543.html",
@@ -25395,8 +25421,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布",
+          "<buff><buff_np>[全]毎ターンNP獲得",
           "<buff><buff_attack>[全]宝具威力アップ"
         ]
       },
@@ -25471,8 +25496,7 @@
       "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
+      "<buff><buff_np>[全]毎ターンNP獲得",
       "<buff><buff_attack>[全]宝具威力アップ",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<debuff><debuff_delay>チャージ減",
@@ -25537,13 +25561,13 @@
       },
       {
         "name": "魔力放出（檻） A+",
-        "description": "自身のBusterカード性能をアップ[Lv](1T)＆NPを増やす[Lv]",
+        "description": "自身のBusterカード性能をアップ[Lv](1T)＆NPを増やす[Lv](30-50)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[自]B性能アップ",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -25613,10 +25637,11 @@
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_defence>[全]防御アップ",
       "<buff><buff_np>[全]NP獲得量アップ",
       "<buff><buff_heal>最大HPアップ",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性"
@@ -25661,13 +25686,12 @@
     "skills": [
       {
         "name": "星者の贈り物 B",
-        "description": "味方単体のNPを増やす[Lv]＆スター発生率をアップ(3T)",
+        "description": "味方単体のNPを増やす[Lv](10-20)＆スター発生率をアップ(3T)",
         "ct": "7",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布",
           "<buff><buff_critical>[単]スター発生アップ"
         ]
       },
@@ -25751,7 +25775,6 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_critical>[単]スター発生アップ",
       "<buff><buff_attack>[単]宝具威力アップ",
       "<buff><buff_critical>[単]クリティカル威力アップ",
@@ -25761,6 +25784,7 @@
       "<buff><buff_critical>スター集中",
       "<buff><buff_defence>[自]防御アップ",
       "<other>デメリット",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -25804,7 +25828,7 @@
     "skills": [
       {
         "name": "森羅万象 A+",
-        "description": "自身に回避状態を付与(1T)＆NPを増やす[Lv]",
+        "description": "自身に回避状態を付与(1T)＆NPを増やす[Lv](20-30)",
         "ct": "7",
         "unlock": "初期",
         "upgrade": null,
@@ -25812,7 +25836,7 @@
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>回避",
           "<buff><buff_defence>[自]回避/無敵",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -25893,10 +25917,11 @@
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_regist>強化解除耐性アップ",
       "<buff><buff_regist>弱体耐性アップ",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>領域外の生命",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_classskill>陣地作成",
@@ -25957,12 +25982,12 @@
     "skills": [
       {
         "name": "使い魔（鳩） D",
-        "description": "自身のNPを増やす[Lv]＋敵全体の弱体耐性をダウン[Lv](1T)",
+        "description": "自身のNPを増やす[Lv](20-30)＋敵全体の弱体耐性をダウン[Lv](1T)",
         "ct": "7",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<debuff><debuff_regist>弱体耐性ダウン"
         ]
       },
@@ -26049,7 +26074,7 @@
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>[全]防御アップ",
       "<buff><buff_regist>強化解除耐性アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_extradamage>クラス相性変更",
@@ -26060,6 +26085,7 @@
       "<debuff><debuff_defence>カード耐性ダウン",
       "<debuff><debuff_defence>B耐性ダウン",
       "<other>デメリット",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
@@ -26260,12 +26286,12 @@
       },
       {
         "name": "シュヴィブジック B",
-        "description": "自身のNPを増やす[Lv]＋敵単体に低確率でスタン状態を付与[Lv:確率](1T)",
+        "description": "自身のNPを増やす[Lv](30-50)＋敵単体に低確率でスタン状態を付与[Lv:確率](1T)",
         "ct": "9",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<debuff><debuff_delay>行動不能系付与",
           "<debuff><debuff_delay>スタン付与",
           "<debuff><debuff_delay>[単]行動不能系付与"
@@ -26316,10 +26342,11 @@
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<buff><buff_attack>[全]攻撃アップ",
       "<debuff><debuff_attack>[全]攻撃ダウン",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>陣地作成"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3090.html",
@@ -26494,12 +26521,12 @@
       },
       {
         "name": "高速詠唱 B+",
-        "description": "自身のNPをすごく増やす[Lv]",
+        "description": "自身のNPをすごく増やす[Lv](54-79)",
         "ct": "10",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -26555,12 +26582,13 @@
       "<buff><buff_np>[全]NP獲得量アップ",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_attack>[自]B性能アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[全]回避/無敵",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -26882,14 +26910,14 @@
       },
       {
         "name": "宙駆ける星の穂先 B+",
-        "description": "自身にターゲット集中状態を付与(1T)＆NP獲得量をアップ[Lv](1T)＆NPを増やす[Lv]",
+        "description": "自身にターゲット集中状態を付与(1T)＆NP獲得量をアップ[Lv](1T)＆NPを増やす[Lv](20-30)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>タゲ集中",
           "<buff><buff_np>[自]NP獲得量アップ",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -26947,7 +26975,8 @@
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_defence>タゲ集中",
       "<buff><buff_np>[自]NP獲得量アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -27149,13 +27178,13 @@
       },
       {
         "name": "竜告令呪 EX",
-        "description": "自身に〔竜〕特攻状態を付与[Lv](1T)＆NPを増やす[Lv]",
+        "description": "自身に〔竜〕特攻状態を付与[Lv](1T)＆NPを増やす[Lv](20-30)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_extradamage>竜特攻",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -27201,7 +27230,8 @@
       "<buff><buff_heal>最大HPアップ",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_extradamage>竜特攻",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>単独行動"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3197.html",
@@ -27254,12 +27284,12 @@
       },
       {
         "name": "不断 B",
-        "description": "自身のNPを増やす[Lv]＆スター集中度をアップ[Lv](1T)",
+        "description": "自身のNPを増やす[Lv](20-30)＆スター集中度をアップ[Lv](1T)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_critical>スター集中"
         ]
       },
@@ -27317,12 +27347,13 @@
       "<debuff><debuff_defence>B耐性ダウン",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_attack>[自]B性能アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_critical>スター集中",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -27482,13 +27513,12 @@
       },
       {
         "name": "船中八策 A",
-        "description": "味方全体のNPを少し増やす＆弱体耐性をアップ[Lv](3T)",
+        "description": "味方全体のNPを少し増やす(10)＆弱体耐性をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布",
           "<buff><buff_regist>弱体耐性アップ"
         ]
       },
@@ -27552,10 +27582,10 @@
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_attack>[全]A性能アップ",
       "<buff><buff_critical>スター獲得",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -27622,12 +27652,12 @@
       },
       {
         "name": "可能性の光 B",
-        "description": "自身のNPを増やす[Lv]＆無敵貫通状態を付与(3T)＆毎ターンスター獲得状態を付与[Lv](3T)",
+        "description": "自身のNPを増やす[Lv](20-30)＆無敵貫通状態を付与(3T)＆毎ターンスター獲得状態を付与[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>必中/無敵貫通",
           "<buff><buff_attack>無敵貫通",
           "<buff><buff_attack>[自]必中/無敵貫通",
@@ -27677,11 +27707,12 @@
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_attack>[全]宝具威力アップ",
       "<buff><buff_critical>[全]スター発生アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_critical>毎ターンスター獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -27890,7 +27921,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>[自]毎ターンNP獲得",
           "<buff><buff_heal>毎ターンHP回復",
           "<buff><buff_heal>[自]HP回復",
           "<buff><buff_critical>毎ターンスター獲得"
@@ -27947,7 +27978,7 @@
       "<buff><buff_defence>被ダメカット",
       "<buff><buff_defence>[自]被ダメカット",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_critical>毎ターンスター獲得",
@@ -28019,13 +28050,12 @@
       },
       {
         "name": "大神の叡智 B+",
-        "description": "味方単体のNPを増やす[Lv]",
+        "description": "味方単体のNPを増やす[Lv](30-50)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布"
+          "<buff><buff_np>NP配布"
         ]
       }
     ],
@@ -28084,7 +28114,7 @@
       "<debuff><debuff_defence>[全]防御ダウン",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
+      "<buff><buff_np>NP50配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_trait><servant_classskill>神性"
@@ -28139,12 +28169,12 @@
       },
       {
         "name": "水辺の聖女（ドルフィン） A+",
-        "description": "自身のNPを増やす[Lv]＆宝具威力をアップ[Lv](3T)＆〔水辺〕のあるフィールドにおいてのみ、自身のクリティカル威力をアップ[Lv](3T)",
+        "description": "自身のNPを増やす[Lv](20-40)＆宝具威力をアップ[Lv](3T)＆〔水辺〕のあるフィールドにおいてのみ、自身のクリティカル威力をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>[自]宝具威力アップ",
           "<buff><buff_critical>[自]クリティカル威力アップ"
         ]
@@ -28202,11 +28232,12 @@
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
+      "<buff><buff_np>NP40獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -28382,12 +28413,12 @@
     "skills": [
       {
         "name": "動物会話 D",
-        "description": "自身のNPを増やす[Lv]",
+        "description": "自身のNPを増やす[Lv](20-40)",
         "ct": "8",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       },
       {
@@ -28464,7 +28495,7 @@
       "<debuff><debuff_antibuff>[全]強化解除",
       "<debuff><debuff_defence>カード耐性ダウン",
       "<debuff><debuff_defence>Q耐性ダウン",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
@@ -28472,6 +28503,7 @@
       "<buff><buff_critical>スター集中",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
+      "<buff><buff_np>NP40獲得",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>騎乗"
@@ -28538,13 +28570,13 @@
       },
       {
         "name": "ムール・ウ・テュ・ドワ EX",
-        "description": "自身のBusterカード性能をアップ[Lv](1T)＆NPを増やす＆HPを減少【デメリット】",
+        "description": "自身のBusterカード性能をアップ[Lv](1T)＆NPを増やす(20)＆HPを減少【デメリット】",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[自]B性能アップ",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<other>デメリット"
         ]
       }
@@ -28588,8 +28620,9 @@
       "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_attack>[自]B性能アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<other>デメリット",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>狂化"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3447.html",
@@ -28641,12 +28674,12 @@
       },
       {
         "name": "黄金の豚の杯 A",
-        "description": "自身のNPを増やす[Lv]＆HPを回復[Lv]＆Busterカード性能をアップ[Lv](3T)＆宝具威力をアップ[Lv](3T)＆回避状態を付与(1回・3T)",
+        "description": "自身のNPを増やす[Lv](30-50)＆HPを回復[Lv]＆Busterカード性能をアップ[Lv](3T)＆宝具威力をアップ[Lv](3T)＆回避状態を付与(1回・3T)",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[自]HP回復",
           "<buff><buff_attack>[自]B性能アップ",
@@ -28721,7 +28754,7 @@
       "<debuff><debuff_delay>[全]チャージ減",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_critical>スター集中",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_attack>[自]B性能アップ",
@@ -28730,6 +28763,7 @@
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_critical>毎ターンスター獲得",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>領域外の生命",
       "<servant><servant_trait><servant_classskill>神性"
@@ -28779,7 +28813,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>[自]毎ターンNP獲得",
           "<buff><buff_critical>毎ターンスター獲得"
         ]
       },
@@ -28848,7 +28882,7 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_critical>毎ターンスター獲得",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>魅了付与",
@@ -29208,14 +29242,14 @@
       },
       {
         "name": "カムイユカラ A",
-        "description": "自身の攻撃力を(20%)アップ(3T) [Lv:確率]＆毎ターンスター(10個)獲得状態を付与(3T) [Lv:確率]＆NPを増やす [Lv]",
+        "description": "自身の攻撃力を(20%)アップ(3T) [Lv:確率]＆毎ターンスター(10個)獲得状態を付与(3T) [Lv:確率]＆NPを増やす [Lv](20-30)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[自]攻撃アップ",
           "<buff><buff_critical>毎ターンスター獲得",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -29291,7 +29325,8 @@
       "<buff><buff_regist>[自]弱体無効",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_critical>毎ターンスター獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
@@ -29611,13 +29646,12 @@
       },
       {
         "name": "勢い破竹の如し C",
-        "description": "味方単体のNPを増やす [Lv]＆強化成功率をアップ(1T)[Lv]",
+        "description": "味方単体のNPを増やす [Lv](10-20)＆強化成功率をアップ(1T)[Lv]",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布",
           "<buff><buff_probability>強化成功率アップ"
         ]
       },
@@ -29678,10 +29712,10 @@
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_probability>強化成功率アップ",
       "<buff><buff_critical>[全]スター発生アップ",
       "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -29752,14 +29786,14 @@
       },
       {
         "name": "盗賊打破 B",
-        "description": "自身にガッツ状態(2回・3T)を付与＆NPを増やす[Lv]",
+        "description": "自身にガッツ状態(2回・3T)を付与＆NPを増やす[Lv](10-20)",
         "ct": "10",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
           "<buff><buff_defence>[自]ガッツ付与",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -29807,7 +29841,8 @@
       "<buff><buff_regist>強化解除耐性アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3731.html",
@@ -29877,12 +29912,12 @@
       },
       {
         "name": "永世帝位 A",
-        "description": "自身のNPを増やす[Lv]＆弱体状態を解除＆HPを回復[Lv]",
+        "description": "自身のNPを増やす[Lv](30-50)＆弱体状態を解除＆HPを回復[Lv]",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
           "<buff><buff_heal>[自]弱体解除",
           "<buff><buff_heal>HP回復",
@@ -29929,11 +29964,12 @@
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[全]行動不能系付与",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3767.html",
@@ -29987,7 +30023,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>[自]毎ターンNP獲得",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
           "<buff><buff_regist>[自]弱体無効"
         ]
@@ -30006,14 +30042,14 @@
       },
       {
         "name": "吸血 C",
-        "description": "敵単体のチャージを中確率で減らす[Lv:確率]＋自身のNPを増やす[Lv]",
+        "description": "敵単体のチャージを中確率で減らす[Lv:確率]＋自身のNPを増やす[Lv](18-27)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減",
-          "<buff><buff_np>[自]NP増加"
+          "<buff><buff_np>NP獲得"
         ]
       }
     ],
@@ -30057,13 +30093,15 @@
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>[自]毎ターンNP獲得",
       "<buff><buff_regist>[自]弱体無効",
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_regist>強化解除耐性アップ",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP25-27獲得",
       "<servant><servant_classskill>気配遮断"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3769.html",
@@ -30255,13 +30293,12 @@
       },
       {
         "name": "魔術解除 A",
-        "description": "味方単体のNPを増やす[Lv]＆弱体状態を解除",
+        "description": "味方単体のNPを増やす[Lv](10-20)＆弱体状態を解除",
         "ct": "7",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
           "<buff><buff_heal>[単]弱体解除"
         ]
@@ -30307,9 +30344,9 @@
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[単]弱体解除",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3792.html",
@@ -30501,7 +30538,7 @@
       },
       {
         "name": "星の籠（小） EX",
-        "description": "味方全体の攻撃力をアップ[Lv](3T)＆強化解除耐性をアップ[Lv](1T)＆NPを増やす[Lv]＆HPを回復＋敵全体のHPを回復【デメリット】",
+        "description": "味方全体の攻撃力をアップ[Lv](3T)＆強化解除耐性をアップ[Lv](1T)＆NPを増やす[Lv](10-20)＆HPを回復＋敵全体のHPを回復【デメリット】",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
@@ -30509,7 +30546,6 @@
           "<buff><buff_attack>[全]攻撃アップ",
           "<buff><buff_regist>強化解除耐性アップ",
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[全]NP配布",
           "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[全]HP回復",
           "<other>デメリット"
@@ -30587,9 +30623,9 @@
       "<buff><buff_attack>[全]攻撃アップ",
       "<buff><buff_regist>強化解除耐性アップ",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>気配遮断"
@@ -30745,7 +30781,6 @@
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>補助宝具",
         "<buff><buff_np>NP配布",
-        "<buff><buff_np>[全]NP配布",
         "<buff><buff_heal>HP回復",
         "<buff><buff_heal>[全]HP回復",
         "<buff><buff_critical>スター獲得",
@@ -30779,13 +30814,12 @@
       },
       {
         "name": "神稚児の願い EX",
-        "description": "味方単体のNPを増やす[Lv]＆強化成功率をアップ[Lv](3T)",
+        "description": "味方単体のNPを増やす[Lv](20-30)＆強化成功率をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_np>[単]NP配布",
           "<buff><buff_probability>強化成功率アップ"
         ]
       }
@@ -30825,7 +30859,6 @@
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>補助宝具",
       "<buff><buff_np>NP配布",
-      "<buff><buff_np>[全]NP配布",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[全]HP回復",
       "<buff><buff_critical>スター獲得",
@@ -30836,8 +30869,8 @@
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
-      "<buff><buff_np>[単]NP配布",
       "<buff><buff_probability>強化成功率アップ",
+      "<buff><buff_np>NP30配布",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3877.html",
@@ -30890,14 +30923,14 @@
       },
       {
         "name": "呪術(詞) D+",
-        "description": "敵単体に中確率で宝具封印状態を付与[Lv](1T)＋自身のNPを増やす[Lv]＆宝具威力をアップ[Lv](3T)",
+        "description": "敵単体に中確率で宝具封印状態を付与[Lv](1T)＋自身のNPを増やす[Lv](20-30)＆宝具威力をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
           "<debuff><debuff_delay>宝具封印",
           "<debuff><debuff_delay>[単]宝具封印",
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_attack>[自]宝具威力アップ"
         ]
       },
@@ -30957,13 +30990,14 @@
       "<debuff><debuff_defence>[全]防御ダウン",
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[単]宝具封印",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>被ダメカット",
       "<buff><buff_defence>[全]被ダメカット",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[全]弱体無効",
       "<buff><buff_regist>強化解除耐性アップ",
+      "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -31171,12 +31205,12 @@
       },
       {
         "name": "マーラ・パーピーヤス EX",
-        "description": "自身のNPを増やす[Lv]＆〔アルターエゴ〕クラスに対して相性有利になる状態を付与(3T)＆クリティカル威力をアップ(3T)[Lv]＋敵全体の魅了耐性をダウン(1T)[Lv]",
+        "description": "自身のNPを増やす[Lv](30-50)＆〔アルターエゴ〕クラスに対して相性有利になる状態を付与(3T)＆クリティカル威力をアップ(3T)[Lv]＋敵全体の魅了耐性をダウン(1T)[Lv]",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[自]NP増加",
+          "<buff><buff_np>NP獲得",
           "<buff><buff_extradamage>クラス相性変更",
           "<buff><buff_critical>[自]クリティカル威力アップ",
           "<debuff><debuff_regist>魅了耐性ダウン"
@@ -31244,10 +31278,11 @@
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_attack>[自]攻撃アップ",
-      "<buff><buff_np>[自]NP増加",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_extradamage>クラス相性変更",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<debuff><debuff_regist>魅了耐性ダウン",
+      "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>単独顕現",
