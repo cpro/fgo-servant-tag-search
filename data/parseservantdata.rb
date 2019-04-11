@@ -85,7 +85,7 @@ class Servant
 
         skill_tags = @skills.map {|skill| skill.tags + (skill.upgrade ? skill.upgrade.tags : [])} .flatten
         @tags += skill_tags
-        if skill_tags.index {|tag| tag.match(/NP(増加|配布)$/)}
+        if skill_tags.index {|tag| tag.match(/(?<!毎ターン)NP(獲得|配布)$/)}
             np_gain = @skills.reduce(0) {|total, skill| total + (skill.upgrade ? skill.upgrade.np_gain_max : skill.np_gain_max)}
             if np_gain <= 20
                 @tags.push("<buff><buff_np>NP#{$1 == '配布' ? '10-20' : np_gain}#{$1}")
@@ -252,7 +252,7 @@ def parse_description_to_tag(desc)
     ]
 
     target = '自身'
-    target_short = '自己'
+    target_short = '[自]'
     is_ally = true
     desc.scan(Regexp.new(patterns.join('|'))).each do |s|
         cat = ''
@@ -338,10 +338,9 @@ def parse_description_to_tag(desc)
         elsif s[9]
             cat = '<buff><buff_np>'
             if target == '自身'
-                tags.push("#{cat}#{target_short}NP増加")
+                tags.push("#{cat}NP獲得")
             else
                 tags.push("#{cat}NP配布")
-                tags.push("#{cat}#{target_short}NP配布")
             end
         elsif s[10] and is_ally
             cat = '<buff><buff_heal>'
