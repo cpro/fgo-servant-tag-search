@@ -38,28 +38,28 @@
           "tags": [
             "<servant><servant_card><servant_noblephantasm>A宝具",
             "<servant><servant_noblephantasm>補助宝具",
-            "<buff><buff_defence>[全]防御アップ",
+            "<buff><buff_defence>[他]防御アップ",
             "<buff><buff_defence>被ダメカット",
-            "<buff><buff_defence>[全]被ダメカット"
+            "<buff><buff_defence>[他]被ダメカット"
           ]
         },
         "tags": [
           "<servant><servant_card><servant_noblephantasm>A宝具",
           "<servant><servant_noblephantasm>補助宝具",
           "<servant><servant_noblephantasm>宝具強化済",
-          "<buff><buff_defence>[全]防御アップ",
+          "<buff><buff_defence>[他]防御アップ",
           "<buff><buff_defence>被ダメカット",
-          "<buff><buff_defence>[全]被ダメカット",
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_defence>[他]被ダメカット",
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>補助宝具",
         "<servant><servant_noblephantasm>宝具強化済",
-        "<buff><buff_defence>[全]防御アップ",
+        "<buff><buff_defence>[他]防御アップ",
         "<buff><buff_defence>被ダメカット",
-        "<buff><buff_defence>[全]被ダメカット"
+        "<buff><buff_defence>[他]被ダメカット"
       ]
     },
     "skills": [
@@ -75,13 +75,13 @@
           "unlock": "霊基再臨を３段階突破する＆「神王オジマンディアス(1/3)」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_defence>[全]防御アップ",
+            "<buff><buff_defence>[他]防御アップ",
             "<buff><buff_defence>被ダメカット",
-            "<buff><buff_defence>[全]被ダメカット"
+            "<buff><buff_defence>[他]被ダメカット"
           ]
         },
         "tags": [
-          "<buff><buff_defence>[全]防御アップ"
+          "<buff><buff_defence>[他]防御アップ"
         ]
       },
       {
@@ -93,7 +93,7 @@
         "tags": [
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
-          "<buff><buff_defence>[単]回避/無敵",
+          "<buff><buff_defence>[他]回避/無敵",
           "<buff><buff_np>NP配布"
         ]
       },
@@ -145,13 +145,13 @@
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>補助宝具",
       "<servant><servant_noblephantasm>宝具強化済",
-      "<buff><buff_defence>[全]防御アップ",
+      "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_defence>被ダメカット",
-      "<buff><buff_defence>[全]被ダメカット",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_defence>[他]被ダメカット",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
-      "<buff><buff_defence>[単]回避/無敵",
+      "<buff><buff_defence>[他]回避/無敵",
       "<buff><buff_np>NP配布",
       "<buff><buff_defence>タゲ集中",
       "<buff><buff_np>[自]NP獲得量アップ",
@@ -218,7 +218,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -292,7 +292,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_np>NP獲得",
@@ -365,7 +365,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       }
     ],
@@ -403,7 +403,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/609.html",
@@ -489,7 +489,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[全]NP獲得量アップ"
+          "<buff><buff_np>[他]NP獲得量アップ"
         ]
       }
     ],
@@ -538,7 +538,7 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[自]B性能アップ",
-      "<buff><buff_np>[全]NP獲得量アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -888,7 +888,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ"
+          "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
       {
@@ -898,7 +898,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -913,13 +913,13 @@
           "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_critical>[単]クリティカル威力アップ",
-            "<buff><buff_critical>[単]スター発生アップ",
+            "<buff><buff_critical>[他]クリティカル威力アップ",
+            "<buff><buff_critical>[他]スター発生アップ",
             "<other>デメリット"
           ]
         },
         "tags": [
-          "<buff><buff_critical>[単]クリティカル威力アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ",
           "<other>デメリット"
         ]
       }
@@ -971,11 +971,11 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]宝具威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_critical>[単]クリティカル威力アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<other>デメリット",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -1039,7 +1039,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ"
+          "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
       {
@@ -1123,7 +1123,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_defence>[全]防御ダウン",
-      "<buff><buff_attack>[全]宝具威力アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
@@ -1179,7 +1179,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ"
+          "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
       {
@@ -1248,7 +1248,7 @@
       "<buff><buff_attack>[自]攻撃アップ",
       "<other>デメリット",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]宝具威力アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
@@ -1613,7 +1613,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -1695,7 +1695,7 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_extradamage>サーヴァント特攻",
       "<buff><buff_attack>[自]宝具威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_critical>スター集中",
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP30獲得",
@@ -1891,11 +1891,11 @@
           "unlock": "「女神の微笑み」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_attack>[全]Q性能アップ"
+            "<buff><buff_attack>[他]Q性能アップ"
           ]
         },
         "tags": [
-          "<buff><buff_attack>[全]Q性能アップ"
+          "<buff><buff_attack>[他]Q性能アップ"
         ]
       },
       {
@@ -1960,7 +1960,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]Q性能アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
       "<buff><buff_critical>スター集中",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
@@ -2473,12 +2473,12 @@
           "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_attack>[全]攻撃アップ",
+            "<buff><buff_attack>[他]攻撃アップ",
             "<buff><buff_attack>二重カリスマ"
           ]
         },
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -2545,7 +2545,7 @@
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
       "<debuff><debuff_probability>[全]強化成功率ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_defence>ガッツ",
@@ -2865,7 +2865,7 @@
         "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]B性能アップ"
+          "<buff><buff_attack>[他]B性能アップ"
         ]
       }
     ],
@@ -2902,7 +2902,7 @@
       "<buff><buff_critical>スター獲得",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_attack>[全]B性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/143.html",
@@ -2938,7 +2938,7 @@
         "<servant><servant_card><servant_noblephantasm>B宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
-        "<buff><buff_attack>[全]攻撃アップ"
+        "<buff><buff_attack>[他]攻撃アップ"
       ]
     },
     "skills": [
@@ -2972,8 +2972,8 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
-          "<buff><buff_defence>[単]ガッツ付与",
-          "<buff><buff_attack>[単]B性能アップ"
+          "<buff><buff_defence>[他]ガッツ付与",
+          "<buff><buff_attack>[他]B性能アップ"
         ]
       }
     ],
@@ -3007,14 +3007,14 @@
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_defence>ガッツ",
-      "<buff><buff_defence>[単]ガッツ付与",
-      "<buff><buff_attack>[単]B性能アップ",
+      "<buff><buff_defence>[他]ガッツ付与",
+      "<buff><buff_attack>[他]B性能アップ",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/94.html",
@@ -3056,7 +3056,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<debuff><debuff_attack>[全]クリティカル発生ダウン",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       "tags": [
@@ -3064,7 +3064,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>宝具強化済",
-        "<buff><buff_critical>[全]スター発生アップ"
+        "<buff><buff_critical>[他]スター発生アップ"
       ]
     },
     "skills": [
@@ -3154,7 +3154,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>行動不能付与",
@@ -3345,8 +3345,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ",
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]宝具威力アップ",
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -3370,7 +3370,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       }
     ],
@@ -3406,14 +3406,14 @@
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[全]チャージ減",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]宝具威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<other>デメリット",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/154.html",
@@ -3453,15 +3453,15 @@
         "tags": [
           "<servant><servant_card><servant_noblephantasm>A宝具",
           "<servant><servant_noblephantasm>補助宝具",
-          "<buff><buff_defence>[全]防御アップ",
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_defence>[他]防御アップ",
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>補助宝具",
         "<servant><servant_noblephantasm>宝具強化済",
-        "<buff><buff_defence>[全]防御アップ"
+        "<buff><buff_defence>[他]防御アップ"
       ]
     },
     "skills": [
@@ -3493,7 +3493,7 @@
         "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]A性能アップ"
+          "<buff><buff_attack>[他]A性能アップ"
         ]
       }
     ],
@@ -3533,12 +3533,12 @@
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>補助宝具",
       "<servant><servant_noblephantasm>宝具強化済",
-      "<buff><buff_defence>[全]防御アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_defence>[他]防御アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_extradamage>ローマ特攻",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_attack>[全]A性能アップ",
+      "<buff><buff_attack>[他]A性能アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -3604,12 +3604,12 @@
           "unlock": "「強化クエスト 2」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_np>[全]NP獲得量アップ",
+            "<buff><buff_np>[他]NP獲得量アップ",
             "<buff><buff_attack>[自]Q性能アップ"
           ]
         },
         "tags": [
-          "<buff><buff_np>[全]NP獲得量アップ"
+          "<buff><buff_np>[他]NP獲得量アップ"
         ]
       },
       {
@@ -3619,7 +3619,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -3674,9 +3674,9 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_critical>[自]スター発生アップ",
-      "<buff><buff_np>[全]NP獲得量アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_attack>[自]Q性能アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
@@ -3742,7 +3742,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -3764,7 +3764,7 @@
         "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]Q性能アップ"
+          "<buff><buff_attack>[他]Q性能アップ"
         ]
       }
     ],
@@ -3815,11 +3815,11 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>魅了付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
-      "<buff><buff_attack>[全]Q性能アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -3862,10 +3862,10 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復",
+          "<buff><buff_heal>[他]HP回復",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[全]弱体解除",
-          "<buff><buff_critical>[全]クリティカル威力アップ"
+          "<buff><buff_heal>[他]弱体解除",
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       },
       "tags": [
@@ -3874,9 +3874,9 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_heal>HP回復",
-        "<buff><buff_heal>[全]HP回復",
+        "<buff><buff_heal>[他]HP回復",
         "<buff><buff_heal><buff_regist>弱体解除/無効",
-        "<buff><buff_heal>[全]弱体解除"
+        "<buff><buff_heal>[他]弱体解除"
       ]
     },
     "skills": [
@@ -3954,10 +3954,10 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[全]弱体解除",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_heal>[他]弱体解除",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>魅了付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
@@ -4046,16 +4046,16 @@
           "upgrade": null,
           "tags": [
             "<buff><buff_heal>HP回復",
-            "<buff><buff_heal>[全]HP回復",
+            "<buff><buff_heal>[他]HP回復",
             "<buff><buff_heal><buff_regist>弱体解除/無効",
-            "<buff><buff_heal>[全]弱体解除"
+            "<buff><buff_heal>[他]弱体解除"
           ]
         },
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復",
+          "<buff><buff_heal>[他]HP回復",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[全]弱体解除"
+          "<buff><buff_heal>[他]弱体解除"
         ]
       },
       {
@@ -4121,9 +4121,9 @@
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[全]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<debuff><debuff_antibuff>強化解除",
       "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_defence>[単]防御ダウン",
@@ -4206,8 +4206,8 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[単]弱体解除",
-          "<buff><buff_np>[単]NP獲得量アップ"
+          "<buff><buff_heal>[他]弱体解除",
+          "<buff><buff_np>[他]NP獲得量アップ"
         ]
       }
     ],
@@ -4252,8 +4252,8 @@
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[単]弱体解除",
-      "<buff><buff_np>[単]NP獲得量アップ",
+      "<buff><buff_heal>[他]弱体解除",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -4394,17 +4394,17 @@
           "<servant><servant_card><servant_noblephantasm>A宝具",
           "<servant><servant_noblephantasm>補助宝具",
           "<buff><buff_heal>毎ターンHP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>補助宝具",
         "<servant><servant_noblephantasm>宝具強化済",
-        "<buff><buff_attack>[全]攻撃アップ",
-        "<buff><buff_defence>[全]防御アップ",
+        "<buff><buff_attack>[他]攻撃アップ",
+        "<buff><buff_defence>[他]防御アップ",
         "<buff><buff_heal>毎ターンHP回復",
-        "<buff><buff_heal>[全]HP回復"
+        "<buff><buff_heal>[他]HP回復"
       ]
     },
     "skills": [
@@ -4415,7 +4415,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_critical>[全]クリティカル威力アップ"
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       },
       {
@@ -4442,7 +4442,7 @@
           "tags": [
             "<buff><buff_critical>毎ターンスター獲得",
             "<buff><buff_np>毎ターンNP獲得",
-            "<buff><buff_np>[単]毎ターンNP獲得"
+            "<buff><buff_np>[他]毎ターンNP獲得"
           ]
         },
         "tags": [
@@ -4486,16 +4486,16 @@
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>補助宝具",
       "<servant><servant_noblephantasm>宝具強化済",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_defence>[全]防御アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_heal>毎ターンHP回復",
-      "<buff><buff_heal>[全]HP回復",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_critical>毎ターンスター獲得",
       "<other>デメリット",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[単]毎ターンNP獲得",
+      "<buff><buff_np>[他]毎ターンNP獲得",
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -4559,7 +4559,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]B性能アップ"
+          "<buff><buff_attack>[他]B性能アップ"
         ]
       },
       {
@@ -4584,7 +4584,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       }
     ],
@@ -4620,14 +4620,14 @@
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[全]行動不能系付与",
-      "<buff><buff_attack>[全]B性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>NP配布",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成"
     ],
@@ -4819,7 +4819,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]A性能アップ"
+          "<buff><buff_attack>[他]A性能アップ"
         ]
       },
       {
@@ -4875,7 +4875,7 @@
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
-      "<buff><buff_attack>[全]A性能アップ",
+      "<buff><buff_attack>[他]A性能アップ",
       "<debuff><debuff_attack>[単]宝具威力ダウン",
       "<buff><buff_critical>スター獲得",
       "<servant><servant_classskill>陣地作成"
@@ -4950,7 +4950,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_critical>[単]クリティカル威力アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ",
           "<buff><buff_np>NP配布"
         ]
       },
@@ -4961,9 +4961,9 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_defence>[全]防御アップ",
+          "<buff><buff_defence>[他]防御アップ",
           "<buff><buff_defence>被ダメカット",
-          "<buff><buff_defence>[全]被ダメカット",
+          "<buff><buff_defence>[他]被ダメカット",
           "<buff><buff_np>NP配布"
         ]
       },
@@ -4974,7 +4974,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_np>NP配布"
         ]
       }
@@ -5023,12 +5023,12 @@
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
       "<debuff><debuff_defence>[全]防御ダウン",
-      "<buff><buff_critical>[単]クリティカル威力アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_np>NP配布",
-      "<buff><buff_defence>[全]防御アップ",
+      "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_defence>被ダメカット",
-      "<buff><buff_defence>[全]被ダメカット",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_defence>[他]被ダメカット",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>NP50配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -5552,7 +5552,7 @@
         "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>二重カリスマ"
         ]
       }
@@ -5612,7 +5612,7 @@
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_np>NP獲得",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
       "<buff><buff_np>NP25-27獲得",
       "<servant><servant_classskill>気配遮断",
@@ -5820,14 +5820,14 @@
           "upgrade": null,
           "tags": [
             "<buff><buff_heal>HP回復",
-            "<buff><buff_heal>[単]HP回復",
+            "<buff><buff_heal>[他]HP回復",
             "<buff><buff_heal><buff_regist>弱体解除/無効",
-            "<buff><buff_heal>[単]弱体解除"
+            "<buff><buff_heal>[他]弱体解除"
           ]
         },
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       {
@@ -5875,9 +5875,9 @@
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_extradamage>悪特攻",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[単]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_extradamage>人間特攻",
       "<servant><servant_classskill>気配遮断"
     ],
@@ -7786,12 +7786,12 @@
           "<servant><servant_noblephantasm>補助宝具",
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
-          "<buff><buff_defence>[全]回避/無敵",
-          "<buff><buff_defence>[全]防御アップ",
+          "<buff><buff_defence>[他]回避/無敵",
+          "<buff><buff_defence>[他]防御アップ",
           "<buff><buff_heal>毎ターンHP回復",
-          "<buff><buff_heal>[全]HP回復",
+          "<buff><buff_heal>[他]HP回復",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[全]弱体解除"
+          "<buff><buff_heal>[他]弱体解除"
         ]
       },
       "tags": [
@@ -7800,10 +7800,10 @@
         "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_defence>回避/無敵",
         "<buff><buff_defence>無敵",
-        "<buff><buff_defence>[全]回避/無敵",
-        "<buff><buff_defence>[全]防御アップ",
+        "<buff><buff_defence>[他]回避/無敵",
+        "<buff><buff_defence>[他]防御アップ",
         "<buff><buff_heal>毎ターンHP回復",
-        "<buff><buff_heal>[全]HP回復",
+        "<buff><buff_heal>[他]HP回復",
         "<other>デメリット"
       ]
     },
@@ -7871,13 +7871,13 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
-      "<buff><buff_defence>[全]回避/無敵",
-      "<buff><buff_defence>[全]防御アップ",
+      "<buff><buff_defence>[他]回避/無敵",
+      "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_heal>毎ターンHP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<other>デメリット",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[全]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_critical>毎ターンスター獲得",
       "<debuff><debuff_attack>[単]宝具威力ダウン",
       "<debuff><debuff_delay>行動不能系付与",
@@ -8192,7 +8192,7 @@
           "<servant><servant_noblephantasm>補助宝具",
           "<buff><buff_skillcharge>スキルチャージ短縮",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復",
+          "<buff><buff_heal>[他]HP回復",
           "<buff><buff_np>NP配布"
         ]
       },
@@ -8202,7 +8202,7 @@
         "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_skillcharge>スキルチャージ短縮",
         "<buff><buff_heal>HP回復",
-        "<buff><buff_heal>[全]HP回復",
+        "<buff><buff_heal>[他]HP回復",
         "<buff><buff_np>NP配布"
       ]
     },
@@ -8221,7 +8221,7 @@
           "tags": [
             "<debuff><debuff_delay>チャージ減",
             "<debuff><debuff_delay>[単]チャージ減",
-            "<buff><buff_attack>[全]宝具威力アップ"
+            "<buff><buff_attack>[他]宝具威力アップ"
           ]
         },
         "tags": [
@@ -8251,13 +8251,13 @@
           "unlock": "霊基再臨を３段階突破する＆「九尾の狐」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_attack>[単]A性能アップ",
+            "<buff><buff_attack>[他]A性能アップ",
             "<buff><buff_heal>HP回復",
-            "<buff><buff_heal>[単]HP回復"
+            "<buff><buff_heal>[他]HP回復"
           ]
         },
         "tags": [
-          "<buff><buff_attack>[単]A性能アップ"
+          "<buff><buff_attack>[他]A性能アップ"
         ]
       }
     ],
@@ -8299,14 +8299,13 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_skillcharge>スキルチャージ短縮",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_np>NP配布",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
-      "<buff><buff_attack>[全]宝具威力アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
       "<buff><buff_defence>[自]防御アップ",
-      "<buff><buff_attack>[単]A性能アップ",
-      "<buff><buff_heal>[単]HP回復",
+      "<buff><buff_attack>[他]A性能アップ",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性"
     ],
@@ -8369,12 +8368,12 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>精神異常解除",
-          "<buff><buff_heal>[全]精神異常解除",
+          "<buff><buff_heal>[他]精神異常解除",
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>回避",
-          "<buff><buff_defence>[全]回避/無敵",
+          "<buff><buff_defence>[他]回避/無敵",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       {
@@ -8384,7 +8383,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       }
     ],
@@ -8434,12 +8433,12 @@
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_heal>精神異常解除",
-      "<buff><buff_heal>[全]精神異常解除",
+      "<buff><buff_heal>[他]精神異常解除",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
-      "<buff><buff_defence>[全]回避/無敵",
-      "<buff><buff_heal>[全]HP回復",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_defence>[他]回避/無敵",
+      "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動"
     ],
@@ -8502,7 +8501,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ"
+          "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
       {
@@ -8572,7 +8571,7 @@
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_defence>[全]防御ダウン",
-      "<buff><buff_attack>[全]宝具威力アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
@@ -8642,8 +8641,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ",
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]宝具威力アップ",
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -8707,8 +8706,8 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]宝具威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
@@ -8866,7 +8865,7 @@
           "<servant><servant_card><servant_noblephantasm>A宝具",
           "<servant><servant_noblephantasm>補助宝具",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[全]弱体解除"
+          "<buff><buff_heal>[他]弱体解除"
         ]
       },
       "tags": [
@@ -8874,7 +8873,7 @@
         "<servant><servant_noblephantasm>補助宝具",
         "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_heal><buff_regist>弱体解除/無効",
-        "<buff><buff_heal>[全]弱体解除"
+        "<buff><buff_heal>[他]弱体解除"
       ]
     },
     "skills": [
@@ -8901,16 +8900,16 @@
           "upgrade": null,
           "tags": [
             "<buff><buff_heal>毒解除",
-            "<buff><buff_heal>[全]毒解除",
+            "<buff><buff_heal>[他]毒解除",
             "<buff><buff_heal>HP回復",
-            "<buff><buff_heal>[全]HP回復"
+            "<buff><buff_heal>[他]HP回復"
           ]
         },
         "tags": [
           "<buff><buff_heal>毒解除",
-          "<buff><buff_heal>[全]毒解除",
+          "<buff><buff_heal>[他]毒解除",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       {
@@ -8961,12 +8960,12 @@
       "<servant><servant_noblephantasm>補助宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[全]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_np>NP獲得",
       "<buff><buff_heal>毒解除",
-      "<buff><buff_heal>[全]毒解除",
+      "<buff><buff_heal>[他]毒解除",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_heal>HP回復量アップ",
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
@@ -9133,7 +9132,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[全]NP獲得量アップ"
+          "<buff><buff_np>[他]NP獲得量アップ"
         ]
       },
       {
@@ -9196,7 +9195,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>特攻宝具",
       "<buff><buff_extradamage>騎乗スキル特攻",
-      "<buff><buff_np>[全]NP獲得量アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_extradamage>神性特攻",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>[自]クリティカル威力アップ",
@@ -9281,7 +9280,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[単]Q性能アップ"
+          "<buff><buff_attack>[他]Q性能アップ"
         ]
       },
       {
@@ -9335,7 +9334,7 @@
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
-      "<buff><buff_attack>[単]Q性能アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
       "<buff><buff_extradamage>神性特攻",
       "<buff><buff_extradamage>死霊特攻",
       "<servant><servant_classskill>対魔力"
@@ -9662,7 +9661,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       {
@@ -9726,7 +9725,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[自]B性能アップ",
       "<servant><servant_classskill>対魔力",
@@ -9950,7 +9949,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       }
     ],
@@ -9994,7 +9993,7 @@
       "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<servant><servant_classskill>気配遮断"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/521.html",
@@ -10393,7 +10392,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       }
     ],
@@ -10448,7 +10447,7 @@
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -10518,7 +10517,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]A性能アップ"
+          "<buff><buff_attack>[他]A性能アップ"
         ]
       },
       {
@@ -10534,12 +10533,12 @@
           "upgrade": null,
           "tags": [
             "<buff><buff_defence>ガッツ",
-            "<buff><buff_defence>[単]ガッツ付与"
+            "<buff><buff_defence>[他]ガッツ付与"
           ]
         },
         "tags": [
           "<buff><buff_defence>ガッツ",
-          "<buff><buff_defence>[単]ガッツ付与"
+          "<buff><buff_defence>[他]ガッツ付与"
         ]
       }
     ],
@@ -10582,9 +10581,9 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_attack>[全]攻撃ダウン",
       "<buff><buff_np>NP獲得",
-      "<buff><buff_attack>[全]A性能アップ",
+      "<buff><buff_attack>[他]A性能アップ",
       "<buff><buff_defence>ガッツ",
-      "<buff><buff_defence>[単]ガッツ付与",
+      "<buff><buff_defence>[他]ガッツ付与",
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -11502,8 +11501,8 @@
           "unlock": "「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_critical>[全]スター発生アップ",
-            "<buff><buff_np>[全]NP獲得量アップ"
+            "<buff><buff_critical>[他]スター発生アップ",
+            "<buff><buff_np>[他]NP獲得量アップ"
           ]
         },
         "tags": [
@@ -11584,8 +11583,8 @@
       "<debuff><debuff_attack>[全]攻撃ダウン",
       "<buff><buff_regist>精神異常無効",
       "<buff><buff_critical>[自]スター発生アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
-      "<buff><buff_np>[全]NP獲得量アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_defence>タゲ集中",
       "<other>デメリット",
       "<buff><buff_np>NP獲得",
@@ -11634,7 +11633,7 @@
           "<servant><servant_noblephantasm>単体攻撃宝具",
           "<servant><servant_noblephantasm>特攻宝具",
           "<buff><buff_extradamage>愛する者特攻",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       "tags": [
@@ -11644,7 +11643,7 @@
         "<servant><servant_noblephantasm>特攻宝具",
         "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_extradamage>愛する者特攻",
-        "<buff><buff_critical>[全]スター発生アップ"
+        "<buff><buff_critical>[他]スター発生アップ"
       ]
     },
     "skills": [
@@ -11684,16 +11683,16 @@
           "tags": [
             "<buff><buff_critical>スター集中",
             "<buff><buff_critical>スター集中付与",
-            "<buff><buff_critical>[単]クリティカル威力アップ",
+            "<buff><buff_critical>[他]クリティカル威力アップ",
             "<buff><buff_heal>HP回復",
-            "<buff><buff_heal>[単]HP回復"
+            "<buff><buff_heal>[他]HP回復"
           ]
         },
         "tags": [
           "<buff><buff_critical>スター集中",
           "<buff><buff_critical>スター集中付与",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       }
     ],
@@ -11743,7 +11742,7 @@
       "<servant><servant_noblephantasm>特攻宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_extradamage>愛する者特攻",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
@@ -11751,8 +11750,8 @@
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>スター集中付与",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
-      "<buff><buff_critical>[単]クリティカル威力アップ",
+      "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -11980,8 +11979,8 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[単]攻撃アップ",
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -11992,8 +11991,8 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復",
-          "<buff><buff_defence>[単]防御アップ"
+          "<buff><buff_heal>[他]HP回復",
+          "<buff><buff_defence>[他]防御アップ"
         ]
       }
     ],
@@ -12040,11 +12039,11 @@
       "<debuff><debuff_slip>やけど付与",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
-      "<buff><buff_attack>[単]攻撃アップ",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
-      "<buff><buff_defence>[単]防御アップ",
+      "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_defence>[他]防御アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -12084,7 +12083,7 @@
         "<buff><buff_attack>即死",
         "<buff><buff_attack>[全]即死",
         "<buff><buff_heal><buff_regist>弱体解除/無効",
-        "<buff><buff_heal>[全]弱体解除"
+        "<buff><buff_heal>[他]弱体解除"
       ]
     },
     "skills": [
@@ -12171,7 +12170,7 @@
       "<buff><buff_attack>即死",
       "<buff><buff_attack>[全]即死",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[全]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
@@ -12675,7 +12674,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -12750,7 +12749,7 @@
       "<debuff><debuff_attack>[全]宝具威力ダウン",
       "<debuff><debuff_attack>[全]クリティカル威力ダウン",
       "<debuff><debuff_regist>弱体耐性ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>魅了付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
@@ -12951,9 +12950,9 @@
           "<debuff><debuff_attack>[全]宝具威力ダウン",
           "<debuff><debuff_attack>[全]攻撃ダウン",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[全]弱体解除",
+          "<buff><buff_heal>[他]弱体解除",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       "tags": [
@@ -12962,9 +12961,9 @@
         "<servant><servant_noblephantasm>宝具強化済",
         "<debuff><debuff_attack>[全]宝具威力ダウン",
         "<buff><buff_heal><buff_regist>弱体解除/無効",
-        "<buff><buff_heal>[全]弱体解除",
+        "<buff><buff_heal>[他]弱体解除",
         "<buff><buff_heal>HP回復",
-        "<buff><buff_heal>[全]HP回復"
+        "<buff><buff_heal>[他]HP回復"
       ]
     },
     "skills": [
@@ -12981,15 +12980,15 @@
           "upgrade": null,
           "tags": [
             "<buff><buff_heal>HP回復",
-            "<buff><buff_heal>[単]HP回復",
+            "<buff><buff_heal>[他]HP回復",
             "<buff><buff_heal><buff_regist>弱体解除/無効",
-            "<buff><buff_regist>[単]弱体無効",
+            "<buff><buff_regist>[他]弱体無効",
             "<buff><buff_regist>即死無効"
           ]
         },
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       {
@@ -13009,7 +13008,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[単]B性能アップ"
+          "<buff><buff_attack>[他]B性能アップ"
         ]
       }
     ],
@@ -13042,15 +13041,14 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_attack>[全]宝具威力ダウン",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[全]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<debuff><debuff_attack>[全]攻撃ダウン",
-      "<buff><buff_heal>[単]HP回復",
-      "<buff><buff_regist>[単]弱体無効",
+      "<buff><buff_regist>[他]弱体無効",
       "<buff><buff_regist>即死無効",
       "<buff><buff_extradamage>人型特攻",
-      "<buff><buff_attack>[単]B性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<servant><servant_classskill>狂化"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/804.html",
@@ -13258,14 +13256,14 @@
           "unlock": "霊基再臨を１段階突破する＆「女王の躾」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_attack>[全]攻撃アップ",
+            "<buff><buff_attack>[他]攻撃アップ",
             "<buff><buff_attack>二重カリスマ",
             "<buff><buff_heal>HP回復",
             "<buff><buff_heal>[自]HP回復"
           ]
         },
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -13339,7 +13337,7 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>毎ターンNP獲得",
       "<buff><buff_np>[自]毎ターンNP獲得",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
       "<buff><buff_heal>HP回復",
       "<debuff><debuff_delay>行動不能系付与",
@@ -13430,9 +13428,9 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]A性能アップ",
-          "<buff><buff_attack>[全]B性能アップ",
-          "<buff><buff_attack>[全]Q性能アップ"
+          "<buff><buff_attack>[他]A性能アップ",
+          "<buff><buff_attack>[他]B性能アップ",
+          "<buff><buff_attack>[他]Q性能アップ"
         ]
       }
     ],
@@ -13479,9 +13477,9 @@
       "<buff><buff_np>NP配布",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
-      "<buff><buff_attack>[全]A性能アップ",
-      "<buff><buff_attack>[全]B性能アップ",
-      "<buff><buff_attack>[全]Q性能アップ",
+      "<buff><buff_attack>[他]A性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -13544,7 +13542,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -13611,7 +13609,7 @@
       "<buff><buff_extradamage>魔性特攻",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>[自]クリティカル威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_heal>HP回復",
@@ -13828,7 +13826,7 @@
           "unlock": "霊基再臨を４段階突破する＆「強化クエスト 2」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_defence>[単]防御アップ",
+            "<buff><buff_defence>[他]防御アップ",
             "<buff><buff_skillcharge>スキルチャージ短縮"
           ]
         },
@@ -13855,7 +13853,7 @@
         "unlock": "霊基再臨を３段階突破する＆「できるかな？」クリア後",
         "upgrade": null,
         "tags": [
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       }
     ],
@@ -13902,12 +13900,12 @@
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<debuff><debuff_attack>[全]攻撃ダウン",
       "<buff><buff_defence>[自]防御アップ",
-      "<buff><buff_defence>[単]防御アップ",
+      "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_skillcharge>スキルチャージ短縮",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_np>毎ターンNP獲得",
       "<buff><buff_np>[自]毎ターンNP獲得",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
     ],
@@ -13950,7 +13948,7 @@
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<debuff><debuff_attack>[全]クリティカル発生ダウン",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復",
+          "<buff><buff_heal>[他]HP回復",
           "<buff><buff_regist>弱体耐性アップ"
         ]
       },
@@ -13961,7 +13959,7 @@
         "<servant><servant_noblephantasm>宝具強化済",
         "<debuff><debuff_attack>[全]クリティカル発生ダウン",
         "<buff><buff_heal>HP回復",
-        "<buff><buff_heal>[全]HP回復",
+        "<buff><buff_heal>[他]HP回復",
         "<buff><buff_regist>弱体耐性アップ"
       ]
     },
@@ -14036,7 +14034,7 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>[自]A性能アップ",
@@ -14239,7 +14237,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>二重カリスマ"
         ]
       },
@@ -14307,7 +14305,7 @@
       "<debuff><debuff_slip>呪い付与",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_critical>スター集中",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_defence>回避/無敵",
@@ -14510,7 +14508,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -14520,7 +14518,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ"
+          "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
       {
@@ -14583,8 +14581,8 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_attack>[全]宝具威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>[自]スター発生アップ",
       "<servant><servant_classskill>対魔力",
@@ -14677,7 +14675,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>タゲ集中",
-          "<buff><buff_defence>[単]タゲ集中付与",
+          "<buff><buff_defence>タゲ集中付与",
           "<buff><buff_critical>スター獲得"
         ]
       }
@@ -14730,7 +14728,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<other>デメリット",
       "<buff><buff_defence>タゲ集中",
-      "<buff><buff_defence>[単]タゲ集中付与",
+      "<buff><buff_defence>タゲ集中付与",
       "<buff><buff_critical>スター獲得",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>単独行動"
@@ -14900,9 +14898,9 @@
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>補助宝具",
         "<buff><buff_heal>HP回復",
-        "<buff><buff_heal>[全]HP回復",
+        "<buff><buff_heal>[他]HP回復",
         "<buff><buff_defence>ガッツ",
-        "<buff><buff_defence>[全]ガッツ付与"
+        "<buff><buff_defence>[他]ガッツ付与"
       ]
     },
     "skills": [
@@ -14937,7 +14935,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       }
     ],
@@ -14978,15 +14976,14 @@
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>補助宝具",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_defence>ガッツ",
-      "<buff><buff_defence>[全]ガッツ付与",
+      "<buff><buff_defence>[他]ガッツ付与",
       "<buff><buff_heal>HP回復量アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_np>[自]NP獲得量アップ",
-      "<buff><buff_heal>[単]HP回復",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性"
     ],
@@ -15081,7 +15078,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>[自]宝具威力アップ"
         ]
       },
@@ -15151,7 +15148,7 @@
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>魅了付与",
       "<debuff><debuff_delay>[全]行動不能系付与",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
@@ -15238,10 +15235,10 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_np>[全]NP獲得量アップ",
-          "<buff><buff_critical>[全]スター発生アップ",
+          "<buff><buff_np>[他]NP獲得量アップ",
+          "<buff><buff_critical>[他]スター発生アップ",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_regist>[全]弱体無効"
+          "<buff><buff_regist>[他]弱体無効"
         ]
       }
     ],
@@ -15288,10 +15285,10 @@
       "<buff><buff_defence>タゲ集中",
       "<buff><buff_defence>被ダメカット",
       "<buff><buff_defence>[自]被ダメカット",
-      "<buff><buff_np>[全]NP獲得量アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_regist>[全]弱体無効",
+      "<buff><buff_regist>[他]弱体無効",
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性"
@@ -15586,7 +15583,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>[自]宝具威力アップ"
         ]
       },
@@ -15647,7 +15644,7 @@
       "<debuff><debuff_antibuff>強化解除",
       "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_defence>[単]防御ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
@@ -15723,8 +15720,8 @@
         "tags": [
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>回避",
-          "<buff><buff_defence>[単]回避/無敵",
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_defence>[他]回避/無敵",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -15772,8 +15769,8 @@
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
-      "<buff><buff_defence>[単]回避/無敵",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_defence>[他]回避/無敵",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<servant><servant_classskill>気配遮断"
     ],
@@ -15824,7 +15821,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -15897,7 +15894,7 @@
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[単]宝具封印",
       "<debuff><debuff_defence>[単]防御ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_np>NP配布",
       "<buff><buff_probability>強化成功率アップ",
@@ -15964,7 +15961,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -16023,7 +16020,7 @@
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_attack>[自]B性能アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
@@ -16358,12 +16355,12 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>精神異常解除",
-          "<buff><buff_heal>[全]精神異常解除",
+          "<buff><buff_heal>[他]精神異常解除",
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>回避",
-          "<buff><buff_defence>[全]回避/無敵",
+          "<buff><buff_defence>[他]回避/無敵",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       {
@@ -16433,12 +16430,12 @@
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<buff><buff_heal>精神異常解除",
-      "<buff><buff_heal>[全]精神異常解除",
+      "<buff><buff_heal>[他]精神異常解除",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
-      "<buff><buff_defence>[全]回避/無敵",
+      "<buff><buff_defence>[他]回避/無敵",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_np>NP獲得",
       "<other>デメリット",
       "<debuff><debuff_antibuff>強化解除",
@@ -16507,7 +16504,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -16568,7 +16565,7 @@
       "<debuff><debuff_slip>やけど付与",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_attack>[自]B性能アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_defence>ガッツ",
@@ -16936,7 +16933,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ"
+          "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
       {
@@ -16957,7 +16954,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_defence>[全]防御アップ",
+          "<buff><buff_defence>[他]防御アップ",
           "<buff><buff_regist>弱体耐性アップ"
         ]
       }
@@ -17001,10 +16998,10 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
-      "<buff><buff_attack>[全]宝具威力アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_regist>弱体耐性アップ",
-      "<buff><buff_defence>[全]防御アップ",
+      "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
@@ -17202,8 +17199,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -17287,8 +17284,8 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>特攻宝具",
       "<buff><buff_extradamage>男性特攻",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>魅了付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
@@ -17355,7 +17352,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[自]A性能アップ",
-          "<buff><buff_defence>[全]防御アップ"
+          "<buff><buff_defence>[他]防御アップ"
         ]
       },
       {
@@ -17377,8 +17374,8 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       }
     ],
@@ -17431,12 +17428,12 @@
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_attack>[自]A性能アップ",
-      "<buff><buff_defence>[全]防御アップ",
+      "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<other>デメリット",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>陣地作成"
@@ -17472,7 +17469,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<debuff><debuff_attack>[全]クリティカル発生ダウン",
-        "<buff><buff_critical>[全]クリティカル威力アップ"
+        "<buff><buff_critical>[他]クリティカル威力アップ"
       ]
     },
     "skills": [
@@ -17483,8 +17480,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -17549,9 +17546,9 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_heal>毎ターンHP回復",
       "<buff><buff_heal>[自]HP回復",
@@ -17602,8 +17599,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -17666,8 +17663,8 @@
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[自]攻撃アップ",
@@ -17854,9 +17851,9 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復",
+          "<buff><buff_heal>[他]HP回復",
           "<buff><buff_defence>被ダメカット",
-          "<buff><buff_defence>[単]被ダメカット"
+          "<buff><buff_defence>[他]被ダメカット"
         ]
       },
       {
@@ -17905,9 +17902,9 @@
       "<buff><buff_defence>タゲ集中",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_defence>被ダメカット",
-      "<buff><buff_defence>[単]被ダメカット",
+      "<buff><buff_defence>[他]被ダメカット",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
@@ -18234,9 +18231,9 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
-          "<buff><buff_defence>[単]ガッツ付与",
+          "<buff><buff_defence>[他]ガッツ付与",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_regist>[単]弱体無効"
+          "<buff><buff_regist>[他]弱体無効"
         ]
       }
     ],
@@ -18285,9 +18282,9 @@
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_defence>ガッツ",
-      "<buff><buff_defence>[単]ガッツ付与",
+      "<buff><buff_defence>[他]ガッツ付与",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_regist>[単]弱体無効",
+      "<buff><buff_regist>[他]弱体無効",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/1338.html",
@@ -18504,7 +18501,7 @@
           "<buff><buff_attack>[自]B性能アップ",
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
-          "<buff><buff_defence>[全]回避/無敵",
+          "<buff><buff_defence>[他]回避/無敵",
           "<buff><buff_critical>スター獲得"
         ]
       }
@@ -18565,7 +18562,7 @@
       "<buff><buff_defence>[自]防御アップ",
       "<other>使用条件付き",
       "<other>デメリット",
-      "<buff><buff_defence>[全]回避/無敵",
+      "<buff><buff_defence>[他]回避/無敵",
       "<buff><buff_critical>スター獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>陣地作成"
@@ -18781,7 +18778,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ"
+          "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
       {
@@ -18835,7 +18832,7 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_attack>[自]攻撃アップ",
-      "<buff><buff_attack>[全]宝具威力アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_defence>タゲ集中",
       "<servant><servant_classskill>対魔力"
@@ -18872,7 +18869,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<debuff><debuff_regist>弱体耐性ダウン",
-        "<buff><buff_attack>[全]攻撃アップ",
+        "<buff><buff_attack>[他]攻撃アップ",
         "<buff><buff_heal>HP回復量アップ"
       ]
     },
@@ -18885,7 +18882,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       {
@@ -18944,10 +18941,10 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<debuff><debuff_regist>弱体耐性ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_heal>HP回復量アップ",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_np>NP獲得",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_attack>[自]B性能アップ",
@@ -19001,8 +18998,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_critical>[全]クリティカル威力アップ"
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       },
       {
@@ -19077,8 +19074,8 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
@@ -19272,7 +19269,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -19283,8 +19280,8 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
-          "<buff><buff_defence>[単]ガッツ付与",
-          "<buff><buff_attack>[単]B性能アップ"
+          "<buff><buff_defence>[他]ガッツ付与",
+          "<buff><buff_attack>[他]B性能アップ"
         ]
       },
       {
@@ -19349,10 +19346,10 @@
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[単]スリップダメージ",
       "<debuff><debuff_slip>やけど付与",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_defence>ガッツ",
-      "<buff><buff_defence>[単]ガッツ付与",
-      "<buff><buff_attack>[単]B性能アップ",
+      "<buff><buff_defence>[他]ガッツ付与",
+      "<buff><buff_attack>[他]B性能アップ",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_np>NP獲得",
@@ -19395,7 +19392,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<debuff><debuff_defence>[全]防御ダウン",
-        "<buff><buff_defence>[全]防御アップ"
+        "<buff><buff_defence>[他]防御アップ"
       ]
     },
     "skills": [
@@ -19406,7 +19403,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -19416,7 +19413,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -19426,7 +19423,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]A性能アップ",
+          "<buff><buff_attack>[他]A性能アップ",
           "<buff><buff_probability>弱体成功率アップ"
         ]
       }
@@ -19477,10 +19474,10 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<debuff><debuff_defence>[全]防御ダウン",
-      "<buff><buff_defence>[全]防御アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_attack>[全]A性能アップ",
+      "<buff><buff_defence>[他]防御アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_attack>[他]A性能アップ",
       "<buff><buff_probability>弱体成功率アップ",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_classskill>陣地作成",
@@ -19947,9 +19944,9 @@
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>補助宝具",
         "<buff><buff_heal>毎ターンHP回復",
-        "<buff><buff_heal>[全]HP回復",
+        "<buff><buff_heal>[他]HP回復",
         "<buff><buff_np>毎ターンNP獲得",
-        "<buff><buff_np>[全]毎ターンNP獲得",
+        "<buff><buff_np>[他]毎ターンNP獲得",
         "<buff><buff_critical>毎ターンスター獲得"
       ]
     },
@@ -19961,7 +19958,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_np>NP配布"
         ]
       },
@@ -19974,8 +19971,8 @@
         "tags": [
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
-          "<buff><buff_defence>[全]回避/無敵",
-          "<buff><buff_critical>[全]スター発生アップ",
+          "<buff><buff_defence>[他]回避/無敵",
+          "<buff><buff_critical>[他]スター発生アップ",
           "<debuff><debuff_attack>[全]クリティカル発生ダウン"
         ]
       },
@@ -19986,9 +19983,9 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[単]B性能アップ",
+          "<buff><buff_attack>[他]B性能アップ",
           "<buff><buff_heal>最大HPアップ",
-          "<buff><buff_critical>[単]クリティカル威力アップ"
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       }
     ],
@@ -20034,20 +20031,20 @@
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>補助宝具",
       "<buff><buff_heal>毎ターンHP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[全]毎ターンNP獲得",
+      "<buff><buff_np>[他]毎ターンNP獲得",
       "<buff><buff_critical>毎ターンスター獲得",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>NP配布",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
-      "<buff><buff_defence>[全]回避/無敵",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_defence>[他]回避/無敵",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
-      "<buff><buff_attack>[単]B性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<buff><buff_heal>最大HPアップ",
-      "<buff><buff_critical>[単]クリティカル威力アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -20387,7 +20384,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_critical>スター集中ダウン",
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       }
     ],
@@ -20437,7 +20434,7 @@
       "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_critical>スター集中ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<servant><servant_classskill>狂化"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/1769.html",
@@ -20519,7 +20516,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>二重カリスマ"
         ]
       }
@@ -20568,7 +20565,7 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<other>デメリット",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
       "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
@@ -21151,8 +21148,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]B性能アップ",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_attack>[他]B性能アップ",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -21209,8 +21206,8 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
-      "<buff><buff_attack>[全]B性能アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_attack>[他]B性能アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
       "<buff><buff_heal>HP回復",
@@ -21526,7 +21523,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       "tags": [
@@ -21535,7 +21532,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_heal>HP回復",
-        "<buff><buff_heal>[全]HP回復"
+        "<buff><buff_heal>[他]HP回復"
       ]
     },
     "skills": [
@@ -21648,7 +21645,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
       "<buff><buff_defence>タゲ集中",
@@ -21844,10 +21841,10 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[単]弱体解除",
+          "<buff><buff_heal>[他]弱体解除",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復",
-          "<buff><buff_regist>[単]弱体無効"
+          "<buff><buff_heal>[他]HP回復",
+          "<buff><buff_regist>[他]弱体無効"
         ]
       },
       {
@@ -21920,10 +21917,10 @@
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<buff><buff_np>NP配布",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[単]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
-      "<buff><buff_regist>[単]弱体無効",
+      "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_regist>[他]弱体無効",
       "<debuff><debuff_antibuff>回避/無敵解除",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
@@ -22204,7 +22201,7 @@
           "tags": [
             "<buff><buff_defence>ガッツ",
             "<buff><buff_defence>[自]ガッツ付与",
-            "<buff><buff_defence>[全]ガッツ付与",
+            "<buff><buff_defence>[他]ガッツ付与",
             "<debuff><debuff_attack>[単]攻撃ダウン"
           ]
         },
@@ -22257,7 +22254,7 @@
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<debuff><debuff_attack>[単]攻撃ダウン",
-      "<buff><buff_defence>[全]ガッツ付与",
+      "<buff><buff_defence>[他]ガッツ付与",
       "<servant><servant_classskill>陣地作成"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/2127.html",
@@ -22325,7 +22322,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       }
     ],
@@ -22364,7 +22361,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_defence>[自]防御アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<servant><servant_classskill>気配遮断"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/2128.html",
@@ -22410,7 +22407,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -22433,7 +22430,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]B性能アップ",
+          "<buff><buff_attack>[他]B性能アップ",
           "<buff><buff_extradamage>ギリシャ神話系男性特攻"
         ]
       }
@@ -22477,12 +22474,12 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<debuff><debuff_attack>[単]攻撃ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
       "<buff><buff_np>毎ターンNP獲得",
       "<buff><buff_np>[自]毎ターンNP獲得",
-      "<buff><buff_attack>[全]B性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<buff><buff_extradamage>ギリシャ神話系男性特攻",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性"
@@ -22543,8 +22540,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ",
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]宝具威力アップ",
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -22608,8 +22605,8 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
-      "<buff><buff_attack>[全]宝具威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_np>NP獲得",
@@ -22652,8 +22649,8 @@
         "<debuff><debuff_defence>[全]防御ダウン",
         "<buff><buff_attack>必中/無敵貫通",
         "<buff><buff_attack>無敵貫通",
-        "<buff><buff_attack>[全]必中/無敵貫通",
-        "<buff><buff_critical>[全]クリティカル威力アップ"
+        "<buff><buff_attack>[他]必中/無敵貫通",
+        "<buff><buff_critical>[他]クリティカル威力アップ"
       ]
     },
     "skills": [
@@ -22723,8 +22720,8 @@
       "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
-      "<buff><buff_attack>[全]必中/無敵貫通",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_attack>[他]必中/無敵貫通",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[単]宝具封印",
       "<buff><buff_critical>スター集中",
@@ -22777,8 +22774,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]B性能アップ",
-          "<buff><buff_critical>[全]クリティカル威力アップ"
+          "<buff><buff_attack>[他]B性能アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       },
       {
@@ -22789,7 +22786,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       },
       {
@@ -22832,10 +22829,10 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<debuff><debuff_defence>[全]防御ダウン",
-      "<buff><buff_attack>[全]B性能アップ",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_attack>[他]B性能アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<servant><servant_classskill>狂化"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/2217.html",
@@ -22910,8 +22907,8 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>ガッツ",
-          "<buff><buff_defence>[単]ガッツ付与",
-          "<buff><buff_attack>[単]攻撃アップ"
+          "<buff><buff_defence>[他]ガッツ付与",
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       }
     ],
@@ -22970,8 +22967,8 @@
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_extradamage>クラス相性変更",
       "<buff><buff_defence>ガッツ",
-      "<buff><buff_defence>[単]ガッツ付与",
-      "<buff><buff_attack>[単]攻撃アップ",
+      "<buff><buff_defence>[他]ガッツ付与",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>NP50獲得",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>陣地作成",
@@ -23293,9 +23290,9 @@
         "tags": [
           "<buff><buff_critical>毎ターンスター獲得",
           "<buff><buff_heal>毎ターンHP回復",
-          "<buff><buff_heal>[全]HP回復",
+          "<buff><buff_heal>[他]HP回復",
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[全]毎ターンNP獲得"
+          "<buff><buff_np>[他]毎ターンNP獲得"
         ]
       },
       {
@@ -23351,9 +23348,9 @@
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_heal>毎ターンHP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[全]毎ターンNP獲得",
+      "<buff><buff_np>[他]毎ターンNP獲得",
       "<buff><buff_critical>スター集中",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>必中",
@@ -23408,7 +23405,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[自]攻撃アップ",
-          "<buff><buff_attack>[全]Q性能アップ"
+          "<buff><buff_attack>[他]Q性能アップ"
         ]
       },
       {
@@ -23419,7 +23416,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_skillcharge>スキルチャージ短縮",
-          "<buff><buff_critical>[単]スター発生アップ",
+          "<buff><buff_critical>[他]スター発生アップ",
           "<other>デメリット"
         ]
       },
@@ -23481,9 +23478,9 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<buff><buff_attack>[自]攻撃アップ",
-      "<buff><buff_attack>[全]Q性能アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
       "<buff><buff_skillcharge>スキルチャージ短縮",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<other>デメリット",
       "<buff><buff_attack>[自]Q性能アップ",
       "<servant><servant_classskill>対魔力",
@@ -23663,9 +23660,9 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[単]B性能アップ",
+          "<buff><buff_attack>[他]B性能アップ",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[単]弱体解除"
+          "<buff><buff_heal>[他]弱体解除"
         ]
       },
       {
@@ -23675,8 +23672,8 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       }
     ],
@@ -23735,11 +23732,11 @@
       "<buff><buff_critical>スター獲得",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>[自]クリティカル威力アップ",
-      "<buff><buff_attack>[単]B性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[単]弱体解除",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_heal>[他]弱体解除",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>狂化",
@@ -23789,9 +23786,9 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]Q性能アップ",
-          "<buff><buff_attack>[全]B性能アップ",
-          "<buff><buff_np>[全]NP獲得量アップ"
+          "<buff><buff_attack>[他]Q性能アップ",
+          "<buff><buff_attack>[他]B性能アップ",
+          "<buff><buff_np>[他]NP獲得量アップ"
         ]
       },
       {
@@ -23871,9 +23868,9 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
-      "<buff><buff_attack>[全]Q性能アップ",
-      "<buff><buff_attack>[全]B性能アップ",
-      "<buff><buff_np>[全]NP獲得量アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
@@ -23960,7 +23957,7 @@
           "<other>デメリット",
           "<buff><buff_np>NP配布",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[単]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       }
     ],
@@ -24014,7 +24011,7 @@
       "<other>使用条件付き",
       "<other>デメリット",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[単]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>神性"
@@ -24066,7 +24063,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>[自]宝具威力アップ"
         ]
       },
@@ -24078,7 +24075,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_critical>スター集中",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -24144,10 +24141,10 @@
       "<debuff><debuff_slip>やけど付与",
       "<debuff><debuff_slip>スリップダメージ強化",
       "<debuff><debuff_slip>延焼",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_critical>スター集中",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_heal>最大HPアップ",
@@ -24569,8 +24566,8 @@
         "tags": [
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>回避",
-          "<buff><buff_defence>[単]回避/無敵",
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_defence>[他]回避/無敵",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -24582,8 +24579,8 @@
         "tags": [
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
-          "<buff><buff_defence>[単]回避/無敵",
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_defence>[他]回避/無敵",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       }
     ],
@@ -24622,8 +24619,8 @@
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
-      "<buff><buff_defence>[単]回避/無敵",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_defence>[他]回避/無敵",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_defence>無敵",
       "<servant><servant_classskill>気配遮断"
     ],
@@ -24663,9 +24660,9 @@
         "tags": [
           "<servant><servant_card><servant_noblephantasm>Q宝具",
           "<servant><servant_noblephantasm>補助宝具",
-          "<buff><buff_defence>[全]防御アップ",
-          "<buff><buff_attack>[全]Q性能アップ",
-          "<buff><buff_attack>[全]B性能アップ",
+          "<buff><buff_defence>[他]防御アップ",
+          "<buff><buff_attack>[他]Q性能アップ",
+          "<buff><buff_attack>[他]B性能アップ",
           "<buff><buff_heal>最大HPアップ"
         ]
       },
@@ -24673,8 +24670,8 @@
         "<servant><servant_card><servant_noblephantasm>Q宝具",
         "<servant><servant_noblephantasm>補助宝具",
         "<servant><servant_noblephantasm>宝具強化済",
-        "<buff><buff_defence>[全]防御アップ",
-        "<buff><buff_attack>[全]Q性能アップ",
+        "<buff><buff_defence>[他]防御アップ",
+        "<buff><buff_attack>[他]Q性能アップ",
         "<buff><buff_heal>最大HPアップ"
       ]
     },
@@ -24698,7 +24695,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -24757,14 +24754,14 @@
       "<servant><servant_card><servant_noblephantasm>Q宝具",
       "<servant><servant_noblephantasm>補助宝具",
       "<servant><servant_noblephantasm>宝具強化済",
-      "<buff><buff_defence>[全]防御アップ",
-      "<buff><buff_attack>[全]Q性能アップ",
+      "<buff><buff_defence>[他]防御アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
       "<buff><buff_heal>最大HPアップ",
-      "<buff><buff_attack>[全]B性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_np>NP配布",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_antibuff>強化解除",
       "<debuff><debuff_antibuff>[単]強化解除",
@@ -25078,9 +25075,9 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_critical>[全]スター発生アップ",
+          "<buff><buff_critical>[他]スター発生アップ",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[全]弱体解除"
+          "<buff><buff_heal>[他]弱体解除"
         ]
       }
     ],
@@ -25129,9 +25126,9 @@
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>毒付与",
       "<debuff><debuff_defence>[全]防御ダウン",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[全]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -25298,7 +25295,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -25321,8 +25318,8 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]A性能アップ",
-          "<buff><buff_attack>[全]B性能アップ"
+          "<buff><buff_attack>[他]A性能アップ",
+          "<buff><buff_attack>[他]B性能アップ"
         ]
       }
     ],
@@ -25364,13 +25361,13 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_attack>[単]攻撃ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
-      "<buff><buff_attack>[全]A性能アップ",
-      "<buff><buff_attack>[全]B性能アップ",
+      "<buff><buff_attack>[他]A性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>対魔力"
     ],
@@ -25421,8 +25418,8 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>毎ターンNP獲得",
-          "<buff><buff_np>[全]毎ターンNP獲得",
-          "<buff><buff_attack>[全]宝具威力アップ"
+          "<buff><buff_np>[他]毎ターンNP獲得",
+          "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
       {
@@ -25496,8 +25493,8 @@
       "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<buff><buff_np>毎ターンNP獲得",
-      "<buff><buff_np>[全]毎ターンNP獲得",
-      "<buff><buff_attack>[全]宝具威力アップ",
+      "<buff><buff_np>[他]毎ターンNP獲得",
+      "<buff><buff_attack>[他]宝具威力アップ",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
@@ -25539,7 +25536,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<buff><buff_attack>[自]B性能アップ",
         "<buff><buff_attack>宝具前カード性能アップ",
-        "<buff><buff_attack>[全]攻撃アップ"
+        "<buff><buff_attack>[他]攻撃アップ"
       ]
     },
     "skills": [
@@ -25577,8 +25574,8 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_defence>[全]防御アップ",
-          "<buff><buff_np>[全]NP獲得量アップ",
+          "<buff><buff_defence>[他]防御アップ",
+          "<buff><buff_np>[他]NP獲得量アップ",
           "<buff><buff_heal>最大HPアップ"
         ]
       }
@@ -25629,7 +25626,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
       "<buff><buff_regist>即死無効",
@@ -25638,8 +25635,8 @@
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_np>NP獲得",
-      "<buff><buff_defence>[全]防御アップ",
-      "<buff><buff_np>[全]NP獲得量アップ",
+      "<buff><buff_defence>[他]防御アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_heal>最大HPアップ",
       "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
@@ -25692,7 +25689,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP配布",
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -25702,8 +25699,8 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[単]宝具威力アップ",
-          "<buff><buff_critical>[単]クリティカル威力アップ"
+          "<buff><buff_attack>[他]宝具威力アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       },
       {
@@ -25775,9 +25772,9 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_np>NP配布",
-      "<buff><buff_critical>[単]スター発生アップ",
-      "<buff><buff_attack>[単]宝具威力アップ",
-      "<buff><buff_critical>[単]クリティカル威力アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
@@ -25966,7 +25963,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<buff><buff_attack>[自]宝具威力アップ",
-          "<buff><buff_defence>[全]防御アップ",
+          "<buff><buff_defence>[他]防御アップ",
           "<buff><buff_regist>強化解除耐性アップ"
         ]
       },
@@ -25976,7 +25973,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_attack>[自]宝具威力アップ",
-        "<buff><buff_defence>[全]防御アップ"
+        "<buff><buff_defence>[他]防御アップ"
       ]
     },
     "skills": [
@@ -26072,7 +26069,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_attack>[自]宝具威力アップ",
-      "<buff><buff_defence>[全]防御アップ",
+      "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_regist>強化解除耐性アップ",
       "<buff><buff_np>NP獲得",
       "<debuff><debuff_regist>弱体耐性ダウン",
@@ -26280,7 +26277,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<debuff><debuff_attack>[全]攻撃ダウン"
         ]
       },
@@ -26340,7 +26337,7 @@
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_attack>[自]A性能アップ",
       "<debuff><debuff_regist>弱体耐性ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<debuff><debuff_attack>[全]攻撃ダウン",
       "<buff><buff_np>NP獲得",
       "<debuff><debuff_delay>行動不能系付与",
@@ -26406,7 +26403,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]Q性能アップ"
+          "<buff><buff_attack>[他]Q性能アップ"
         ]
       },
       {
@@ -26467,7 +26464,7 @@
       "<debuff><debuff_slip>呪い付与",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>スター獲得",
-      "<buff><buff_attack>[全]Q性能アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
@@ -26504,7 +26501,7 @@
         "<servant><servant_card><servant_noblephantasm>B宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
-        "<buff><buff_np>[全]NP獲得量アップ"
+        "<buff><buff_np>[他]NP獲得量アップ"
       ]
     },
     "skills": [
@@ -26538,9 +26535,9 @@
         "tags": [
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
-          "<buff><buff_defence>[全]回避/無敵",
+          "<buff><buff_defence>[他]回避/無敵",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復"
+          "<buff><buff_heal>[他]HP回復"
         ]
       }
     ],
@@ -26579,15 +26576,15 @@
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
-      "<buff><buff_np>[全]NP獲得量アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
-      "<buff><buff_defence>[全]回避/無敵",
+      "<buff><buff_defence>[他]回避/無敵",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -27039,7 +27036,7 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_critical>[全]クリティカル威力アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ",
           "<buff><buff_critical>スター獲得",
           "<other>デメリット"
         ]
@@ -27051,9 +27048,9 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[単]A性能アップ",
-          "<buff><buff_attack>[単]Q性能アップ",
-          "<buff><buff_attack>[単]B性能アップ"
+          "<buff><buff_attack>[他]A性能アップ",
+          "<buff><buff_attack>[他]Q性能アップ",
+          "<buff><buff_attack>[他]B性能アップ"
         ]
       }
     ],
@@ -27109,12 +27106,12 @@
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_defence>[自]防御アップ",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_critical>スター獲得",
       "<other>デメリット",
-      "<buff><buff_attack>[単]A性能アップ",
-      "<buff><buff_attack>[単]Q性能アップ",
-      "<buff><buff_attack>[単]B性能アップ",
+      "<buff><buff_attack>[他]A性能アップ",
+      "<buff><buff_attack>[他]Q性能アップ",
+      "<buff><buff_attack>[他]B性能アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性"
@@ -27508,7 +27505,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -27529,7 +27526,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]A性能アップ",
+          "<buff><buff_attack>[他]A性能アップ",
           "<buff><buff_critical>スター獲得"
         ]
       }
@@ -27580,10 +27577,10 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>NP配布",
       "<buff><buff_regist>弱体耐性アップ",
-      "<buff><buff_attack>[全]A性能アップ",
+      "<buff><buff_attack>[他]A性能アップ",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
@@ -27635,7 +27632,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>[自]攻撃アップ"
         ]
       },
@@ -27646,8 +27643,8 @@
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]宝具威力アップ",
-          "<buff><buff_critical>[全]スター発生アップ"
+          "<buff><buff_attack>[他]宝具威力アップ",
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -27703,10 +27700,10 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>特攻宝具",
       "<buff><buff_extradamage>神性特攻",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]攻撃アップ",
-      "<buff><buff_attack>[全]宝具威力アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
+      "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
@@ -27785,9 +27782,9 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_critical>[単]スター発生アップ",
+          "<buff><buff_critical>[他]スター発生アップ",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_regist>[単]弱体無効"
+          "<buff><buff_regist>[他]弱体無効"
         ]
       }
     ],
@@ -27842,9 +27839,9 @@
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_regist>[単]弱体無効",
+      "<buff><buff_regist>[他]弱体無効",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性"
@@ -28016,13 +28013,13 @@
       "tags": [
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>補助宝具",
-        "<buff><buff_critical>[全]クリティカル威力アップ",
+        "<buff><buff_critical>[他]クリティカル威力アップ",
         "<buff><buff_defence>回避/無敵",
         "<buff><buff_defence>回避",
-        "<buff><buff_defence>[全]回避/無敵",
+        "<buff><buff_defence>[他]回避/無敵",
         "<buff><buff_regist>即死無効",
         "<buff><buff_defence>被ダメカット",
-        "<buff><buff_defence>[全]被ダメカット"
+        "<buff><buff_defence>[他]被ダメカット"
       ]
     },
     "skills": [
@@ -28033,8 +28030,8 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[単]Q性能アップ",
-          "<buff><buff_critical>[単]クリティカル威力アップ"
+          "<buff><buff_attack>[他]Q性能アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       },
       {
@@ -28102,15 +28099,14 @@
       "<servant><servant_availability>期間限定",
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>補助宝具",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
-      "<buff><buff_defence>[全]回避/無敵",
+      "<buff><buff_defence>[他]回避/無敵",
       "<buff><buff_regist>即死無効",
       "<buff><buff_defence>被ダメカット",
-      "<buff><buff_defence>[全]被ダメカット",
-      "<buff><buff_attack>[単]Q性能アップ",
-      "<buff><buff_critical>[単]クリティカル威力アップ",
+      "<buff><buff_defence>[他]被ダメカット",
+      "<buff><buff_attack>[他]Q性能アップ",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<buff><buff_np>NP配布",
@@ -28186,7 +28182,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>二重カリスマ"
         ]
       }
@@ -28235,7 +28231,7 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
       "<buff><buff_np>NP40獲得",
       "<servant><servant_classskill>対魔力",
@@ -28287,7 +28283,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_attack>[自]宝具威力アップ",
           "<buff><buff_np>[自]NP獲得量アップ"
         ]
@@ -28360,7 +28356,7 @@
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<buff><buff_critical>スター獲得",
       "<other>デメリット",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
@@ -28838,8 +28834,8 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
-          "<buff><buff_critical>[全]クリティカル威力アップ"
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       }
     ],
@@ -28889,8 +28885,8 @@
       "<debuff><debuff_delay>[全]行動不能系付与",
       "<debuff><debuff_defence>カード耐性ダウン",
       "<debuff><debuff_defence>A耐性ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -29225,7 +29221,7 @@
           "<buff><buff_defence>無敵",
           "<buff><buff_defence>[自]回避/無敵",
           "<buff><buff_defence>被ダメカット",
-          "<buff><buff_defence>[全]被ダメカット"
+          "<buff><buff_defence>[他]被ダメカット"
         ]
       },
       {
@@ -29319,7 +29315,7 @@
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_defence>被ダメカット",
-      "<buff><buff_defence>[全]被ダメカット",
+      "<buff><buff_defence>[他]被ダメカット",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
@@ -29407,7 +29403,7 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_extradamage>魔性特攻"
         ]
       }
@@ -29472,7 +29468,7 @@
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>スター集中",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_extradamage>魔性特攻",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
@@ -29625,9 +29621,9 @@
         "<debuff><debuff_delay>チャージ減",
         "<debuff><debuff_delay>[全]チャージ減",
         "<debuff><debuff_attack>[全]クリティカル発生ダウン",
-        "<buff><buff_attack>[全]攻撃アップ",
+        "<buff><buff_attack>[他]攻撃アップ",
         "<buff><buff_defence>被ダメカット",
-        "<buff><buff_defence>[全]被ダメカット"
+        "<buff><buff_defence>[他]被ダメカット"
       ]
     },
     "skills": [
@@ -29641,7 +29637,7 @@
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>無敵",
           "<buff><buff_defence>[自]回避/無敵",
-          "<buff><buff_attack>[全]攻撃アップ"
+          "<buff><buff_attack>[他]攻撃アップ"
         ]
       },
       {
@@ -29662,8 +29658,8 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_critical>[全]スター発生アップ",
-          "<buff><buff_critical>[全]クリティカル威力アップ"
+          "<buff><buff_critical>[他]スター発生アップ",
+          "<buff><buff_critical>[他]クリティカル威力アップ"
         ]
       }
     ],
@@ -29705,16 +29701,16 @@
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[全]チャージ減",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_defence>被ダメカット",
-      "<buff><buff_defence>[全]被ダメカット",
+      "<buff><buff_defence>[他]被ダメカット",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_np>NP配布",
       "<buff><buff_probability>強化成功率アップ",
-      "<buff><buff_critical>[全]スター発生アップ",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
@@ -29754,8 +29750,8 @@
         "<debuff><debuff_antibuff>[単]強化解除",
         "<debuff><debuff_attack>[単]クリティカル威力ダウン",
         "<buff><buff_heal>HP回復",
-        "<buff><buff_heal>[全]HP回復",
-        "<buff><buff_attack>[全]攻撃アップ"
+        "<buff><buff_heal>[他]HP回復",
+        "<buff><buff_attack>[他]攻撃アップ"
       ]
     },
     "skills": [
@@ -29830,8 +29826,8 @@
       "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_attack>[単]クリティカル威力ダウン",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
@@ -30300,7 +30296,7 @@
         "tags": [
           "<buff><buff_np>NP配布",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_heal>[単]弱体解除"
+          "<buff><buff_heal>[他]弱体解除"
         ]
       }
     ],
@@ -30345,7 +30341,7 @@
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_np>NP配布",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_heal>[単]弱体解除",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力"
     ],
@@ -30382,7 +30378,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<buff><buff_critical>[自]スター発生アップ",
-        "<buff><buff_critical>[全]クリティカル威力アップ"
+        "<buff><buff_critical>[他]クリティカル威力アップ"
       ]
     },
     "skills": [
@@ -30393,7 +30389,7 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_critical>毎ターンスター獲得"
         ]
       },
@@ -30406,7 +30402,7 @@
         "tags": [
           "<buff><buff_critical>スター集中",
           "<buff><buff_critical>スター集中付与",
-          "<buff><buff_critical>[単]スター発生アップ"
+          "<buff><buff_critical>[他]スター発生アップ"
         ]
       },
       {
@@ -30461,12 +30457,12 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<buff><buff_critical>[自]スター発生アップ",
-      "<buff><buff_critical>[全]クリティカル威力アップ",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>スター集中付与",
-      "<buff><buff_critical>[単]スター発生アップ",
+      "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>特定カードスター集中",
       "<servant><servant_classskill>対魔力",
@@ -30543,11 +30539,11 @@
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[全]攻撃アップ",
+          "<buff><buff_attack>[他]攻撃アップ",
           "<buff><buff_regist>強化解除耐性アップ",
           "<buff><buff_np>NP配布",
           "<buff><buff_heal>HP回復",
-          "<buff><buff_heal>[全]HP回復",
+          "<buff><buff_heal>[他]HP回復",
           "<other>デメリット"
         ]
       }
@@ -30620,11 +30616,11 @@
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[全]宝具封印",
       "<other>デメリット",
-      "<buff><buff_attack>[全]攻撃アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_regist>強化解除耐性アップ",
       "<buff><buff_np>NP配布",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
@@ -30782,7 +30778,7 @@
         "<servant><servant_noblephantasm>補助宝具",
         "<buff><buff_np>NP配布",
         "<buff><buff_heal>HP回復",
-        "<buff><buff_heal>[全]HP回復",
+        "<buff><buff_heal>[他]HP回復",
         "<buff><buff_critical>スター獲得",
         "<other>デメリット"
       ]
@@ -30860,7 +30856,7 @@
       "<servant><servant_noblephantasm>補助宝具",
       "<buff><buff_np>NP配布",
       "<buff><buff_heal>HP回復",
-      "<buff><buff_heal>[全]HP回復",
+      "<buff><buff_heal>[他]HP回復",
       "<buff><buff_critical>スター獲得",
       "<other>デメリット",
       "<buff><buff_attack>[自]A性能アップ",
@@ -30942,9 +30938,9 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_defence>被ダメカット",
-          "<buff><buff_defence>[全]被ダメカット",
+          "<buff><buff_defence>[他]被ダメカット",
           "<buff><buff_heal><buff_regist>弱体解除/無効",
-          "<buff><buff_regist>[全]弱体無効",
+          "<buff><buff_regist>[他]弱体無効",
           "<buff><buff_regist>強化解除耐性アップ"
         ]
       }
@@ -30993,9 +30989,9 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>被ダメカット",
-      "<buff><buff_defence>[全]被ダメカット",
+      "<buff><buff_defence>[他]被ダメカット",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
-      "<buff><buff_regist>[全]弱体無効",
+      "<buff><buff_regist>[他]弱体無効",
       "<buff><buff_regist>強化解除耐性アップ",
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>陣地作成",

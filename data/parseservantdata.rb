@@ -260,10 +260,12 @@ def parse_description_to_tag(desc)
             target = s[0]
             target.delete_prefix!('自身を除く')
             target_short = case target
-            when /(敵|味方)全体/
+            when '敵全体'
                 '[全]'
-            when /(敵|味方)単体/
+            when '敵単体'
                 '[単]'
+            when /味方[全単]体/
+                '[他]'
             when '自身'
                 '[自]'
             end
@@ -290,7 +292,7 @@ def parse_description_to_tag(desc)
             when 'NP獲得量'
                 cat += '<buff_np>'
             end
-            if target == '味方全体' and buff == '攻撃' and tags.find {|t| t.include?('[全]攻撃アップ')}
+            if target == '味方全体' and buff == '攻撃' and tags.find {|t| t.include?('[他]攻撃アップ')}
                 tags.push("#{cat}二重カリスマ")
             elsif buff.match?(/(耐性|成功率)$/)
                 tags.push("#{cat}#{buff}アップ")
@@ -334,7 +336,7 @@ def parse_description_to_tag(desc)
         elsif s[8]
             cat = '<buff><buff_defence>'
             tags.push("#{cat}タゲ集中")
-            tags.push("#{cat}#{target_short}タゲ集中付与") if target == '味方単体'
+            tags.push("#{cat}タゲ集中付与") if target == '味方単体'
         elsif s[9]
             cat = '<buff><buff_np>'
             if target == '自身'
@@ -402,7 +404,7 @@ def parse_description_to_tag(desc)
             tags.push("#{cat}宝具前防御ダウン") if tags.index {|t| t.match?(/(\[[全単]\])?防御ダウン$/)}
             tags.push("#{cat}宝具前防御強化解除") if tags.index {|t| t.match?(/(\[[全単]\])?防御強化解除$/)}
             cat = '<buff><buff_attack>'
-            tags.push("#{cat}宝具前攻撃アップ") if tags.index {|t| t.match?(/(\[[全単]\])?攻撃アップ$/)}
+            tags.push("#{cat}宝具前攻撃アップ") if tags.index {|t| t.match?(/(\[[自他]\])?攻撃アップ$/)}
             tags.push("#{cat}宝具前カード性能アップ") if tags.index {|t| t.match?(/[QAB]性能アップ$/)}
         elsif s[20]
             cat = '<debuff><debuff_antibuff>'
