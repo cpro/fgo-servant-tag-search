@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mt-1 pb-3">
+  <v-card :class="{ 'mt-1': true, 'pb-3': true, owned: isOwned }">
     <v-card-title primary-title class="pb-0 pt-3" @click="show = true">
       <div>
         <div class="subheading">{{ servant.name }}</div>
@@ -115,8 +115,36 @@ export default class ServantEntry extends Vue {
     return this.data
   }
 
+  private get isOwned(): boolean {
+    return this.$store.state.ownedServants.includes(this.servant.id)
+  }
+
   private tagClick(tag: Tag) {
     this.$store.dispatch('addFilter', { tag, state: 'select' })
   }
 }
 </script>
+
+<style lang="scss" scoped>
+// 所持状態のサーヴァントは左上角にマークする
+.owned {
+  &::before {
+    content: '\f12c'; // mdi-check
+    font-family: 'Material Design Icons';
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    padding-left: 1px;
+    border-radius: 2px 0 0 0;
+    background: linear-gradient(
+      135deg,
+      rgba(33, 150, 243, 0.6) 50%,
+      transparent 0
+    );
+  }
+}
+</style>
