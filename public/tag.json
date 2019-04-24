@@ -20,6 +20,8 @@
   "<buff><buff_attack>[他]攻撃アップ",
   "<buff><buff_attack>[自]攻撃アップ",
   "<buff><buff_attack>無敵貫通",
+  "<buff><buff_attack>防御無視",
+  "<buff><buff_attack>防御無視状態付与",
   "<buff><buff_critical>[他]クリティカル威力アップ",
   "<buff><buff_critical>[自]クリティカル威力アップ",
   "<buff><buff_critical>スター獲得",
