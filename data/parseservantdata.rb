@@ -706,7 +706,7 @@ end
 
 def main
     servants = generate_servants
-    File.write('../public/servant.json', JSON.pretty_generate(servants))
+    File.write('../public/servant.json', JSON.pretty_generate(servants).gsub("\u00A0", ''))
     
     taglist = generate_taglist(servants)
     File.write('../public/tag.json', JSON.pretty_generate(taglist))
