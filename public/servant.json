@@ -584,6 +584,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_defence>[全]防御ダウン"
         ]
       },
@@ -593,6 +594,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_defence>[全]防御ダウン"
       ]
     },
@@ -684,6 +686,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_regist>精神異常耐性アップ",
       "<buff><buff_heal>HP回復",
@@ -1434,6 +1437,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_attack>[全]攻撃ダウン"
         ]
       },
@@ -1443,6 +1447,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_attack>[全]攻撃ダウン"
       ]
     },
@@ -1540,6 +1545,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_attack>[全]攻撃ダウン",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
@@ -2443,6 +2449,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_slip>スリップダメージ",
           "<debuff><debuff_slip>[全]スリップダメージ",
           "<debuff><debuff_slip>呪い付与",
@@ -2455,6 +2462,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_slip>スリップダメージ",
         "<debuff><debuff_slip>[全]スリップダメージ",
         "<debuff><debuff_slip>呪い付与"
@@ -2541,6 +2549,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
@@ -4668,6 +4677,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_slip>スリップダメージ",
           "<debuff><debuff_slip>[全]スリップダメージ",
           "<debuff><debuff_slip>呪い付与"
@@ -4679,6 +4689,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_slip>スリップダメージ",
         "<debuff><debuff_slip>[全]スリップダメージ",
         "<debuff><debuff_slip>呪い付与"
@@ -4760,6 +4771,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
@@ -5918,6 +5930,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_regist>弱体耐性ダウン"
         ]
       },
@@ -5927,6 +5940,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_regist>弱体耐性ダウン"
       ]
     },
@@ -5997,6 +6011,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<buff><buff_critical>毎ターンスター獲得",
       "<other>デメリット",
@@ -6511,6 +6526,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_delay>行動不能系付与",
         "<debuff><debuff_delay>スタン付与",
         "<debuff><debuff_delay>[単]行動不能系付与"
@@ -6581,6 +6597,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
@@ -6630,6 +6647,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[自]HP回復"
         ]
@@ -6640,6 +6658,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<buff><buff_heal>HP回復",
         "<buff><buff_heal>[自]HP回復"
       ]
@@ -6721,6 +6740,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_heal>毎ターンHP回復",
@@ -6764,6 +6784,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_delay>行動不能系付与",
         "<debuff><debuff_delay>スタン付与",
         "<debuff><debuff_delay>[単]行動不能系付与"
@@ -6840,6 +6861,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
@@ -8059,6 +8081,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_slip>スリップダメージ",
         "<debuff><debuff_slip>[全]スリップダメージ",
         "<debuff><debuff_slip>呪い付与"
@@ -8140,6 +8163,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
@@ -8481,6 +8505,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_defence>[全]防御ダウン"
         ]
       },
@@ -8490,6 +8515,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_defence>[全]防御ダウン"
       ]
     },
@@ -8570,6 +8596,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_attack>[他]宝具威力アップ",
       "<debuff><debuff_delay>行動不能系付与",
@@ -9005,6 +9032,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_defence>[単]防御ダウン"
       ]
     },
@@ -9079,6 +9107,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_critical>スター集中",
@@ -9902,7 +9931,8 @@
           "<servant><servant_noblephantasm>単体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
           "<servant><servant_noblephantasm>特攻宝具",
-          "<buff><buff_extradamage>女性特攻"
+          "<buff><buff_extradamage>女性特攻",
+          "<buff><buff_attack>防御無視"
         ]
       },
       "tags": [
@@ -9912,7 +9942,8 @@
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>特攻宝具",
         "<servant><servant_noblephantasm>宝具強化済",
-        "<buff><buff_extradamage>女性特攻"
+        "<buff><buff_extradamage>女性特攻",
+        "<buff><buff_attack>防御無視"
       ]
     },
     "skills": [
@@ -9985,6 +10016,7 @@
       "<servant><servant_noblephantasm>特攻宝具",
       "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_extradamage>女性特攻",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
@@ -10158,13 +10190,13 @@
     "noblePhantasm": {
       "name": "人類神話・雷電降臨",
       "ruby": "システム・ケラウノス",
-      "description": "敵全体に強力な攻撃[Lv]＆〔天または地の力を持つサーヴァント〕特攻     <OC:特攻威力UP>＆低確率でスタン状態を付与(1T)＋自身のHP減らす【デメリット】",
+      "description": "敵全体に強力な攻撃[Lv]＆〔天または地の力を持つサーヴァント〕特攻<OC:特攻威力UP>＆低確率でスタン状態を付与(1T)＋自身のHP減らす【デメリット】",
       "cardType": "Buster",
       "unlock": null,
       "upgrade": {
         "name": "人類神話・雷電降臨",
         "ruby": "システム・ケラウノス",
-        "description": "敵全体に強力な攻撃[Lv]＆〔天または地の力を持つサーヴァント〕特攻     <OC:特攻威力UP>＆中確率でスタン状態を付与(1T)＋自身のHPを減らす【デメリット】",
+        "description": "敵全体に強力な攻撃[Lv]＆〔天または地の力を持つサーヴァント〕特攻<OC:特攻威力UP>＆中確率でスタン状態を付与(1T)＋自身のHPを減らす【デメリット】",
         "cardType": "Buster",
         "unlock": "「ライトニング」クリア後",
         "upgrade": null,
@@ -10342,6 +10374,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_delay>宝具封印",
           "<debuff><debuff_delay>[全]宝具封印",
           "<debuff><debuff_slip>スリップダメージ",
@@ -10355,6 +10388,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_delay>宝具封印",
         "<debuff><debuff_delay>[全]宝具封印",
         "<debuff><debuff_slip>スリップダメージ",
@@ -10438,6 +10472,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[全]宝具封印",
       "<debuff><debuff_slip>スリップダメージ",
@@ -12080,6 +12115,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<buff><buff_attack>即死",
         "<buff><buff_attack>[全]即死",
         "<buff><buff_heal><buff_regist>弱体解除/無効",
@@ -12167,6 +12203,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_attack>即死",
       "<buff><buff_attack>[全]即死",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
@@ -12216,6 +12253,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<buff><buff_attack>即死",
         "<buff><buff_attack>[単]即死"
       ]
@@ -12296,6 +12334,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_attack>即死",
       "<buff><buff_attack>[単]即死",
       "<buff><buff_attack>必中/無敵貫通",
@@ -12493,6 +12532,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<buff><buff_defence>回避/無敵",
           "<buff><buff_defence>回避",
           "<buff><buff_defence>[自]回避/無敵",
@@ -12505,6 +12545,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<buff><buff_defence>回避/無敵",
         "<buff><buff_defence>回避",
         "<buff><buff_defence>[自]回避/無敵",
@@ -12599,6 +12640,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
@@ -13384,6 +13426,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_defence>[全]防御ダウン",
           "<debuff><debuff_attack>[全]クリティカル発生ダウン",
           "<debuff><debuff_regist>弱体耐性ダウン"
@@ -13474,6 +13517,7 @@
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_np>NP配布",
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
@@ -13655,6 +13699,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>単体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<buff><buff_attack>即死",
           "<buff><buff_attack>[単]即死",
           "<debuff><debuff_defence>[単]防御ダウン"
@@ -13666,6 +13711,7 @@
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<buff><buff_attack>即死",
         "<buff><buff_attack>[単]即死",
         "<debuff><debuff_defence>[単]防御ダウン"
@@ -13742,6 +13788,7 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_attack>即死",
       "<buff><buff_attack>[単]即死",
       "<debuff><debuff_defence>[単]防御ダウン",
@@ -14627,6 +14674,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>単体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減",
           "<debuff><debuff_attack>[単]クリティカル発生ダウン"
@@ -14721,6 +14769,7 @@
       "<debuff><debuff_delay>[単]チャージ減",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
@@ -15193,6 +15242,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>単体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_attack>[単]クリティカル発生ダウン"
         ]
       },
@@ -15280,6 +15330,7 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>タゲ集中",
@@ -16332,6 +16383,7 @@
           "<buff><buff_attack>必中/無敵貫通",
           "<buff><buff_attack>必中",
           "<buff><buff_attack>[自]必中/無敵貫通",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_regist>弱体耐性ダウン"
         ]
       },
@@ -16429,6 +16481,7 @@
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<debuff><debuff_regist>弱体耐性ダウン",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_heal>精神異常解除",
       "<buff><buff_heal>[他]精神異常解除",
       "<buff><buff_defence>回避/無敵",
@@ -17043,6 +17096,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>全体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_attack>[全]クリティカル発生ダウン"
         ]
       },
@@ -17052,6 +17106,7 @@
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_attack>[全]クリティカル発生ダウン"
       ]
     },
@@ -17135,6 +17190,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
@@ -18459,6 +18515,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_slip>スリップダメージ",
         "<debuff><debuff_slip>[単]スリップダメージ",
         "<debuff><debuff_slip>やけど付与"
@@ -18551,6 +18608,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[単]スリップダメージ",
       "<debuff><debuff_slip>やけど付与",
@@ -20608,6 +20666,7 @@
           "<servant><servant_noblephantasm>攻撃宝具",
           "<servant><servant_noblephantasm>単体攻撃宝具",
           "<servant><servant_noblephantasm>防御力無視宝具",
+          "<buff><buff_attack>防御無視",
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減"
         ]
@@ -20618,6 +20677,7 @@
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
         "<servant><servant_noblephantasm>宝具強化済",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_delay>チャージ減",
         "<debuff><debuff_delay>[単]チャージ減"
       ]
@@ -20693,6 +20753,7 @@
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
       "<servant><servant_noblephantasm>宝具強化済",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_defence>[自]防御アップ",
@@ -21965,6 +22026,7 @@
         "<buff><buff_attack>必中/無敵貫通",
         "<buff><buff_attack>無敵貫通",
         "<buff><buff_attack>[自]必中/無敵貫通",
+        "<buff><buff_attack>防御無視",
         "<buff><buff_heal>HP回復",
         "<buff><buff_heal>[自]HP回復"
       ]
@@ -22087,6 +22149,7 @@
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<debuff><debuff_regist>弱体耐性ダウン",
@@ -22650,6 +22713,8 @@
         "<buff><buff_attack>必中/無敵貫通",
         "<buff><buff_attack>無敵貫通",
         "<buff><buff_attack>[他]必中/無敵貫通",
+        "<buff><buff_attack>防御無視",
+        "<buff><buff_attack>防御無視状態付与",
         "<buff><buff_critical>[他]クリティカル威力アップ"
       ]
     },
@@ -22721,6 +22786,8 @@
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[他]必中/無敵貫通",
+      "<buff><buff_attack>防御無視",
+      "<buff><buff_attack>防御無視状態付与",
       "<buff><buff_critical>[他]クリティカル威力アップ",
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[単]宝具封印",
@@ -23638,6 +23705,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<buff><buff_critical>スター獲得"
       ]
     },
@@ -23729,6 +23797,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>[自]クリティカル威力アップ",
@@ -24392,7 +24461,7 @@
   },
   {
     "id": 187,
-    "name": "柳生但馬守宗矩      ",
+    "name": "柳生但馬守宗矩",
     "className": "セイバー",
     "rarity": 4,
     "cost": 12,
@@ -26132,7 +26201,9 @@
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[自]B性能アップ"
+          "<buff><buff_attack>[自]B性能アップ",
+          "<buff><buff_attack>防御無視",
+          "<buff><buff_attack>防御無視状態付与"
         ]
       },
       {
@@ -26208,6 +26279,8 @@
       "<debuff><debuff_antibuff>[単]強化無効",
       "<debuff><debuff_attack>[単]攻撃ダウン",
       "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_attack>防御無視",
+      "<buff><buff_attack>防御無視状態付与",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>必中",
       "<buff><buff_attack>[自]必中/無敵貫通",
@@ -27621,6 +27694,8 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>特攻宝具",
+        "<buff><buff_attack>防御無視",
+        "<buff><buff_attack>防御無視状態付与",
         "<buff><buff_extradamage>神性特攻"
       ]
     },
@@ -27699,6 +27774,8 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>特攻宝具",
+      "<buff><buff_attack>防御無視",
+      "<buff><buff_attack>防御無視状態付与",
       "<buff><buff_extradamage>神性特攻",
       "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]攻撃アップ",
@@ -28271,6 +28348,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<buff><buff_critical>スター獲得",
         "<other>デメリット"
       ]
@@ -28354,6 +28432,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<buff><buff_critical>スター獲得",
       "<other>デメリット",
       "<buff><buff_attack>[他]攻撃アップ",
@@ -30005,6 +30084,7 @@
         "<other>デメリット",
         "<buff><buff_attack>[自]B性能アップ",
         "<buff><buff_attack>宝具前カード性能アップ",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_slip>スリップダメージ",
         "<debuff><debuff_slip>[全]スリップダメージ",
         "<debuff><debuff_slip>呪い付与"
@@ -30085,6 +30165,7 @@
       "<other>デメリット",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>呪い付与",
@@ -30134,6 +30215,7 @@
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>防御無視",
         "<debuff><debuff_delay>スキル封印",
         "<debuff><debuff_delay>[全]スキル封印"
       ]
@@ -30210,6 +30292,7 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>防御無視",
       "<debuff><debuff_delay>スキル封印",
       "<debuff><debuff_delay>[全]スキル封印",
       "<buff><buff_attack>[自]Q性能アップ",

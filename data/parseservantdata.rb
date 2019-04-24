@@ -232,7 +232,7 @@ def parse_description_to_tag(desc)
         '(スター集中度をダウン)',
         '(毎ターンスター(?:\([^\)]+\))?獲得)',
         '(魅了|スタン|行動不能|豚化)(?=(?:（[^）]+）)?(?:状態を)?付与(?!）)|状態にする)',
-        '(強力な(?:防御力無視)?攻撃)',
+        '(強力な(?:防御力?無視)?攻撃)',
         '(強化無効状態を付与)',
         '(宝具|スキル)(?=封印状態を付与)',
         '(即死無効状態を付与)',
@@ -249,6 +249,7 @@ def parse_description_to_tag(desc)
         '(スキルチャージを\d*進める)',
         '(クラス(?:に対する|に対して)?相性)',
         '(精神弱体|弱体|魅了|即死)(?=耐性を?(?:小|大)?ダウン)',
+        '(防御無視状態を付与)',
     ]
 
     target = '自身'
@@ -406,6 +407,7 @@ def parse_description_to_tag(desc)
             cat = '<buff><buff_attack>'
             tags.push("#{cat}宝具前攻撃アップ") if tags.index {|t| t.match?(/(\[[自他]\])?攻撃アップ$/)}
             tags.push("#{cat}宝具前カード性能アップ") if tags.index {|t| t.match?(/[QAB]性能アップ$/)}
+            tags.push('<buff><buff_attack>防御無視') if s[19].match?(/防御力?無視/)
         elsif s[20]
             cat = '<debuff><debuff_antibuff>'
             tags.push("#{cat}強化無効")
@@ -466,6 +468,10 @@ def parse_description_to_tag(desc)
         elsif s[35] and !is_ally
             cat = '<debuff><debuff_regist>'
             tags.push("#{cat}#{s[35]}耐性ダウン")
+        elsif s[36]
+            cat = '<buff><buff_attack>'
+            tags.push("#{cat}防御無視")
+            tags.push("#{cat}防御無視状態付与")
         end
     end
 
@@ -700,7 +706,7 @@ end
 
 def main
     servants = generate_servants
-    File.write('../public/servant.json', JSON.pretty_generate(servants))
+    File.write('../public/servant.json', JSON.pretty_generate(servants).gsub("\u00A0", ''))
     
     taglist = generate_taglist(servants)
     File.write('../public/tag.json', JSON.pretty_generate(taglist))
