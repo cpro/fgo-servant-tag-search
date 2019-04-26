@@ -24,7 +24,7 @@ FETCH_INTERVAL_SECOND = 5
 def main
     File.open(LIST_PATH, 'r') do |f|
         f.each_line do |line|
-            name, url = line.chomp.split("\t")
+            _id, name, url = line.chomp.split("\t")
             url = 'https:' + url
             path = './html/' + url_to_filename(url)
             if GET_ALL || !File.exist?(path)
