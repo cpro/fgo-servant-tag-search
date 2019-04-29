@@ -514,7 +514,7 @@ def parse_servant_data(doc)
     node_attr = node_subinfo.xpath('.//td[contains(.,"成長")]/following-sibling::td[position()>1]')
     servant.alignment = [node_attr[0].content.strip.sub(/\(\*\d+\)/, ''), node_attr[1].content.strip].join('・')
     servant.gender = node_attr[2].content.strip.sub(/(男|女)性?/) { "#{$1}性" }
-    servant.traits = node_subinfo.at_xpath('.//td[contains(.,"特性")]/following-sibling::td[1]').content.strip.split(' / ')
+    servant.traits = node_subinfo.at_xpath('.//td[contains(.,"特性")]/following-sibling::td[1]').content.strip.split(/\s*\/\s*/)
 
     # noble phantasm
     node_np = doc.at_xpath('//h3[contains(.,"宝具")]/following-sibling::div[1]')
