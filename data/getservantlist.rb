@@ -48,4 +48,8 @@ doc.xpath('//div[@class="ie5"]//tr').each do |node|
     ent.push link
 end
 
-entries.each {|e| puts e.join("\t")}
+File.open('./servantlist.txt', 'w') do |file|
+    entries.each do |e|
+        file.puts e.join("\t")
+    end
+end

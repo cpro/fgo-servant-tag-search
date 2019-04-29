@@ -31411,5 +31411,413 @@
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/3984.html",
     "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%AB%E3%83%BC%E3%83%9E"
+  },
+  {
+    "id": 241,
+    "name": "司馬懿〔ライネス〕",
+    "className": "ライダー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 2,
+    "arts": 2,
+    "buster": 1,
+    "attribution": "人",
+    "gender": "女性",
+    "alignment": "中立・中庸",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "騎乗スキル"
+    ],
+    "noblePhantasm": {
+      "name": "混元一陣",
+      "ruby": "かたらずのじん",
+      "description": "敵全体の防御力を大ダウン[Lv](3T)＆クリティカル発生率をダウン(3T)<OC:効果UP>＋味方全体にクラス相性の防御不利を打ち消す状態を付与(3T)＋自身の弱体状態を解除",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>補助宝具",
+        "<debuff><debuff_defence>[全]防御ダウン",
+        "<debuff><debuff_attack>[全]クリティカル発生ダウン",
+        "<buff><buff_extradamage>クラス相性変更",
+        "<buff><buff_heal><buff_regist>弱体解除/無効",
+        "<buff><buff_heal>[自]弱体解除"
+      ]
+    },
+    "skills": [
+      {
+        "name": "軍師の忠言 A",
+        "description": "味方全体の防御力をアップ[Lv](3T)＆被ダメージカット状態を付与[Lv](3T)＆NPを少し増やす(10)",
+        "ct": "8",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>[他]防御アップ",
+          "<buff><buff_defence>被ダメカット",
+          "<buff><buff_defence>[他]被ダメカット",
+          "<buff><buff_np>NP配布"
+        ]
+      },
+      {
+        "name": "宣帝の指揮 A",
+        "description": "味方単体のNPを増やす(20)＆攻撃力をアップ[Lv](3T)＋自身の攻撃力をダウン(3T)【デメリット】",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_np>NP配布",
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<other>デメリット"
+        ]
+      },
+      {
+        "name": "至上礼装・月霊髄液 B",
+        "description": "味方単体に無敵状態を付与(2回・3T)＆弱体耐性をアップ[Lv](3T)",
+        "ct": "8",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>無敵",
+          "<buff><buff_defence>[他]回避/無敵",
+          "<buff><buff_regist>弱体耐性アップ"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "対魔力 B",
+        "description": "自身の弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "騎乗 B",
+        "description": "自身のQuickカードの性能をアップ",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>騎乗"
+        ]
+      },
+      {
+        "name": "陣地作成 B",
+        "description": "自身のArtsカードの性能をアップ",
+        "tags": [
+          "<servant><servant_classskill>陣地作成"
+        ]
+      }
+    ],
+    "availability": "期間限定",
+    "tags": [
+      "<servant><servant_class>ライダー",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>中立",
+      "<servant><servant_attr>中庸",
+      "<servant><servant_card>QQAAB",
+      "<servant><servant_attr>人属性",
+      "<servant><servant_trait>人型",
+      "<servant><servant_availability>期間限定",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>補助宝具",
+      "<debuff><debuff_defence>[全]防御ダウン",
+      "<debuff><debuff_attack>[全]クリティカル発生ダウン",
+      "<buff><buff_extradamage>クラス相性変更",
+      "<buff><buff_heal><buff_regist>弱体解除/無効",
+      "<buff><buff_heal>[自]弱体解除",
+      "<buff><buff_defence>[他]防御アップ",
+      "<buff><buff_defence>被ダメカット",
+      "<buff><buff_defence>[他]被ダメカット",
+      "<buff><buff_np>NP配布",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<other>デメリット",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>無敵",
+      "<buff><buff_defence>[他]回避/無敵",
+      "<buff><buff_regist>弱体耐性アップ",
+      "<buff><buff_np>NP30配布",
+      "<servant><servant_classskill>対魔力",
+      "<servant><servant_trait><servant_classskill>騎乗",
+      "<servant><servant_classskill>陣地作成"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4019.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E5%8F%B8%E9%A6%AC%E6%87%BF%EF%BC%88%E3%83%A9%E3%82%A4%E3%83%8D%E3%82%B9%EF%BC%89"
+  },
+  {
+    "id": 242,
+    "name": "アストライア",
+    "className": "ルーラー",
+    "rarity": 4,
+    "cost": 12,
+    "quick": 1,
+    "arts": 2,
+    "buster": 2,
+    "attribution": "天",
+    "gender": "女性",
+    "alignment": "秩序・善",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "神性",
+      "ローマ"
+    ],
+    "noblePhantasm": {
+      "name": "裁きの時はいま。汝の名を告げよ",
+      "ruby": "クストス・モルム",
+      "description": "敵単体に超強力な攻撃[Lv]＆〔悪〕特攻<OC:特攻威力UP>＋ スターを大量獲得",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<servant><servant_noblephantasm>特攻宝具",
+        "<buff><buff_extradamage>悪特攻",
+        "<buff><buff_critical>スター獲得"
+      ]
+    },
+    "skills": [
+      {
+        "name": "天秤の護り A+",
+        "description": "味方単体の攻撃力をアップ[Lv](3T)＆防御力をアップ[Lv](3T)＆NP獲得量をアップ[Lv](3T)",
+        "ct": "7",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[他]攻撃アップ",
+          "<buff><buff_defence>[他]防御アップ",
+          "<buff><buff_np>[他]NP獲得量アップ"
+        ]
+      },
+      {
+        "name": "魔力放出（星） A+",
+        "description": "自身のArtsカード性能をアップ[Lv](1T)＋スターを大量獲得[Lv]",
+        "ct": "7",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]A性能アップ",
+          "<buff><buff_critical>スター獲得"
+        ]
+      },
+      {
+        "name": "星の裁き A",
+        "description": "<スターが5個以上ある場合のみ使用可能>スターを減らす【デメリット】＋自身のスター集中度をアップ[Lv](1T)＆クリティカル威力をアップ[Lv](1T)＆NPを増やす(20)",
+        "ct": "6",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<other>使用条件付き",
+          "<other>デメリット",
+          "<buff><buff_critical>スター集中",
+          "<buff><buff_critical>[自]クリティカル威力アップ",
+          "<buff><buff_np>NP獲得"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "単独行動 A",
+        "description": "自身のクリティカル威力をアップ",
+        "tags": [
+          "<servant><servant_classskill>単独行動"
+        ]
+      },
+      {
+        "name": "陣地作成 A",
+        "description": "自身のArtsカードの性能をアップ",
+        "tags": [
+          "<servant><servant_classskill>陣地作成"
+        ]
+      },
+      {
+        "name": "女神の神核 B",
+        "description": "自身に与ダメージプラス状態を付与＆弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>神性"
+        ]
+      }
+    ],
+    "availability": "",
+    "tags": [
+      "<servant><servant_class>ルーラー",
+      "<servant><servant_class>エクストラクラス",
+      "<servant><servant_rarity>★4",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_rarity>★4以下",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>秩序",
+      "<servant><servant_attr>善",
+      "<servant><servant_card>QAABB",
+      "<servant><servant_attr>天属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_trait>ローマ",
+      "<servant><servant_availability>恒常",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<servant><servant_noblephantasm>特攻宝具",
+      "<buff><buff_extradamage>悪特攻",
+      "<buff><buff_critical>スター獲得",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<buff><buff_defence>[他]防御アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
+      "<buff><buff_attack>[自]A性能アップ",
+      "<other>使用条件付き",
+      "<other>デメリット",
+      "<buff><buff_critical>スター集中",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_np>NP20獲得",
+      "<servant><servant_classskill>単独行動",
+      "<servant><servant_classskill>陣地作成",
+      "<servant><servant_trait><servant_classskill>神性"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4020.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A2%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2"
+  },
+  {
+    "id": 243,
+    "name": "グレイ",
+    "className": "アサシン",
+    "rarity": 4,
+    "cost": 12,
+    "quick": 3,
+    "arts": 1,
+    "buster": 1,
+    "attribution": "人",
+    "gender": "女性",
+    "alignment": "秩序・善",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "アルトリア顔"
+    ],
+    "noblePhantasm": {
+      "name": "最果てにて輝ける槍",
+      "ruby": "ロンゴミニアド",
+      "description": "敵全体に強力な攻撃[Lv]＆Quick攻撃耐性をダウン(3T)<OC:効果UP>＆Buster攻撃耐性をダウン(3T)<OC:効果UP>",
+      "cardType": "Buster",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>B宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<debuff><debuff_defence>カード耐性ダウン",
+        "<debuff><debuff_defence>Q耐性ダウン",
+        "<debuff><debuff_defence>B耐性ダウン"
+      ]
+    },
+    "skills": [
+      {
+        "name": "対霊戦闘 B",
+        "description": "自身の攻撃力をアップ[Lv](3T)＆〔死霊〕特攻状態を付与[Lv](3T)",
+        "ct": "7",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]攻撃アップ",
+          "<buff><buff_extradamage>死霊特攻"
+        ]
+      },
+      {
+        "name": "封印礼装解除 C",
+        "description": "自身のQuickカード性能をアップ[Lv](1T)＆Busterカード性能をアップ[Lv](1T)＆無敵状態を付与(1回・1T)",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]Q性能アップ",
+          "<buff><buff_attack>[自]B性能アップ",
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>無敵",
+          "<buff><buff_defence>[自]回避/無敵"
+        ]
+      },
+      {
+        "name": "最果ての加護 B",
+        "description": "自身のNPを増やす(20)＆弱体耐性をアップ[Lv](3T)",
+        "ct": "8",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_np>NP獲得",
+          "<buff><buff_regist>弱体耐性アップ"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "単独行動 A+",
+        "description": "自身のクリティカル威力をアップ",
+        "tags": [
+          "<servant><servant_classskill>単独行動"
+        ]
+      },
+      {
+        "name": "対魔力 C",
+        "description": "自身の弱体耐性を少しアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "王の映し身 A",
+        "description": "自身のNP獲得量をアップ",
+        "tags": [
+
+        ]
+      }
+    ],
+    "availability": "イベント報酬",
+    "tags": [
+      "<servant><servant_class>アサシン",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★4",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_rarity>★4以下",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>秩序",
+      "<servant><servant_attr>善",
+      "<servant><servant_card>QQQAB",
+      "<servant><servant_attr>人属性",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>アルトリア顔",
+      "<servant><servant_availability>イベント報酬",
+      "<servant><servant_card><servant_noblephantasm>B宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<debuff><debuff_defence>カード耐性ダウン",
+      "<debuff><debuff_defence>Q耐性ダウン",
+      "<debuff><debuff_defence>B耐性ダウン",
+      "<buff><buff_attack>[自]攻撃アップ",
+      "<buff><buff_extradamage>死霊特攻",
+      "<buff><buff_attack>[自]Q性能アップ",
+      "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>無敵",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_regist>弱体耐性アップ",
+      "<buff><buff_np>NP20獲得",
+      "<servant><servant_classskill>単独行動",
+      "<servant><servant_classskill>対魔力"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4022.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%B0%E3%83%AC%E3%82%A4"
   }
 ]
