@@ -56,7 +56,6 @@ import ServantEntryCardIndicator from '@/components/ServantEntryCardIndicator.vu
   components: {
     TagIndicator,
     ServantEntryCardIndicator,
-    ServantEntryNoblePhantasm,
   },
 })
 export default class ServantEntryNoblePhantasm extends Vue {

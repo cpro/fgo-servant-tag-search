@@ -50,7 +50,6 @@ import TagIndicator from '@/components/TagIndicator.vue'
   name: 'ServantEntrySkill',
   components: {
     TagIndicator,
-    ServantEntrySkill,
   },
 })
 export default class ServantEntrySkill extends Vue {
