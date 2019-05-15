@@ -1,18 +1,16 @@
-<template>
-  <span :class="colorClass">{{ text }}</span>
+<template functional>
+  <span :class="props.text.slice(0, 1).toLowerCase()">{{ props.text }}</span>
 </template>
 
-<script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator'
-
-@Component
-export default class ServantEntryCardIndicator extends Vue {
-  @Prop(String)
-  private text!: string
-
-  private get colorClass(): string {
-    return this.text.slice(0, 1).toLowerCase()
-  }
+<script>
+export default {
+  name: 'ServantEntryCardIndicator',
+  props: {
+    text: {
+      type: String,
+      default: '',
+    },
+  },
 }
 </script>
 

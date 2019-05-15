@@ -64,11 +64,17 @@
             Twitter @cpro29
           </a>
           までお願いします。
-          <a href="https://github.com/cpro/fgo-servant-tag-search" target="_blank">
+          <a
+            href="https://github.com/cpro/fgo-servant-tag-search"
+            target="_blank"
+          >
             Github
           </a>
           の
-          <a href="https://github.com/cpro/fgo-servant-tag-search/issues" target="_blank">
+          <a
+            href="https://github.com/cpro/fgo-servant-tag-search/issues"
+            target="_blank"
+          >
             Issues
           </a>
           に投げてくださっても結構です。
