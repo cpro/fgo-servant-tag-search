@@ -4,8 +4,8 @@
     outline
     small
     class="tag-indicator caption"
-    @click="click"
-    @dblclick="dblclick"
+    @click.left="click"
+    @click.right.prevent="rightclick"
   >
     <v-avatar v-if="!isStatic">
       <v-icon v-if="tag.state == 'select'" :color="tagColor">
@@ -52,7 +52,7 @@ export default class TagIndicator extends Vue {
     /* just pass through */
   }
   @Emit()
-  private dblclick() {
+  private rightclick() {
     /* just pass through */
   }
 }

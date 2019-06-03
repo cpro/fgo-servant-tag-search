@@ -122,11 +122,13 @@ export default new Vuex.Store({
     },
     toggleFilter(
       { commit, dispatch },
-      payload: { tag: Tag; reverse?: boolean }
+      payload: { tag: Tag; exclude?: boolean }
     ) {
       commit(
         'setTagState',
-        Object.assign(payload, { state: payload.tag.getNextState() })
+        Object.assign(payload, {
+          state: payload.tag.getToggledState(payload.exclude),
+        })
       )
       dispatch('setHistory')
     },
