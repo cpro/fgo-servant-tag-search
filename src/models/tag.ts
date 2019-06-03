@@ -27,14 +27,11 @@ export default class Tag {
     return this.name.replace(/^\[.\]/, '')
   }
 
-  public getNextState(): TagState {
-    switch (this.state) {
-      case 'none':
-        return 'select'
-      case 'select':
-        return 'exclude'
-      case 'exclude':
-        return 'none'
+  public getToggledState(exclude = false): TagState {
+    if (this.state === 'select' || this.state === 'exclude') {
+      return 'none'
+    } else {
+      return exclude ? 'exclude' : 'select'
     }
   }
 }

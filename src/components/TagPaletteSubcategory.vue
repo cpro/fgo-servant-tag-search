@@ -10,6 +10,7 @@
           :key="tag.fullName"
           :data="tag"
           @click="tagClick(tag)"
+          @rightclick="tagRightClick(tag)"
         />
       </v-card-text>
     </v-card>
@@ -43,6 +44,10 @@ export default class TagPaletteSubcategory extends Vue {
 
   private tagClick(tag: Tag) {
     this.$store.dispatch('toggleFilter', { tag })
+  }
+
+  private tagRightClick(tag: Tag) {
+    this.$store.dispatch('toggleFilter', { tag, exclude: true })
   }
 }
 </script>
