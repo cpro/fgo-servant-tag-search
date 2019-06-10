@@ -15481,7 +15481,17 @@
         "description": "自身のスター集中度をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "源氏の武練 EX",
+          "description": "自身のスター集中度をアップ[Lv](3T)＆クリティカル威力をアップ[Lv](3回・3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を３段階突破する＆「母ならず、女ならず、けれど私は」クリア後（亜種特異点Ⅲクリア＆幕間第1節クリア＆絆Lv5が必要）",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_critical>スター集中",
+            "<buff><buff_critical>[自]クリティカル威力アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_critical>スター集中"
         ]
@@ -15563,6 +15573,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<buff><buff_critical>[自]スター発生アップ",
       "<buff><buff_critical>スター集中",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>回避",
@@ -20528,7 +20539,20 @@
         "description": "自身のHP回復量をアップ[Lv](3T)＆HPを回復[Lv]",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "∞栗餡子 EX",
+          "description": "自身のHP回復量をアップ[Lv](3T)＆HPを回復[Lv]＆毎ターンHP回復状態を付与[Lv](3T)＆Quickカードのクリティカル威力をアップ[Lv](1回・3T)＆Artsカードのクリティカル威力をアップ[Lv](1回・3T)＆Busterカードのクリティカル威力をアップ[Lv](1回・3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を３段階突破する＆「ＸＸＸＸ．謎のヒロインズ」クリア後(絆Lv.5が必要)",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_heal>HP回復量アップ",
+            "<buff><buff_heal>HP回復",
+            "<buff><buff_heal>[自]HP回復",
+            "<buff><buff_heal>毎ターンHP回復",
+            "<buff><buff_critical>[自]クリティカル威力アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_heal>HP回復量アップ",
           "<buff><buff_heal>HP回復",
@@ -20610,6 +20634,8 @@
       "<buff><buff_heal>HP回復量アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
+      "<buff><buff_heal>毎ターンHP回復",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_critical>スター集中ダウン",
@@ -21212,7 +21238,17 @@
         "description": "スターを大量獲得[Lv]",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "眩き旅路 EX",
+          "description": "スターを大量獲得[Lv]＋自身のクリティカル威力をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を３段階突破する＆「今も、追い続けるもの」クリア後（Lostbelt No.3プロローグクリア＆絆Lv5が必要）",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_critical>スター獲得",
+            "<buff><buff_critical>[自]クリティカル威力アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_critical>スター獲得"
         ]
@@ -21271,6 +21307,7 @@
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>スター獲得",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_extradamage>超巨大特攻",
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP20獲得",
@@ -22467,11 +22504,30 @@
       "description": "敵単体に超強力な攻撃[Lv]＆毒状態を付与(3T)＋自身のクリティカル威力をアップ(3T)<OC:効果UP>",
       "cardType": "Quick",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "告密羅織経",
+        "ruby": "こくみつらしょくけい",
+        "description": "敵単体に超強力な攻撃[Lv]＆強化状態を解除＆毒状態を付与(3T)＋自身のクリティカル威力をアップ(3T)<OC:効果UP>",
+        "cardType": "Quick",
+        "unlock": "「女帝＋」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>Q宝具",
+          "<servant><servant_noblephantasm>攻撃宝具",
+          "<servant><servant_noblephantasm>単体攻撃宝具",
+          "<debuff><debuff_antibuff>強化解除",
+          "<debuff><debuff_antibuff>[単]強化解除",
+          "<debuff><debuff_slip>スリップダメージ",
+          "<debuff><debuff_slip>[単]スリップダメージ",
+          "<debuff><debuff_slip>毒付与",
+          "<buff><buff_critical>[自]クリティカル威力アップ"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>Q宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<debuff><debuff_slip>スリップダメージ",
         "<debuff><debuff_slip>[単]スリップダメージ",
         "<debuff><debuff_slip>毒付与",
@@ -22542,10 +22598,13 @@
       "<servant><servant_card><servant_noblephantasm>Q宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[単]スリップダメージ",
       "<debuff><debuff_slip>毒付与",
       "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<debuff><debuff_antibuff>強化解除",
+      "<debuff><debuff_antibuff>[単]強化解除",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>[自]防御アップ",
@@ -24879,14 +24938,25 @@
         "description": "自身の防御力を大アップ(1T)＆防御力をアップ[Lv](3T)＆弱体耐性をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "四神地相（白鷺） A",
+          "description": "自身の防御力を大アップ(1T)＆防御力をアップ[Lv](3T)＆弱体耐性をアップ[Lv](3T)＋味方全体のクリティカル威力をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を２段階突破する＆「引き籠もりミルキーウェイ」クリア後（絆Lv5が必要）",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_defence>[自]防御アップ",
+            "<buff><buff_regist>弱体耐性アップ",
+            "<buff><buff_critical>[他]クリティカル威力アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_defence>[自]防御アップ",
           "<buff><buff_regist>弱体耐性アップ"
         ]
       },
       {
-        "name": "\n千代紙操法\n(ちよがみそうほう) EX",
+        "name": "千代紙操法 EX",
         "description": "味方単体のNPを増やす[Lv](10-20)＆スター発生率をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
@@ -24897,7 +24967,7 @@
         ]
       },
       {
-        "name": "\n城化物\n(しろばけもの) A++",
+        "name": "城化物 A++",
         "description": "敵単体の防御力をダウン[Lv](1T)＆強化状態を解除",
         "ct": "7",
         "unlock": "霊基再臨を３段階突破する",
@@ -24958,6 +25028,7 @@
       "<buff><buff_attack>[他]B性能アップ",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_regist>弱体耐性アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_np>NP配布",
       "<buff><buff_critical>[他]スター発生アップ",
       "<debuff><debuff_defence>[単]防御ダウン",
@@ -25369,7 +25440,7 @@
     },
     "skills": [
       {
-        "name": "\n道術\n(どうじゅつ) A",
+        "name": "道術 A",
         "description": "自身のQuickカード性能をアップ[Lv](3T)＆Busterカード性能をアップ[Lv](3T)＆クリティカル威力をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "初期",
@@ -25381,7 +25452,7 @@
         ]
       },
       {
-        "name": "\n霊珠子\n(れいじゅし) A",
+        "name": "霊珠子 A",
         "description": "自身にガッツ状態(1回・5T)を付与[Lv]＆NPを増やす[Lv](10-20)",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
@@ -28897,7 +28968,7 @@
       },
       {
         "name": "無貌の月 EX",
-        "description": "自身にパーティ全体の手札を固定する状態<パーティメンバーが変更、またはカードがシャッフルされると強制解除>を付与(3T)＋自身に毎ターンスター獲得状態を付与(3T) [Lv]",
+        "description": "自身にパーティ全体の手札を固定する状態<パーティメンバーが変更、またはカードがシャッフルされると強制解除>を付与(3T)＆毎ターンスター獲得状態を付与(3T) [Lv]",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
@@ -31391,7 +31462,7 @@
     "skills": [
       {
         "name": "女神の恩恵 B",
-        "description": "味方単体に最大HPが減る状態を付与(永続)【デメリット】＆宝具使用時のチャージを段階1段階引き上げる(1回・3T)＋自身のHPを回復[Lv]",
+        "description": "味方単体に最大HPが減る状態を付与(永続)【デメリット】＆宝具使用時のチャージ段階を1段階引き上げる(1回・3T)＋自身のHPを回復[Lv]",
         "ct": "7",
         "unlock": "初期",
         "upgrade": null,
@@ -31403,7 +31474,7 @@
       },
       {
         "name": "身体無き者 EX",
-        "description": "自身にガッツ状態を付与(1回)[Lv]＆攻撃力をアップ(3T)[Lv]",
+        "description": "自身にガッツ状態を付与[Lv](1回)＆攻撃力をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": null,
@@ -31415,7 +31486,7 @@
       },
       {
         "name": "マーラ・パーピーヤス EX",
-        "description": "自身のNPを増やす[Lv](30-50)＆〔アルターエゴ〕クラスに対して相性有利になる状態を付与(3T)＆クリティカル威力をアップ(3T)[Lv]＋敵全体の魅了耐性をダウン(1T)[Lv]",
+        "description": "自身のNPを増やす[Lv](30-50)＆〔アルターエゴ〕クラスに対して相性有利になる状態を付与(3T)＆クリティカル威力をアップ(3T)＋敵全体の魅了耐性をダウン[Lv](1T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,

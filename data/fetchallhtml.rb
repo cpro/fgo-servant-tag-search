@@ -1,6 +1,16 @@
 require 'open-uri'
+require 'optparse'
 
-GET_ALL = ARGV[0] && ARGV[0].trim == '-a'
+opts = {}
+OptionParser.new do |op|
+    op.on('-a', '--all') {|v| opts[:a] = v}
+    op.on('--ids=V,V,...', Array) {|v| opts[:ids] = v}
+    op.parse!(ARGV)
+end
+
+GET_ALL = opts[:a]
+IS_SPECIFIED = !!opts[:ids]
+SPEC_IDS = opts[:ids]
 
 def fetch_html_into_file(url, path)
     charset = nil
@@ -24,10 +34,10 @@ FETCH_INTERVAL_SECOND = 5
 def main
     File.open(LIST_PATH, 'r') do |f|
         f.each_line do |line|
-            _id, name, url = line.chomp.split("\t")
+            id, name, url = line.chomp.split("\t")
             url = 'https:' + url
             path = './html/' + url_to_filename(url)
-            if GET_ALL || !File.exist?(path)
+            if GET_ALL || (IS_SPECIFIED && SPEC_IDS.include?(id)) || !File.exist?(path)
                 puts "fetching #{name} (#{url}) ..."
                 fetch_html_into_file(url, path)
                 sleep FETCH_INTERVAL_SECOND unless f.eof?
