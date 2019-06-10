@@ -37,7 +37,9 @@
         <span class="pink--text text--darken-1">
           [宝具強化]
         </span>
-        {{ np.upgrade.unlock }}
+        <span class="grey--text text--darken-1">
+          {{ np.upgrade.unlock }}
+        </span>
       </div>
       <ServantEntryNoblePhantasm :data="np.upgrade" />
     </div>

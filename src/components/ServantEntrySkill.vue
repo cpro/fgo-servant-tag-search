@@ -30,7 +30,9 @@
     </v-slide-y-transition>
     <div class="pl-4 mb-2">
       {{ skill.description }}
-      <div class="caption">習得条件: {{ skill.unlock }}</div>
+      <div class="caption grey--text text--darken-1">
+        習得条件: {{ skill.unlock }}
+      </div>
     </div>
 
     <div v-if="skill.upgrade" class="pl-4 mt-2">
