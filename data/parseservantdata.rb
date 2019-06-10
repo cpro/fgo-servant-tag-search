@@ -585,7 +585,11 @@ def parse_skill(node)
 
     skill_number, name = node.content.strip.split('：')
     skill.name = name
-
+    node_ruby = node.at_xpath('./ruby')
+    if node_ruby
+        skill.name = node_ruby.at_xpath('./rb').content.strip + node_ruby.at_xpath('./following-sibling::text()').content.chomp
+    end
+    
     node_skillbody = node.at_xpath('./following-sibling::div[1]')
     nodes_datarow = node_skillbody.xpath('.//tr[2]/td')
     skill.ct = nodes_datarow[0].content.strip
