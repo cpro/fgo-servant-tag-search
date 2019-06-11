@@ -28,7 +28,7 @@
       </div>
     </v-slide-y-transition>
     <div class="pl-4 mb-2">
-      {{ np.description }}
+      <ServantEntryTextDecoration :text="np.description" />
     </div>
 
     <div v-if="np.upgrade" class="pl-4 mt-2">
@@ -37,7 +37,9 @@
         <span class="pink--text text--darken-1">
           [宝具強化]
         </span>
-        {{ np.upgrade.unlock }}
+        <span class="grey--text text--darken-1">
+          {{ np.upgrade.unlock }}
+        </span>
       </div>
       <ServantEntryNoblePhantasm :data="np.upgrade" />
     </div>
@@ -50,12 +52,14 @@ import NoblePhantasm from '@/models/noblephantasm'
 import Tag from '@/models/tag'
 import TagIndicator from '@/components/TagIndicator.vue'
 import ServantEntryCardIndicator from '@/components/ServantEntryCardIndicator.vue'
+import ServantEntryTextDecoration from '@/components/ServantEntryTextDecoration.vue'
 
 @Component({
   name: 'ServantEntryNoblePhantasm',
   components: {
     TagIndicator,
     ServantEntryCardIndicator,
+    ServantEntryTextDecoration,
   },
 })
 export default class ServantEntryNoblePhantasm extends Vue {

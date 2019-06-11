@@ -29,8 +29,10 @@
       </div>
     </v-slide-y-transition>
     <div class="pl-4 mb-2">
-      {{ skill.description }}
-      <div class="caption">習得条件: {{ skill.unlock }}</div>
+      <ServantEntryTextDecoration :text="skill.description" />
+      <div class="caption grey--text text--darken-1">
+        習得条件: {{ skill.unlock }}
+      </div>
     </div>
 
     <div v-if="skill.upgrade" class="pl-4 mt-2">
@@ -45,11 +47,13 @@ import { Component, Prop, Emit, Vue } from 'vue-property-decorator'
 import Skill from '@/models/skill'
 import Tag from '@/models/tag'
 import TagIndicator from '@/components/TagIndicator.vue'
+import ServantEntryTextDecoration from '@/components/ServantEntryTextDecoration.vue'
 
 @Component({
   name: 'ServantEntrySkill',
   components: {
     TagIndicator,
+    ServantEntryTextDecoration,
   },
 })
 export default class ServantEntrySkill extends Vue {
