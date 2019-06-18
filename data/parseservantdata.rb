@@ -379,6 +379,7 @@ def parse_description_to_tag(desc)
                 s.sub!('クラスのサーヴァント', 'サーヴァント')
                 s.sub!(/天または地の力を持つサーヴァント.*/, '天地サーヴァント')
                 s.sub!('人の力を持つ敵', '人属性')
+                s.sub!(/[(（][^)）]+[)）]/, '')
                 "#{cat}#{s}特攻"
             end)
         elsif s[14]
@@ -622,7 +623,8 @@ def parse_desc(node)
         end
     end
     desc.gsub!(/(（[^）].+状態）)状態/) {|s| "状態#{$1}"}
-    desc.gsub!(/\s*確率\d+[%％]\s*/, '')
+    desc.gsub!(/\s*・?確率\d+[%％]\s*/, '')
+    desc.gsub!(/\(\)|（）/, '')
 
     desc
 end
