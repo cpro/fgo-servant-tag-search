@@ -32400,5 +32400,405 @@
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4072.html",
     "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%86%E3%83%AB"
+  },
+  {
+    "id": 247,
+    "name": "アルジュナ〔オルタ〕",
+    "className": "バーサーカー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 1,
+    "arts": 1,
+    "buster": 3,
+    "attribution": "天",
+    "gender": "男性",
+    "alignment": "秩序・善＆悪",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "神性"
+    ],
+    "noblePhantasm": {
+      "name": "帰滅を裁定せし廻剣",
+      "ruby": "マハー・プララヤ",
+      "description": "敵全体のBuster攻撃耐性をダウン(3T)<OC:効果UP>＆強力な攻撃[Lv]",
+      "cardType": "Buster",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>B宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<debuff><debuff_defence>カード耐性ダウン",
+        "<debuff><debuff_defence>B耐性ダウン"
+      ]
+    },
+    "skills": [
+      {
+        "name": "対邪悪(特殊) EX",
+        "description": "自身の攻撃力をアップ[Lv](3T)＆〔弱体状態(解除不能な状態は除く)〕特攻状態を付与[Lv](3T)",
+        "ct": "7",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]攻撃アップ",
+          "<buff><buff_extradamage>弱体状態特攻"
+        ]
+      },
+      {
+        "name": "千里眼(超越) EX",
+        "description": "自身のBusterカードのスター集中度をアップ[Lv](3T)＆NPを増やす[Lv](20-30)",
+        "ct": "7",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_critical>スター集中",
+          "<buff><buff_critical>特定カードスター集中",
+          "<buff><buff_np>NP獲得"
+        ]
+      },
+      {
+        "name": "魂の灯火 EX",
+        "description": "自身にガッツ状態(1回・3T)を付与[Lv]＆毎ターンHP回復状態を付与[Lv](3T)",
+        "ct": "9",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>ガッツ",
+          "<buff><buff_defence>[自]ガッツ付与",
+          "<buff><buff_heal>毎ターンHP回復",
+          "<buff><buff_heal>[自]HP回復"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "狂化 EX",
+        "description": "自身のBusterカードの性能をアップ",
+        "tags": [
+          "<servant><servant_classskill>狂化"
+        ]
+      },
+      {
+        "name": "神性 EX",
+        "description": "自身に与ダメージプラス状態を付与",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>神性"
+        ]
+      }
+    ],
+    "availability": "期間限定",
+    "tags": [
+      "<servant><servant_class>バーサーカー",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>男性",
+      "<servant><servant_attr>秩序",
+      "<servant><servant_attr>善",
+      "<servant><servant_attr>悪",
+      "<servant><servant_card>QABBB",
+      "<servant><servant_attr>天属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_availability>期間限定",
+      "<servant><servant_card><servant_noblephantasm>B宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<debuff><debuff_defence>カード耐性ダウン",
+      "<debuff><debuff_defence>B耐性ダウン",
+      "<buff><buff_attack>[自]攻撃アップ",
+      "<buff><buff_extradamage>弱体状態特攻",
+      "<buff><buff_critical>スター集中",
+      "<buff><buff_critical>特定カードスター集中",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_defence>ガッツ",
+      "<buff><buff_defence>[自]ガッツ付与",
+      "<buff><buff_heal>毎ターンHP回復",
+      "<buff><buff_heal>[自]HP回復",
+      "<buff><buff_np>NP30獲得",
+      "<servant><servant_classskill>狂化",
+      "<servant><servant_trait><servant_classskill>神性"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4085.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A2%E3%83%AB%E3%82%B8%E3%83%A5%E3%83%8A%EF%BC%88%E3%82%AA%E3%83%AB%E3%82%BF%EF%BC%89"
+  },
+  {
+    "id": 248,
+    "name": "アシュヴァッターマン",
+    "className": "アーチャー",
+    "rarity": 4,
+    "cost": 12,
+    "quick": 2,
+    "arts": 1,
+    "buster": 2,
+    "attribution": "天",
+    "gender": "男性",
+    "alignment": "混沌・中庸",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "神性",
+      "愛する者"
+    ],
+    "noblePhantasm": {
+      "name": "転輪よ、憤炎を巻き起こせ",
+      "ruby": "スダルシャンチャクラ・ヤムラージ",
+      "description": "敵単体に超強力な攻撃[Lv]＆自身のHPが少ないほど威力の高い追加ダメージ<OC:威力UP>{追加ダメージ倍率*(1-HP/MAXHP)}＆防御強化状態を解除",
+      "cardType": "Buster",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>B宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>単体攻撃宝具"
+      ]
+    },
+    "skills": [
+      {
+        "name": "魔尼の宝珠 B",
+        "description": "自身に無敵状態を付与(1T)＆NPを増やす[Lv](20-30)",
+        "ct": "8",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>無敵",
+          "<buff><buff_defence>[自]回避/無敵",
+          "<buff><buff_np>NP獲得"
+        ]
+      },
+      {
+        "name": "士道の蹂躙 A",
+        "description": "自身のBusterカード性能をアップ[Lv](3T)＆Busterカードによる攻撃時に敵単体に防御力ダウン[Lv](3T)を付与する状態を付与(3回・5T)",
+        "ct": "7",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]B性能アップ",
+          "<debuff><debuff_defence>[単]防御ダウン"
+        ]
+      },
+      {
+        "name": "至尊の戦士 A+",
+        "description": "自身のQuickカード性能をアップ[Lv](3T)＆Quickカードによる攻撃時に自身にクリティカル威力アップ[Lv](3T)を付与する状態を付与(3回・5T)",
+        "ct": "7",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]Q性能アップ",
+          "<buff><buff_critical>[自]クリティカル威力アップ"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "対魔力 A",
+        "description": "自身の弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "単独行動 EX",
+        "description": "自身のクリティカル威力をアップ",
+        "tags": [
+          "<servant><servant_classskill>単独行動"
+        ]
+      },
+      {
+        "name": "憤怒の化身 EX",
+        "description": "自身のBusterカード性能を少しアップ＆Busterカードのクリティカル威力をアップ＆精神異常無効状態を付与",
+        "tags": [
+
+        ]
+      },
+      {
+        "name": "神性 A+",
+        "description": "自身に与ダメージプラス状態を付与",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>神性"
+        ]
+      }
+    ],
+    "availability": "二部四章クリアで追加",
+    "tags": [
+      "<servant><servant_class>アーチャー",
+      "<servant><servant_class>三騎士",
+      "<servant><servant_rarity>★4",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_rarity>★4以下",
+      "<servant><servant_trait>男性",
+      "<servant><servant_attr>混沌",
+      "<servant><servant_attr>中庸",
+      "<servant><servant_card>QQABB",
+      "<servant><servant_attr>天属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_trait>愛する者",
+      "<servant><servant_availability>ストーリー限定",
+      "<servant><servant_card><servant_noblephantasm>B宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>無敵",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_attack>[自]B性能アップ",
+      "<debuff><debuff_defence>[単]防御ダウン",
+      "<buff><buff_attack>[自]Q性能アップ",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<buff><buff_np>NP30獲得",
+      "<servant><servant_classskill>対魔力",
+      "<servant><servant_classskill>単独行動",
+      "<servant><servant_trait><servant_classskill>神性"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4088.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A2%E3%82%B7%E3%83%A5%E3%83%B4%E3%82%A1%E3%83%83%E3%82%BF%E3%83%BC%E3%83%9E%E3%83%B3"
+  },
+  {
+    "id": 249,
+    "name": "アスクレピオス",
+    "className": "キャスター",
+    "rarity": 3,
+    "cost": 7,
+    "quick": 1,
+    "arts": 3,
+    "buster": 1,
+    "attribution": "地",
+    "gender": "男性",
+    "alignment": "中立・中庸",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "神性",
+      "ギリシャ神話系男性"
+    ],
+    "noblePhantasm": {
+      "name": "倣薬・不要なる冥府の悲歎",
+      "ruby": "リザレクション・フロートハデス",
+      "description": "自身を除く味方全体にガッツ状態を付与[Lv](1回・3T)＋ 味方全体に毎ターンHP回復状態を付与(3T)<OC:効果UP>＆弱体無効状態を付与(1回・3T)",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>補助宝具",
+        "<buff><buff_defence>ガッツ",
+        "<buff><buff_defence>[他]ガッツ付与",
+        "<buff><buff_heal>毎ターンHP回復",
+        "<buff><buff_heal>[他]HP回復",
+        "<buff><buff_heal><buff_regist>弱体解除/無効",
+        "<buff><buff_regist>[他]弱体無効"
+      ]
+    },
+    "skills": [
+      {
+        "name": "医神 EX",
+        "description": "味方単体のHPを大回復[Lv]＆弱体耐性をアップ[Lv](3T)",
+        "ct": "7",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_heal>HP回復",
+          "<buff><buff_heal>[他]HP回復",
+          "<buff><buff_regist>弱体耐性アップ"
+        ]
+      },
+      {
+        "name": "アポロンの子 A",
+        "description": "敵単体に高確率で宝具封印状態を付与[Lv:確率](1T)＋味方全体のNP獲得量をアップ[Lv](3T)",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<debuff><debuff_delay>宝具封印",
+          "<debuff><debuff_delay>[単]宝具封印",
+          "<buff><buff_np>[他]NP獲得量アップ"
+        ]
+      },
+      {
+        "name": "蛇遣い B",
+        "description": "味方全体のNPを増やす[Lv](10-20)＆弱体状態を解除",
+        "ct": "9",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_np>NP配布",
+          "<buff><buff_heal><buff_regist>弱体解除/無効",
+          "<buff><buff_heal>[他]弱体解除"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "陣地作成 A",
+        "description": "自身のArtsカードの性能をアップ",
+        "tags": [
+          "<servant><servant_classskill>陣地作成"
+        ]
+      },
+      {
+        "name": "道具作成 EX",
+        "description": "自身の弱体付与成功率をアップ",
+        "tags": [
+          "<servant><servant_classskill>道具作成"
+        ]
+      },
+      {
+        "name": "神性 A",
+        "description": "自身に与ダメージプラス状態を付与",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>神性"
+        ]
+      }
+    ],
+    "availability": "二部四章クリアで追加",
+    "tags": [
+      "<servant><servant_class>キャスター",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★3",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★3以下",
+      "<servant><servant_rarity>★4以下",
+      "<servant><servant_trait>男性",
+      "<servant><servant_attr>中立",
+      "<servant><servant_attr>中庸",
+      "<servant><servant_card>QAAAB",
+      "<servant><servant_attr>地属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_trait>ギリシャ神話系男性",
+      "<servant><servant_availability>ストーリー限定",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>補助宝具",
+      "<buff><buff_defence>ガッツ",
+      "<buff><buff_defence>[他]ガッツ付与",
+      "<buff><buff_heal>毎ターンHP回復",
+      "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_heal><buff_regist>弱体解除/無効",
+      "<buff><buff_regist>[他]弱体無効",
+      "<buff><buff_heal>HP回復",
+      "<buff><buff_regist>弱体耐性アップ",
+      "<debuff><debuff_delay>宝具封印",
+      "<debuff><debuff_delay>[単]宝具封印",
+      "<buff><buff_np>[他]NP獲得量アップ",
+      "<buff><buff_np>NP配布",
+      "<buff><buff_heal>[他]弱体解除",
+      "<buff><buff_np>NP10-20配布",
+      "<servant><servant_classskill>陣地作成",
+      "<servant><servant_classskill>道具作成",
+      "<servant><servant_trait><servant_classskill>神性"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4089.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A2%E3%82%B9%E3%82%AF%E3%83%AC%E3%83%94%E3%82%AA%E3%82%B9"
   }
 ]
