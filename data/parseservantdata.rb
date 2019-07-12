@@ -57,7 +57,11 @@ class Servant
         @tags.push("<servant><servant_rarity>★4") if @id == 1 # マシュ
         (2 .. 4).each {|i| @tags.push("<servant><servant_rarity>★#{i}以上") if @rarity >= i}
         (2 .. 4).each {|i| @tags.push("<servant><servant_rarity>★#{i}以下") if @rarity <= i}
-        @tags.push("<servant><servant_trait>#{@gender}") if ['男性', '女性'].include?(@gender)
+        if ['男性', '女性'].include?(@gender)
+            @tags.push("<servant><servant_trait>#{@gender}")
+        else
+            @tags.push("<servant><servant_trait>性別不明")
+        end
         @tags += @alignment.sub('善＆悪', '善・悪').split('・').map {|a| "<servant><servant_attr>#{a}"}
         @tags.push('<servant><servant_attr>善・中庸・悪以外') unless @alignment.match?(/・(善|中庸|悪)/)
         @tags.push('<servant><servant_card>' + 'Q' * @quick + 'A' * @arts + 'B' * @buster)
