@@ -1044,8 +1044,18 @@
         "description": "味方全体の宝具威力をアップ[Lv](1T)",
         "ct": "7",
         "unlock": "初期",
+        "upgrade": {
+          "name": "神の鞭 A",
+          "description": "味方全体の宝具威力をアップ[Lv](3T)＋敵全体の防御強化状態を解除",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
+            "<buff><buff_attack>[他]宝具威力アップ",
+            "<debuff><debuff_antibuff>防御強化解除"
+          ]
+        },
+        "tags": [
           "<buff><buff_attack>[他]宝具威力アップ"
         ]
       },
@@ -1075,7 +1085,7 @@
       },
       {
         "name": "星の紋章 EX",
-        "description": "自身の攻撃力をアップ[Lv](3T)＋ スターを獲得[Lv]",
+        "description": "自身の攻撃力をアップ[Lv](3T)＋スターを獲得[Lv]",
         "ct": "7",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
@@ -1131,6 +1141,7 @@
       "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_attack>[他]宝具威力アップ",
+      "<debuff><debuff_antibuff>防御強化解除",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
@@ -2972,10 +2983,22 @@
         "description": "自身の攻撃弱体耐性をアップ[Lv](3T)＆HPを大回復[Lv]",
         "ct": "7",
         "unlock": "初期",
+        "upgrade": {
+          "name": "浪漫の風 B",
+          "description": "自身の攻撃弱体耐性をアップ[Lv](3T)＆HPを大回復[Lv]＆NPを増やす(20)",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト2」クリア後",
           "upgrade": null,
           "tags": [
             "<buff><buff_regist>弱体耐性アップ",
             "<buff><buff_heal>HP回復",
+            "<buff><buff_heal>[自]HP回復",
+            "<buff><buff_np>NP獲得"
+          ]
+        },
+        "tags": [
+          "<buff><buff_regist>弱体耐性アップ",
+          "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[自]HP回復"
         ]
       },
@@ -3039,11 +3062,13 @@
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
+      "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[他]ガッツ付与",
       "<buff><buff_attack>[他]B性能アップ",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/94.html",
@@ -3499,7 +3524,17 @@
         "description": "自身に〔ローマ〕特攻状態を付与[Lv](3T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "勝利の女神 A",
+          "description": "味方全体に〔ローマ〕特攻状態を付与[Lv](3T)＆クリティカル威力をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト3」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_extradamage>ローマ特攻",
+            "<buff><buff_critical>[他]クリティカル威力アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_extradamage>ローマ特攻"
         ]
@@ -3565,6 +3600,7 @@
       "<buff><buff_defence>[他]防御アップ",
       "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_extradamage>ローマ特攻",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_attack>[他]A性能アップ",
@@ -3779,7 +3815,20 @@
         "description": "敵単体〔人型〕に確率で魅了付与[Lv:確率](1T)",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "紅顔の美少年（雷） A",
+          "description": "敵単体〔人型〕に確率で魅了付与[Lv:確率](1T)＋敵単体の強化状態を解除",
+          "ct": "9",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<debuff><debuff_delay>行動不能系付与",
+            "<debuff><debuff_delay>魅了付与",
+            "<debuff><debuff_delay>[単]行動不能系付与",
+            "<debuff><debuff_antibuff>強化解除",
+            "<debuff><debuff_antibuff>[単]強化解除"
+          ]
+        },
         "tags": [
           "<debuff><debuff_delay>行動不能系付与",
           "<debuff><debuff_delay>魅了付与",
@@ -3848,6 +3897,8 @@
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>魅了付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
+      "<debuff><debuff_antibuff>強化解除",
+      "<debuff><debuff_antibuff>[単]強化解除",
       "<buff><buff_attack>[他]Q性能アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
@@ -8987,7 +9038,17 @@
         "description": "味方単体のHP回復量をアップ[Lv](1T)",
         "ct": "10",
         "unlock": "霊基再臨を３段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "うたかたの恋 EX",
+          "description": "味方単体のHP回復量をアップ[Lv](1T)＆強化解除耐性をアップ[Lv](3T)",
+          "ct": "8",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_heal>HP回復量アップ",
+            "<buff><buff_regist>強化解除耐性アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_heal>HP回復量アップ"
         ]
@@ -9039,6 +9100,7 @@
       "<buff><buff_heal>毒解除",
       "<buff><buff_heal>[他]毒解除",
       "<buff><buff_heal>HP回復量アップ",
+      "<buff><buff_regist>強化解除耐性アップ",
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成"
@@ -11442,7 +11504,19 @@
         "description": "1ターン後に敵全体に中確率でスタン状態を付与する[Lv](1T)",
         "ct": "10",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "支援砲撃XEX EX",
+          "description": "敵全体の防御力をダウン[Lv](3T)＋1ターン後に敵全体に中確率でスタン状態を付与する[Lv](1T)",
+          "ct": "9",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト2」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<debuff><debuff_defence>[全]防御ダウン",
+            "<debuff><debuff_delay>行動不能系付与",
+            "<debuff><debuff_delay>スタン付与",
+            "<debuff><debuff_delay>[全]行動不能系付与"
+          ]
+        },
         "tags": [
           "<debuff><debuff_delay>行動不能系付与",
           "<debuff><debuff_delay>スタン付与",
@@ -11458,7 +11532,7 @@
           "name": "セイバーの星 C++",
           "description": "自身に無敵状態を付与(1T)＋スターを大量獲得[Lv]",
           "ct": "7",
-          "unlock": "霊基再臨を１段階突破する＆「強化クエスト」クリア後",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
             "<buff><buff_defence>回避/無敵",
@@ -11526,6 +11600,7 @@
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[全]行動不能系付与",
+      "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",
@@ -12062,7 +12137,17 @@
         "description": "味方単体にNP獲得アップ状態を付与[Lv](3T)",
         "ct": "9",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "天に星を EX",
+          "description": "味方単体にNP獲得アップ状態を付与[Lv](3T)＆NPを増やす[Lv](20-30)",
+          "ct": "9",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_np>[他]NP獲得量アップ",
+            "<buff><buff_np>NP配布"
+          ]
+        },
         "tags": [
           "<buff><buff_np>[他]NP獲得量アップ"
         ]
@@ -12136,11 +12221,13 @@
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<buff><buff_np>[他]NP獲得量アップ",
+      "<buff><buff_np>NP配布",
       "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[他]HP回復",
       "<buff><buff_defence>[他]防御アップ",
+      "<buff><buff_np>NP30配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
@@ -13003,7 +13090,7 @@
     "classSkills": [
       {
         "name": "復讐者 A",
-        "description": "自身以外の味方全体<控え含む>の弱体耐性をダウン＆自身の被ダメージ時のNP獲得量をアップ",
+        "description": "自身の被ダメージ時に獲得するNPアップ＆＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
         "tags": [
 
         ]
@@ -14413,7 +14500,7 @@
     "classSkills": [
       {
         "name": "復讐者 B",
-        "description": "自身以外の味方全体<控え含む>の弱体耐性をダウン＆自身の被ダメージ時のNP獲得量をアップ",
+        "description": "自身の被ダメージ時に獲得するNPアップ＆＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
         "tags": [
 
         ]
@@ -14552,7 +14639,7 @@
     "classSkills": [
       {
         "name": "復讐者 A",
-        "description": "自身以外の味方全体<控え含む>の弱体耐性をダウン＆自身の被ダメージ時のNP獲得量をアップ",
+        "description": "自身の被ダメージ時に獲得するNPアップ＆＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
         "tags": [
 
         ]
@@ -14670,7 +14757,17 @@
         "description": "味方全体の宝具威力をアップ[Lv](1T)",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "制圧軍略 A",
+          "description": "味方全体の宝具威力をアップ[Lv](3T)＆クリティカル威力をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[他]宝具威力アップ",
+            "<buff><buff_critical>[他]クリティカル威力アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_attack>[他]宝具威力アップ"
         ]
@@ -14737,6 +14834,7 @@
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>[自]スター発生アップ",
       "<servant><servant_classskill>対魔力",
@@ -15898,7 +15996,19 @@
         "description": "敵全体の弱体耐性をダウン[Lv](1T)",
         "ct": "7",
         "unlock": "霊基再臨を３段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "風声鶴唳 C++",
+          "description": "敵全体の弱体耐性をダウン[Lv](1T)＆防御力をダウン[Lv](3T)＆強化無効状態を付与(1回)",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<debuff><debuff_regist>弱体耐性ダウン",
+            "<debuff><debuff_defence>[全]防御ダウン",
+            "<debuff><debuff_antibuff>強化無効",
+            "<debuff><debuff_antibuff>[全]強化無効"
+          ]
+        },
         "tags": [
           "<debuff><debuff_regist>弱体耐性ダウン"
         ]
@@ -15941,6 +16051,8 @@
       "<buff><buff_defence>[他]回避/無敵",
       "<buff><buff_critical>[他]スター発生アップ",
       "<debuff><debuff_regist>弱体耐性ダウン",
+      "<debuff><debuff_antibuff>強化無効",
+      "<debuff><debuff_antibuff>[全]強化無効",
       "<servant><servant_classskill>気配遮断"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/1094.html",
@@ -16679,7 +16791,16 @@
         "description": "味方全体の攻撃力をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "不夜のカリスマ B",
+          "description": "味方全体の攻撃力をアップ[Lv](3T)＋自身にフィールドを〔陽射し〕特性にする状態を付与(1T)",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[他]攻撃アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_attack>[他]攻撃アップ"
         ]
@@ -18238,11 +18359,26 @@
       "description": "敵単体の防御力をダウン(1T)<OC:効果UP>＆超強力な攻撃[Lv]",
       "cardType": "Buster",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "荒れ狂う哀しき竜よ",
+        "ruby": "タラスク",
+        "description": "敵単体の防御力をダウン(1T)<OC:効果UP>＆超強力な攻撃[Lv]",
+        "cardType": "Buster",
+        "unlock": "「強化クエスト」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>B宝具",
+          "<servant><servant_noblephantasm>攻撃宝具",
+          "<servant><servant_noblephantasm>単体攻撃宝具",
+          "<debuff><debuff_defence>[単]防御ダウン",
+          "<debuff><debuff_defence>宝具前防御ダウン"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>B宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<debuff><debuff_defence>[単]防御ダウン",
         "<debuff><debuff_defence>宝具前防御ダウン"
       ]
@@ -18313,6 +18449,7 @@
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_defence>宝具前防御ダウン",
       "<buff><buff_np>NP獲得",
@@ -19745,7 +19882,20 @@
         "description": "敵単体〔異性〕に確率で魅了付与[Lv:確率](1T)",
         "ct": "9",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "儚き姉妹 A",
+          "description": "敵単体〔異性〕に確率で魅了付与[Lv:確率](1T)＋敵単体のQuick攻撃耐性をダウン[Lv](3T)",
+          "ct": "8",
+          "unlock": "霊基再臨を4段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<debuff><debuff_delay>行動不能系付与",
+            "<debuff><debuff_delay>魅了付与",
+            "<debuff><debuff_delay>[単]行動不能系付与",
+            "<debuff><debuff_defence>カード耐性ダウン",
+            "<debuff><debuff_defence>Q耐性ダウン"
+          ]
+        },
         "tags": [
           "<debuff><debuff_delay>行動不能系付与",
           "<debuff><debuff_delay>魅了付与",
@@ -19889,7 +20039,18 @@
         "description": "自身の攻撃力を大アップ[Lv](1T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "巨怪蹂躙 EX",
+          "description": "自身の攻撃力を大アップ[Lv](4回・2T)＆Busterカードのスター集中度をアップ[Lv](1T)",
+          "ct": "7",
+          "unlock": "霊基再臨を4段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[自]攻撃アップ",
+            "<buff><buff_critical>スター集中",
+            "<buff><buff_critical>特定カードスター集中"
+          ]
+        },
         "tags": [
           "<buff><buff_attack>[自]攻撃アップ"
         ]
@@ -19922,7 +20083,7 @@
     "classSkills": [
       {
         "name": "復讐者 B",
-        "description": "自身以外の味方全体<控え含む>の弱体耐性をダウン＆自身の被ダメージ時のNP獲得量をアップ",
+        "description": "自身の被ダメージ時に獲得するNPアップ＆＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
         "tags": [
 
         ]
@@ -19968,6 +20129,8 @@
       "<debuff><debuff_slip>呪い付与",
       "<buff><buff_np>NP配布",
       "<buff><buff_attack>[自]攻撃アップ",
+      "<buff><buff_critical>スター集中",
+      "<buff><buff_critical>特定カードスター集中",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_critical>[自]クリティカル威力アップ",
@@ -21015,7 +21178,7 @@
     "classSkills": [
       {
         "name": "復讐者 A",
-        "description": "自身以外の味方全体<控え含む>の弱体耐性をダウン＆被ダメージ時のNP獲得量をアップ",
+        "description": "自身の被ダメージ時に獲得するNPアップ＆＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
         "tags": [
 
         ]
@@ -23678,7 +23841,19 @@
         "description": "味方単体のスキルチャージを1進める＆スター発生率をアップ[Lv](3T)＆HPを減少【デメリット】",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "コーチング A+",
+          "description": "味方単体のスキルチャージを1進める＆スター発生率をアップ[Lv](3T)＆HPを減少【デメリット】＆1ターン後に最大HPがアップする状態を付与[Lv](5T)",
+          "ct": "8",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_skillcharge>スキルチャージ短縮",
+            "<buff><buff_critical>[他]スター発生アップ",
+            "<other>デメリット",
+            "<buff><buff_heal>最大HPアップ"
+          ]
+        },
         "tags": [
           "<buff><buff_skillcharge>スキルチャージ短縮",
           "<buff><buff_critical>[他]スター発生アップ",
@@ -23747,6 +23922,7 @@
       "<buff><buff_skillcharge>スキルチャージ短縮",
       "<buff><buff_critical>[他]スター発生アップ",
       "<other>デメリット",
+      "<buff><buff_heal>最大HPアップ",
       "<buff><buff_attack>[自]Q性能アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
@@ -26950,7 +27126,7 @@
     "classSkills": [
       {
         "name": "復讐者 C",
-        "description": "自身以外の味方全体<控え含む>の弱体耐性をダウン＆被ダメージ時のNP獲得量をアップ",
+        "description": "自身の被ダメージ時に獲得するNPアップ＆＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
         "tags": [
 
         ]
@@ -32900,7 +33076,7 @@
     "classSkills": [
       {
         "name": "復讐者 B-",
-        "description": "自身以外の味方全体<控え含む>の弱体耐性をダウン＆＋自身の被ダメージ時のNP獲得量をアップ",
+        "description": "自身の被ダメージ時に獲得するNPアップ＆＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
         "tags": [
 
         ]
@@ -33347,7 +33523,7 @@
       "<servant><servant_classskill>陣地作成"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4185.html",
-    "urlWiki2": null
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%83%AC%E3%82%AA%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%80%E3%83%BB%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%81%EF%BC%88%E9%A8%8E%EF%BC%89"
   },
   {
     "id": 254,
@@ -33442,7 +33618,7 @@
         ]
       }
     ],
-    "availability": null,
+    "availability": "",
     "tags": [
       "<servant><servant_class>セイバー",
       "<servant><servant_class>三騎士",
@@ -33483,7 +33659,7 @@
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4177.html",
-    "urlWiki2": null
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A4%E3%82%A2%E3%82%BD%E3%83%B3"
   },
   {
     "id": 255,
@@ -33578,7 +33754,7 @@
         ]
       }
     ],
-    "availability": null,
+    "availability": "",
     "tags": [
       "<servant><servant_class>アーチャー",
       "<servant><servant_class>三騎士",
@@ -33622,7 +33798,7 @@
       "<servant><servant_classskill>単独行動"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4179.html",
-    "urlWiki2": null
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%83%91%E3%83%AA%E3%82%B9"
   },
   {
     "id": 256,
@@ -33711,7 +33887,7 @@
         ]
       }
     ],
-    "availability": null,
+    "availability": "",
     "tags": [
       "<servant><servant_class>ランサー",
       "<servant><servant_class>三騎士",
@@ -33748,7 +33924,7 @@
       "<servant><servant_trait><servant_classskill>騎乗"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4180.html",
-    "urlWiki2": null
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%AC%E3%83%AC%E3%82%B9"
   },
   {
     "id": 257,
@@ -33836,7 +34012,7 @@
         ]
       }
     ],
-    "availability": null,
+    "availability": "",
     "tags": [
       "<servant><servant_class>ライダー",
       "<servant><servant_class>四騎士",
@@ -33869,7 +34045,7 @@
       "<servant><servant_classskill>対魔力"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4174.html",
-    "urlWiki2": null
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%83%90%E3%83%BC%E3%82%BD%E3%83%AD%E3%83%9F%E3%83%A5%E3%83%BC%E3%83%BB%E3%83%AD%E3%83%90%E3%83%BC%E3%83%84"
   },
   {
     "id": 258,
@@ -33957,7 +34133,7 @@
         ]
       }
     ],
-    "availability": null,
+    "availability": "",
     "tags": [
       "<servant><servant_class>キャスター",
       "<servant><servant_class>四騎士",
@@ -33993,7 +34169,7 @@
       "<servant><servant_classskill>道具作成"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4173.html",
-    "urlWiki2": null
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E9%99%B3%E5%AE%AE"
   },
   {
     "id": 259,
@@ -34079,7 +34255,7 @@
         ]
       }
     ],
-    "availability": null,
+    "availability": "",
     "tags": [
       "<servant><servant_class>アサシン",
       "<servant><servant_class>四騎士",
@@ -34117,7 +34293,7 @@
       "<servant><servant_classskill>気配遮断"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4175.html",
-    "urlWiki2": null
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AD%E3%83%83%E3%83%88%E3%83%BB%E3%82%B3%E3%83%AB%E3%83%87%E3%83%BC"
   },
   {
     "id": 260,
@@ -34203,7 +34379,7 @@
         ]
       }
     ],
-    "availability": null,
+    "availability": "",
     "tags": [
       "<servant><servant_class>バーサーカー",
       "<servant><servant_class>四騎士",
@@ -34244,6 +34420,6 @@
       "<servant><servant_classskill>狂化"
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4182.html",
-    "urlWiki2": null
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%B5%E3%83%AD%E3%83%A1"
   }
 ]
