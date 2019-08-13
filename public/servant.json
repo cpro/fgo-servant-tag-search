@@ -612,6 +612,7 @@
           "upgrade": null,
           "tags": [
             "<buff><buff_np>NP獲得",
+            "<other>フィールド依存効果",
             "<buff><buff_attack>[自]A性能アップ",
             "<buff><buff_regist>精神異常耐性アップ",
             "<buff><buff_heal>HP回復",
@@ -695,6 +696,7 @@
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>NP獲得",
+      "<other>フィールド依存効果",
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>[自]防御アップ",
@@ -16783,6 +16785,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[自]攻撃アップ",
+          "<other>フィールド依存効果",
           "<buff><buff_attack>[自]B性能アップ"
         ]
       },
@@ -16798,7 +16801,8 @@
           "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
-            "<buff><buff_attack>[他]攻撃アップ"
+            "<buff><buff_attack>[他]攻撃アップ",
+            "<other>フィールド特性変更"
           ]
         },
         "tags": [
@@ -16862,8 +16866,10 @@
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>やけど付与",
       "<buff><buff_attack>[自]攻撃アップ",
+      "<other>フィールド依存効果",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>[他]攻撃アップ",
+      "<other>フィールド特性変更",
       "<buff><buff_np>NP獲得",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_defence>ガッツ",
@@ -18392,6 +18398,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_np>NP獲得",
+          "<other>フィールド依存効果",
           "<buff><buff_attack>[自]攻撃アップ"
         ]
       },
@@ -18453,6 +18460,7 @@
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_defence>宝具前防御ダウン",
       "<buff><buff_np>NP獲得",
+      "<other>フィールド依存効果",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
@@ -20211,6 +20219,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_critical>[自]クリティカル威力アップ",
+          "<other>フィールド依存効果",
           "<buff><buff_critical>[自]スター発生アップ",
           "<buff><buff_critical>スター集中"
         ]
@@ -20273,6 +20282,7 @@
       "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<other>フィールド依存効果",
       "<buff><buff_critical>[自]スター発生アップ",
       "<buff><buff_critical>スター集中",
       "<servant><servant_classskill>対魔力",
@@ -23734,6 +23744,7 @@
           "<buff><buff_attack>必中/無敵貫通",
           "<buff><buff_attack>必中",
           "<buff><buff_attack>[自]必中/無敵貫通",
+          "<other>フィールド依存効果",
           "<buff><buff_attack>[自]攻撃アップ"
         ]
       }
@@ -23783,6 +23794,7 @@
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>必中",
       "<buff><buff_attack>[自]必中/無敵貫通",
+      "<other>フィールド依存効果",
       "<buff><buff_attack>[自]攻撃アップ",
       "<servant><servant_classskill>狂化"
     ],
@@ -28643,6 +28655,7 @@
         "tags": [
           "<buff><buff_np>NP獲得",
           "<buff><buff_attack>[自]宝具威力アップ",
+          "<other>フィールド依存効果",
           "<buff><buff_critical>[自]クリティカル威力アップ"
         ]
       },
@@ -28701,6 +28714,7 @@
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_np>NP獲得",
       "<buff><buff_attack>[自]宝具威力アップ",
+      "<other>フィールド依存効果",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>二重カリスマ",
@@ -33045,6 +33059,7 @@
         "upgrade": null,
         "tags": [
           "<buff><buff_attack>[自]攻撃アップ",
+          "<other>フィールド特性変更",
           "<other>デメリット"
         ]
       },
@@ -33124,6 +33139,7 @@
       "<debuff><debuff_slip>[全]スリップダメージ",
       "<debuff><debuff_slip>やけど付与",
       "<buff><buff_attack>[自]攻撃アップ",
+      "<other>フィールド特性変更",
       "<other>デメリット",
       "<buff><buff_defence>回避/無敵",
       "<buff><buff_defence>無敵",

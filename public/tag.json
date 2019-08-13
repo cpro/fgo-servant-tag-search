@@ -179,6 +179,8 @@
   "<debuff><debuff_slip>毒付与",
   "<debuff><debuff_slip>蝕毒",
   "<other>デメリット",
+  "<other>フィールド依存効果",
+  "<other>フィールド特性変更",
   "<other>使用条件付き",
   "<servant><servant_attr>中庸",
   "<servant><servant_attr>中立",
