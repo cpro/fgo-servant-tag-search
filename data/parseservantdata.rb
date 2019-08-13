@@ -254,6 +254,8 @@ def parse_description_to_tag(desc)
         '(クラス(?:に対する|に対して)?相性)',
         '(精神弱体|弱体|魅了|即死)(?=耐性を?(?:小|大)?ダウン)',
         '(防御無視状態を付与)',
+        '(〕(?:の|のある|している)フィールド)',
+        '(フィールドを〔[^〕]+〕特性にする状態を付与)',
     ]
 
     target = '自身'
@@ -478,6 +480,12 @@ def parse_description_to_tag(desc)
             cat = '<buff><buff_attack>'
             tags.push("#{cat}防御無視")
             tags.push("#{cat}防御無視状態付与")
+        elsif s[37]
+            cat = '<other>'
+            tags.push("#{cat}フィールド依存効果")
+        elsif s[38]
+            cat = '<other>'
+            tags.push("#{cat}フィールド特性変更")
         end
     end
 
