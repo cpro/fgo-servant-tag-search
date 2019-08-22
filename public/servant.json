@@ -34973,5 +34973,435 @@
     ],
     "urlWiki1": "//www9.atwiki.jp/f_go/pages/4249.html",
     "urlWiki2": "//grand_order.wicurio.com/index.php?%E8%91%9B%E9%A3%BE%E5%8C%97%E6%96%8E%EF%BC%88%E5%89%A3%EF%BC%89"
+  },
+  {
+    "id": 265,
+    "name": "アルトリア・ペンドラゴン",
+    "className": "ルーラー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 2,
+    "arts": 1,
+    "buster": 2,
+    "attribution": "天",
+    "gender": "女性",
+    "alignment": "秩序・夏",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "竜",
+      "アルトリア顔",
+      "アーサー",
+      "王"
+    ],
+    "noblePhantasm": {
+      "name": "燦々とあれ、我が輝きの広間",
+      "ruby": "ブライト・エハングウェン",
+      "description": "自身のQuickカード性能をアップ(1T)<OC:効果UP>＆Artsカード性能をアップ(1T)<OC:効果UP>＆Busterカード性能をアップ(1T)<OC:効果UP>＋敵全体に強力な防御力無視攻撃[Lv]＋自身のNPをリチャージする",
+      "cardType": "Buster",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>B宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<servant><servant_noblephantasm>防御力無視宝具",
+        "<buff><buff_attack>[自]Q性能アップ",
+        "<buff><buff_attack>[自]A性能アップ",
+        "<buff><buff_attack>[自]B性能アップ",
+        "<buff><buff_attack>宝具前カード性能アップ",
+        "<buff><buff_attack>防御無視"
+      ]
+    },
+    "skills": [
+      {
+        "name": "ロイヤルバニー A",
+        "description": "自身のNPを増やす[Lv](20-40)＆回避状態を付与(1T)＆「1ターン後に自身の攻撃力をアップ[Lv](1T)する状態」を付与(1回)",
+        "ct": "8",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_np>NP獲得",
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>回避",
+          "<buff><buff_defence>[自]回避/無敵",
+          "<buff><buff_attack>[自]攻撃アップ"
+        ]
+      },
+      {
+        "name": "ロイヤルカード C+",
+        "description": "コマンドカードを配り直す＋味方全体のクリティカル威力をアップ[Lv](3T)",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_critical>[他]クリティカル威力アップ"
+        ]
+      },
+      {
+        "name": "獅子の騎士 B",
+        "description": "自身の攻撃力をアップ[Lv](3T)＆スター集中度をアップ[Lv](1T)",
+        "ct": "8",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]攻撃アップ",
+          "<buff><buff_critical>スター集中"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "対魔力 A",
+        "description": "自身の弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "陣地作成 B",
+        "description": "自身のArtsカードの性能をアップ",
+        "tags": [
+          "<servant><servant_classskill>陣地作成"
+        ]
+      }
+    ],
+    "availability": "期間限定",
+    "tags": [
+      "<servant><servant_class>ルーラー",
+      "<servant><servant_class>エクストラクラス",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>秩序",
+      "<servant><servant_attr>夏",
+      "<servant><servant_attr>善・中庸・悪以外",
+      "<servant><servant_card>QQABB",
+      "<servant><servant_attr>天属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>竜",
+      "<servant><servant_trait>アルトリア顔",
+      "<servant><servant_trait>アーサー",
+      "<servant><servant_trait>王",
+      "<servant><servant_availability>期間限定",
+      "<servant><servant_card><servant_noblephantasm>B宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<servant><servant_noblephantasm>防御力無視宝具",
+      "<buff><buff_attack>[自]Q性能アップ",
+      "<buff><buff_attack>[自]A性能アップ",
+      "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_attack>宝具前カード性能アップ",
+      "<buff><buff_attack>防御無視",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>回避",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_attack>[自]攻撃アップ",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
+      "<buff><buff_critical>スター集中",
+      "<buff><buff_np>NP40獲得",
+      "<servant><servant_classskill>対魔力",
+      "<servant><servant_classskill>陣地作成"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4287.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A2%E3%83%AB%E3%83%88%E3%83%AA%E3%82%A2%E3%83%BB%E3%83%9A%E3%83%B3%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%EF%BC%88%E8%A3%81%EF%BC%89"
+  },
+  {
+    "id": 266,
+    "name": "謎のアルターエゴ・Λ",
+    "className": "ランサー",
+    "rarity": 4,
+    "cost": 12,
+    "quick": 2,
+    "arts": 2,
+    "buster": 1,
+    "attribution": "地",
+    "gender": "女性",
+    "alignment": "秩序・善",
+    "traits": [
+      "サーヴァント",
+      "騎乗スキル",
+      "人型",
+      "神性",
+      "竜",
+      "魔性"
+    ],
+    "noblePhantasm": {
+      "name": "その夏露は硝子のように",
+      "ruby": "ブルーサマー・パラディオン",
+      "description": "フィールドが〔水辺〕の時、敵全体の回避状態を解除＋ 敵全体に強力な防御力無視攻撃[Lv]＋ スターを大量獲得<OC:効果UP>",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<servant><servant_noblephantasm>防御力無視宝具",
+        "<other>フィールド依存効果",
+        "<debuff><debuff_antibuff>回避/無敵解除",
+        "<buff><buff_attack>防御無視",
+        "<buff><buff_critical>スター獲得"
+      ]
+    },
+    "skills": [
+      {
+        "name": "スワンレイク A",
+        "description": "自身のArtsカード性能をアップ[Lv](5T)",
+        "ct": "6",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]A性能アップ"
+        ]
+      },
+      {
+        "name": "完全流体 B",
+        "description": "自身に無敵状態を付与(1T)＆強化解除耐性をアップ[Lv](1T)＆フィールドを〔水辺〕特性にする状態を付与(3T)",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>無敵",
+          "<buff><buff_defence>[自]回避/無敵",
+          "<buff><buff_regist>強化解除耐性アップ",
+          "<other>フィールド特性変更"
+        ]
+      },
+      {
+        "name": "メルトエンヴィー EX",
+        "description": "自身を除く味方全体からNPを吸収する[Lv]＋自身のスター集中度をアップ[Lv](1T)＆攻撃力をアップ[Lv](1T)",
+        "ct": "7",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_critical>スター集中",
+          "<buff><buff_attack>[自]攻撃アップ"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "対魔力 B",
+        "description": "自身の弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "騎乗 C",
+        "description": "自身のQuickカードの性能を少しアップ",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>騎乗"
+        ]
+      },
+      {
+        "name": "単独行動 EX",
+        "description": "自身のクリティカル威力をアップ",
+        "tags": [
+          "<servant><servant_classskill>単独行動"
+        ]
+      },
+      {
+        "name": "女神の神核 C",
+        "description": "自身に与ダメージプラス状態を付与＆弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>神性"
+        ]
+      },
+      {
+        "name": "ハイ・サーヴァント A",
+        "description": "効果なし",
+        "tags": [
+
+        ]
+      }
+    ],
+    "availability": "期間限定",
+    "tags": [
+      "<servant><servant_class>ランサー",
+      "<servant><servant_class>三騎士",
+      "<servant><servant_rarity>★4",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_rarity>★4以下",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>秩序",
+      "<servant><servant_attr>善",
+      "<servant><servant_card>QQAAB",
+      "<servant><servant_attr>地属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_trait>竜",
+      "<servant><servant_trait>魔性",
+      "<servant><servant_availability>期間限定",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<servant><servant_noblephantasm>防御力無視宝具",
+      "<other>フィールド依存効果",
+      "<debuff><debuff_antibuff>回避/無敵解除",
+      "<buff><buff_attack>防御無視",
+      "<buff><buff_critical>スター獲得",
+      "<buff><buff_attack>[自]A性能アップ",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>無敵",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_regist>強化解除耐性アップ",
+      "<other>フィールド特性変更",
+      "<buff><buff_critical>スター集中",
+      "<buff><buff_attack>[自]攻撃アップ",
+      "<servant><servant_classskill>対魔力",
+      "<servant><servant_trait><servant_classskill>騎乗",
+      "<servant><servant_classskill>単独行動",
+      "<servant><servant_trait><servant_classskill>神性"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4288.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E8%AC%8E%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%BF%E3%83%BC%E3%82%A8%E3%82%B4%E3%83%BB%CE%9B"
+  },
+  {
+    "id": 267,
+    "name": "オキタ・J・ソウジ",
+    "className": "アサシン",
+    "rarity": 4,
+    "cost": 12,
+    "quick": 3,
+    "arts": 1,
+    "buster": 1,
+    "attribution": "人",
+    "gender": "女性",
+    "alignment": "中立・夏",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "アルトリア顔"
+    ],
+    "noblePhantasm": {
+      "name": "ジェット三段突き",
+      "ruby": "じぇっとさんだんづき",
+      "description": "敵全体に強力な攻撃[Lv]＆防御強化状態を解除＆防御力をダウン(3T)<OC:効果UP>＋自身に確率でスタン状態を付与(1T)【デメリット】",
+      "cardType": "Quick",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>Q宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<debuff><debuff_antibuff>防御強化解除",
+        "<debuff><debuff_defence>[全]防御ダウン",
+        "<other>デメリット"
+      ]
+    },
+    "skills": [
+      {
+        "name": "ジェット天然理心流 A+",
+        "description": "自身のクリティカル威力をアップ[Lv](1T)＆スター集中度をアップ[Lv](1T)＆防御強化状態を1つ解除【デメリット】",
+        "ct": "6",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_critical>[自]クリティカル威力アップ",
+          "<buff><buff_critical>スター集中",
+          "<other>デメリット"
+        ]
+      },
+      {
+        "name": "心眼(J) A-",
+        "description": "自身に回避状態を付与(1T)＆必中状態を付与(1T)＆宝具威力をアップ[Lv](3T)",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>回避",
+          "<buff><buff_defence>[自]回避/無敵",
+          "<buff><buff_attack>必中/無敵貫通",
+          "<buff><buff_attack>必中",
+          "<buff><buff_attack>[自]必中/無敵貫通",
+          "<buff><buff_attack>[自]宝具威力アップ"
+        ]
+      },
+      {
+        "name": "M·DRIVE EX",
+        "description": "自身のQuickカード性能をアップ[Lv](3T)＆毎ターン徐々に防御力がダウンする状態を付与(3T)<強化扱い>【デメリット】",
+        "ct": "8",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]Q性能アップ",
+          "<other>デメリット"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "気配遮断(J) B-",
+        "description": "自身のスター発生率をアップ＆即死耐性を小ダウン【デメリット】",
+        "tags": [
+          "<servant><servant_classskill>気配遮断"
+        ]
+      },
+      {
+        "name": "対魔力(J) C",
+        "description": "自身の弱体耐性をアップ＆即死耐性を小ダウン【デメリット】",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "領域外の生命 E",
+        "description": "自身に毎ターンスター獲得状態を付与＆弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_classskill>領域外の生命"
+        ]
+      }
+    ],
+    "availability": "期間限定",
+    "tags": [
+      "<servant><servant_class>アサシン",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★4",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_rarity>★4以下",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>中立",
+      "<servant><servant_attr>夏",
+      "<servant><servant_attr>善・中庸・悪以外",
+      "<servant><servant_card>QQQAB",
+      "<servant><servant_attr>人属性",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>アルトリア顔",
+      "<servant><servant_availability>期間限定",
+      "<servant><servant_card><servant_noblephantasm>Q宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<debuff><debuff_antibuff>防御強化解除",
+      "<debuff><debuff_defence>[全]防御ダウン",
+      "<other>デメリット",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<buff><buff_critical>スター集中",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>回避",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_attack>必中/無敵貫通",
+      "<buff><buff_attack>必中",
+      "<buff><buff_attack>[自]必中/無敵貫通",
+      "<buff><buff_attack>[自]宝具威力アップ",
+      "<buff><buff_attack>[自]Q性能アップ",
+      "<servant><servant_classskill>気配遮断",
+      "<servant><servant_classskill>対魔力",
+      "<servant><servant_classskill>領域外の生命"
+    ],
+    "urlWiki1": "//www9.atwiki.jp/f_go/pages/4290.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%AA%E3%82%AD%E3%82%BF%E3%83%BBJ%E3%83%BB%E3%82%BD%E3%82%A6%E3%82%B8"
   }
 ]
