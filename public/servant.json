@@ -10342,21 +10342,31 @@
         "description": "自身のNP獲得量をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "テスラコイル A+",
+          "description": "自身のNP獲得量をアップ[Lv](3T)＋自身を除く味方全体のNP獲得量をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を３段階突破する＆「人類神話・雷電降臨」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_np>[自]NP獲得量アップ",
+            "<buff><buff_np>[他]NP獲得量アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_np>[自]NP獲得量アップ"
         ]
       },
       {
         "name": "天賦の叡智 A",
-        "description": "自身の防御力をアップ(3T) [Lv]＆宝具威力をアップ(1T) [Lv]＆ガッツ状態を付与(1回、3T) [Lv]",
+        "description": "自身の防御力をアップ[Lv](3T)＆宝具威力をアップ[Lv](1T)＆ガッツ状態を付与[Lv](1回・3T)",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
         "upgrade": {
           "name": "天賦の叡智 EX",
-          "description": "自身の防御力をアップ(3T) [Lv]＆宝具威力をアップ(3T) [Lv]＆攻撃力アップ(3T) [Lv]＆ガッツ状態を付与(1回、3T) [Lv]",
+          "description": "自身の防御力をアップ[Lv](3T)＆宝具威力をアップ[Lv](3T)＆攻撃力アップ[Lv](3T)＆ガッツ状態を付与[Lv](1回・3T)",
           "ct": "7",
-          "unlock": "霊基再臨を１段階突破する＆「強化クエスト」クリア後",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
           "upgrade": null,
           "tags": [
             "<buff><buff_defence>[自]防御アップ",
@@ -10431,6 +10441,7 @@
       "<debuff><debuff_delay>[全]行動不能系付与",
       "<other>デメリット",
       "<buff><buff_np>[自]NP獲得量アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_defence>ガッツ",
@@ -19327,11 +19338,27 @@
       "description": "自身のBusterカード性能をアップ(1T)<OC:効果UP>＋敵全体に強力な攻撃[Lv]",
       "cardType": "Buster",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "山脈震撼す明星の薪",
+        "ruby": "アンガルタ・キガルシュ",
+        "description": "自身のBusterカード性能をアップ(1T)<OC:効果UP>＋敵全体に強力な攻撃[Lv]＋スターを大量獲得",
+        "cardType": "Buster",
+        "unlock": "「リターン・オブ・イシュタル」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>B宝具",
+          "<servant><servant_noblephantasm>攻撃宝具",
+          "<servant><servant_noblephantasm>全体攻撃宝具",
+          "<buff><buff_attack>[自]B性能アップ",
+          "<buff><buff_attack>宝具前カード性能アップ",
+          "<buff><buff_critical>スター獲得"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>B宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_attack>[自]B性能アップ",
         "<buff><buff_attack>宝具前カード性能アップ"
       ]
@@ -19418,8 +19445,10 @@
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
+      "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_attack>必中/無敵貫通",
@@ -19460,11 +19489,31 @@
       "description": "敵単体の防御力をダウン(3T)<OC:効果UP>＆超強力な攻撃[Lv]＆〔神性〕特性を持つ場合スタン状態を付与(1T)",
       "cardType": "Buster",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "人よ、神を繋ぎとめよう",
+        "ruby": "エヌマ・エリシュ",
+        "description": "敵単体の防御力をダウン(3T)<OC:効果UP>＆超強力な攻撃[Lv]＆〔人類の脅威〕特攻＆〔神性〕特性を持つ場合スタン状態を付与(1T)",
+        "cardType": "Buster",
+        "unlock": "「神が造り、人が紡ぎ、土に還る Ⅱ」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>B宝具",
+          "<servant><servant_noblephantasm>攻撃宝具",
+          "<servant><servant_noblephantasm>単体攻撃宝具",
+          "<servant><servant_noblephantasm>特攻宝具",
+          "<debuff><debuff_defence>[単]防御ダウン",
+          "<debuff><debuff_defence>宝具前防御ダウン",
+          "<buff><buff_extradamage>人類の脅威特攻",
+          "<debuff><debuff_delay>行動不能系付与",
+          "<debuff><debuff_delay>スタン付与",
+          "<debuff><debuff_delay>[単]行動不能系付与"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>B宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<debuff><debuff_defence>[単]防御ダウン",
         "<debuff><debuff_defence>宝具前防御ダウン",
         "<debuff><debuff_delay>行動不能系付与",
@@ -19475,13 +19524,12 @@
     "skills": [
       {
         "name": "変容 A",
-        "description": "自身のBusterカード性能をアップ(1T) [Lv]＆QuickカードまたはArtsカード性能をアップ(1T) [Lv]",
+        "description": "自身のBusterカード性能をアップ[Lv](1T)＆QuickカードまたはArtsカード性能をランダムにアップ[Lv](1T)",
         "ct": "7",
         "unlock": "初期",
         "upgrade": null,
         "tags": [
-          "<buff><buff_attack>[自]B性能アップ",
-          "<buff><buff_attack>[自]A性能アップ"
+          "<buff><buff_attack>[自]B性能アップ"
         ]
       },
       {
@@ -19550,13 +19598,15 @@
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<debuff><debuff_defence>宝具前防御ダウン",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
+      "<servant><servant_noblephantasm>特攻宝具",
+      "<buff><buff_extradamage>人類の脅威特攻",
       "<buff><buff_attack>[自]B性能アップ",
-      "<buff><buff_attack>[自]A性能アップ",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<debuff><debuff_antibuff>回避/無敵解除",
       "<buff><buff_defence>回避/無敵",
