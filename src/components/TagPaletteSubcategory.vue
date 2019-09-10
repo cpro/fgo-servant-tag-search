@@ -10,7 +10,7 @@
           :key="tag.fullName"
           :data="tag"
           @click="tagClick(tag)"
-          @rightclick="tagRightClick(tag)"
+          @click.right.prevent="tagRightClick(tag)"
         />
       </v-card-text>
     </v-card>

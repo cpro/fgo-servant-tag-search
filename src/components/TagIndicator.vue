@@ -1,60 +1,66 @@
-<template>
-  <v-chip
-    :color="tagColor"
+<template functional>
+  <component
+    :is="props.components.VChip"
+    :color="props.tagColor(props.data)"
     outline
     small
     class="tag-indicator caption"
-    @click.left="click"
-    @click.right.prevent="rightclick"
+    v-bind="data.attrs"
+    v-on="listeners"
   >
-    <v-avatar v-if="!isStatic">
-      <v-icon v-if="tag.state == 'select'" :color="tagColor">
+    <component :is="props.components.VAvatar" v-if="!props.isStatic">
+      <component
+        :is="props.components.VIcon"
+        v-if="props.data.state == 'select'"
+        :color="props.tagColor(props.data)"
+      >
         check_circle
-      </v-icon>
-      <v-icon v-else-if="tag.state == 'exclude'" color="red">
+      </component>
+      <component
+        :is="props.components.VIcon"
+        v-else-if="props.data.state == 'exclude'"
+        color="red"
+      >
         remove_circle
-      </v-icon>
-      <v-icon v-else color="grey lighten-2">check_circle</v-icon>
-    </v-avatar>
-    {{ tag.name }}
-  </v-chip>
+      </component>
+      <component :is="props.components.VIcon" v-else color="grey lighten-2"
+        >check_circle</component
+      >
+    </component>
+    {{ props.data.name }}
+  </component>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue, Emit } from 'vue-property-decorator'
 import Tag from '@/models/tag'
+import { VChip, VAvatar, VIcon } from 'vuetify/lib'
 
-@Component
-export default class TagIndicator extends Vue {
-  @Prop(Object)
-  private data!: Tag
-  @Prop({ type: Boolean, default: false })
-  private isStatic!: boolean
-
-  private get tag(): Tag {
-    return this.data
-  }
-
-  private get tagColor(): string {
-    if (this.tag.categories.includes('servant')) {
-      return 'green'
-    } else if (this.tag.categories.includes('buff')) {
-      return 'pink darken-1'
-    } else if (this.tag.categories.includes('debuff')) {
-      return 'blue'
-    } else {
-      return 'gray'
-    }
-  }
-
-  @Emit()
-  private click() {
-    /* just pass through */
-  }
-  @Emit()
-  private rightclick() {
-    /* just pass through */
-  }
+export default {
+  name: 'TagIndicator',
+  props: {
+    components: {
+      type: Object,
+      default() {
+        return { VChip, VAvatar, VIcon }
+      },
+    },
+    data: { type: Object, required: true },
+    isStatic: { type: Boolean, default: false },
+    tagColor: {
+      type: Function,
+      default: (tag: Tag): string => {
+        if (tag.categories.includes('servant')) {
+          return 'green'
+        } else if (tag.categories.includes('buff')) {
+          return 'pink darken-1'
+        } else if (tag.categories.includes('debuff')) {
+          return 'blue'
+        } else {
+          return 'grey'
+        }
+      },
+    },
+  },
 }
 </script>
 
