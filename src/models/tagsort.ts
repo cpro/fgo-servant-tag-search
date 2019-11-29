@@ -3,7 +3,7 @@ import Tag from '@/models/tag'
 
 declare type TagSorter = (tag1: Tag, tag2: Tag) => number
 
-const compare = <T>(a: T, b: T, desc: boolean = false): number => {
+const compare = <T>(a: T, b: T, desc = false): number => {
   const order = desc ? -1 : 1
   if (a < b) {
     return -1 * order

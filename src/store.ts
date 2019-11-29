@@ -114,11 +114,17 @@ export default new Vuex.Store({
   actions: {
     async fetchServants({ commit }) {
       const list = (await Axios.get<ServantJsonEntry[]>('../servant.json')).data
-      commit('setServants', list.map(data => new Servant(data)))
+      commit(
+        'setServants',
+        list.map(data => new Servant(data))
+      )
     },
     async fetchTags({ commit }) {
       const list = (await Axios.get<string[]>('../tag.json')).data
-      commit('setTags', list.map(t => new Tag(t)))
+      commit(
+        'setTags',
+        list.map(t => new Tag(t))
+      )
     },
     toggleFilter(
       { commit, dispatch },
