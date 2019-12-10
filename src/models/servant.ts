@@ -20,6 +20,8 @@ export default class Servant {
   public skills: Skill[] = []
   public classSkills: ClassSkill[] = []
   public availability = ''
+  public illustrator = ''
+  public voiceActor = ''
   public tags: Tag[] = []
   public urlWiki1 = ''
   public urlWiki2 = ''
