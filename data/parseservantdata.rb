@@ -106,6 +106,10 @@ class Servant
 
         @tags += @class_skills.map {|skill| skill.tags} .flatten
 
+        if !@noble_phantasm.upgrade && @skills.all? {|skill| !skill.upgrade}
+            @tags.push("<other><other_misc>未強化")
+        end
+
         @tags.push("<other><illustrator>#{@illustrator.gsub(/[(（][^)）]+[)）]/, '')}")
         @voice_actor.gsub(/[(（][^)）]+[)）]/, '').split(/[・＆&]|\s*→\s*/).each do |va|
             @tags.push("<other><voice_actor>#{va}")
