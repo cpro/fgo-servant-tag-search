@@ -416,6 +416,7 @@
       "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[他]攻撃アップ",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>川澄綾子"
     ],
@@ -1309,6 +1310,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>真じろう",
       "<other><voice_actor>鶴岡聡"
     ],
@@ -1912,6 +1914,7 @@
       "<buff><buff_critical>スター獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>鳥海浩輔"
     ],
@@ -2778,6 +2781,7 @@
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[全]宝具封印",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>真じろう",
       "<other><voice_actor>稲田徹"
     ],
@@ -3025,6 +3029,7 @@
       "<buff><buff_defence>[自]ガッツ付与",
       "<buff><buff_attack>[他]B性能アップ",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>縞うどん",
       "<other><voice_actor>三木眞一郎"
     ],
@@ -3436,6 +3441,7 @@
       "<buff><buff_defence>[自]ガッツ付与",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>中央東口",
       "<other><voice_actor>西前忠久"
     ],
@@ -4576,6 +4582,7 @@
       "<debuff><debuff_delay>恐怖付与",
       "<debuff><debuff_delay>[全]行動不能系付与",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>Azusa",
       "<other><voice_actor>鶴岡聡"
     ],
@@ -5119,6 +5126,7 @@
       "<debuff><debuff_attack>[単]宝具威力ダウン",
       "<buff><buff_critical>スター獲得",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>PFALZ",
       "<other><voice_actor>関智一"
     ],
@@ -6388,6 +6396,7 @@
       "<debuff><debuff_delay>スキル封印",
       "<debuff><debuff_delay>[単]スキル封印",
       "<debuff><debuff_defence>[単]防御ダウン",
+      "<other><other_misc>未強化",
       "<other><illustrator>こやまひろかず",
       "<other><voice_actor>種田梨沙"
     ],
@@ -6655,6 +6664,7 @@
       "<buff><buff_defence>[自]ガッツ付与",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>Azusa",
       "<other><voice_actor>西前忠久"
     ],
@@ -6772,6 +6782,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<servant><servant_classskill>狂化",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>こやまひろかず",
       "<other><voice_actor>置鮎龍太郎"
     ],
@@ -6890,6 +6901,7 @@
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_critical>スター集中",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>安井邦彦"
     ],
@@ -7163,6 +7175,7 @@
       "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>本庄雷太",
       "<other><voice_actor>遊佐浩二"
     ],
@@ -7546,6 +7559,7 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_attack>[自]B性能アップ",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>BLACK",
       "<other><voice_actor>鶴岡聡"
     ],
@@ -8514,6 +8528,7 @@
       "<buff><buff_critical>スター獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>大久保瑠美"
     ],
@@ -8810,6 +8825,7 @@
       "<buff><buff_attack>[他]攻撃アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>ギンカ",
       "<other><voice_actor>中村悠一"
     ],
@@ -9504,6 +9520,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>悠木碧"
     ],
@@ -9621,6 +9638,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>pako",
       "<other><voice_actor>釘宮理恵"
     ],
@@ -10168,6 +10186,7 @@
       "<buff><buff_attack>[自]B性能アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>川澄綾子"
     ],
@@ -13828,6 +13847,7 @@
       "<buff><buff_defence>[自]ガッツ付与",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>しまどりる",
       "<other><voice_actor>神奈延年"
     ],
@@ -14285,6 +14305,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>輪くすさが",
       "<other><voice_actor>沢城みゆき"
     ],
@@ -15004,6 +15025,7 @@
       "<buff><buff_defence>[自]回避/無敵",
       "<other><other_misc>デメリット",
       "<servant><servant_classskill>自己回復",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>坂本真綾"
     ],
@@ -15710,6 +15732,7 @@
       "<buff><buff_np>[自]NP獲得量アップ",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>縞うどん",
       "<other><voice_actor>大原さやか"
     ],
@@ -16291,6 +16314,7 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>NP50獲得",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>本庄雷太",
       "<other><voice_actor>遊佐浩二"
     ],
@@ -16409,6 +16433,7 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_defence>[自]防御アップ",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>左",
       "<other><voice_actor>東山奈央"
     ],
@@ -16687,6 +16712,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>中原",
       "<other><voice_actor>子安武人"
     ],
@@ -16816,6 +16842,7 @@
       "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>石田あきら",
       "<other><voice_actor>川澄綾子"
     ],
@@ -17088,6 +17115,7 @@
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>しまどりる",
       "<other><voice_actor>置鮎龍太郎"
     ],
@@ -18149,6 +18177,7 @@
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>斎藤千和"
     ],
@@ -18286,6 +18315,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>川澄綾子"
     ],
@@ -18411,6 +18441,7 @@
       "<buff><buff_regist>弱体耐性アップ",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>ギンカ",
       "<other><voice_actor>種田梨沙"
     ],
@@ -18530,6 +18561,7 @@
       "<other><other_misc>デメリット",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>I-Ⅳ",
       "<other><voice_actor>野中藍",
       "<other><voice_actor>川澄綾子"
@@ -18659,6 +18691,7 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>近衛乙嗣",
       "<other><voice_actor>沢城みゆき"
     ],
@@ -18776,6 +18809,7 @@
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_attack>[自]Q性能アップ",
       "<servant><servant_classskill>気配遮断",
+      "<other><other_misc>未強化",
       "<other><illustrator>こやまひろかず",
       "<other><voice_actor>能登麻美子"
     ],
@@ -18900,6 +18934,7 @@
       "<other><other_misc>デメリット",
       "<servant><servant_classskill>狂化",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>BLACK",
       "<other><voice_actor>種田梨沙"
     ],
@@ -19483,6 +19518,7 @@
       "<buff><buff_critical>スター獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>大久保瑠美"
     ],
@@ -19766,6 +19802,7 @@
       "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_defence>タゲ集中",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>江川央生"
     ],
@@ -19890,6 +19927,7 @@
       "<other><other_misc>デメリット",
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>坂本真綾"
     ],
@@ -20345,6 +20383,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>広江礼威",
       "<other><voice_actor>遠藤綾"
     ],
@@ -20474,6 +20513,7 @@
       "<servant><servant_classskill>道具作成",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>ギンカ",
       "<other><voice_actor>関智一"
     ],
@@ -20945,6 +20985,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>蒼月タカオ",
       "<other><voice_actor>伊藤美紀"
     ],
@@ -21084,6 +21125,7 @@
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>タイキ",
       "<other><voice_actor>櫻井孝宏"
     ],
@@ -21206,6 +21248,7 @@
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>こやまひろかず",
       "<other><voice_actor>佐倉綾音"
     ],
@@ -21347,6 +21390,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>Ryota-H",
       "<other><voice_actor>中田譲治"
     ],
@@ -22433,6 +22477,7 @@
       "<buff><buff_critical>スター集中ダウン",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>pako",
       "<other><voice_actor>阿澄佳奈"
     ],
@@ -22915,6 +22960,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>たけのこ星人",
       "<other><voice_actor>東山奈央"
     ],
@@ -23052,6 +23098,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>下屋則子"
     ],
@@ -23651,6 +23698,7 @@
       "<buff><buff_extradamage>ギリシャ神話系男性特攻",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>真じろう",
       "<other><voice_actor>嶋村侑"
     ],
@@ -23912,6 +23960,7 @@
       "<buff><buff_defence>回避",
       "<buff><buff_defence>[自]回避/無敵",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>山中虎鉄",
       "<other><voice_actor>水島大宙"
     ],
@@ -24018,6 +24067,7 @@
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[他]HP回復",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>リヨ",
       "<other><voice_actor>小見川千明"
     ],
@@ -24161,6 +24211,7 @@
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>丹下桜"
     ],
@@ -24301,6 +24352,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>岡崎武士",
       "<other><voice_actor>野中藍"
     ],
@@ -24427,6 +24479,7 @@
       "<buff><buff_np>[自]NP獲得量アップ",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>縞うどん",
       "<other><voice_actor>田中美海"
     ],
@@ -24559,6 +24612,7 @@
       "<other><other_misc>フィールド依存効果",
       "<buff><buff_attack>[自]攻撃アップ",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>pako",
       "<other><voice_actor>釘宮理恵"
     ],
@@ -24827,6 +24881,7 @@
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>松竜",
       "<other><voice_actor>金元寿子"
     ],
@@ -24970,6 +25025,7 @@
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>本庄雷太",
       "<other><voice_actor>戸松遥"
     ],
@@ -25116,6 +25172,7 @@
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>森井しづき",
       "<other><voice_actor>植田佳奈"
     ],
@@ -25252,6 +25309,7 @@
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>蒼月タカオ",
       "<other><voice_actor>下屋則子"
     ],
@@ -25392,6 +25450,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>しらび",
       "<other><voice_actor>金元寿子"
     ],
@@ -25509,6 +25568,7 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>気配遮断",
+      "<other><other_misc>未強化",
       "<other><illustrator>ひろやまひろし",
       "<other><voice_actor>佐倉綾音"
     ],
@@ -25635,6 +25695,7 @@
       "<debuff><debuff_delay>[単]宝具封印",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>松竜",
       "<other><voice_actor>浪川大輔"
     ],
@@ -25763,6 +25824,7 @@
       "<buff><buff_np>[自]NP獲得量アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>古海鐘一",
       "<other><voice_actor>山路和弘"
     ],
@@ -25880,6 +25942,7 @@
       "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_defence>無敵",
       "<servant><servant_classskill>気配遮断",
+      "<other><other_misc>未強化",
       "<other><illustrator>曽我誠",
       "<other><voice_actor>明坂聡美"
     ],
@@ -26165,6 +26228,7 @@
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>大久保瑠美"
     ],
@@ -26288,6 +26352,7 @@
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>大久保瑠美"
     ],
@@ -26419,6 +26484,7 @@
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>左",
       "<other><voice_actor>茜屋日海夏"
     ],
@@ -26542,6 +26608,7 @@
       "<buff><buff_heal>[自]弱体解除",
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>蒼月タカオ",
       "<other><voice_actor>小倉唯"
     ],
@@ -26665,6 +26732,7 @@
       "<buff><buff_attack>[他]B性能アップ",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>加藤いつわ",
       "<other><voice_actor>佐藤聡美"
     ],
@@ -26806,6 +26874,7 @@
       "<debuff><debuff_attack>[単]攻撃ダウン",
       "<servant><servant_classskill>領域外の生命",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>黒星紅白",
       "<other><voice_actor>大和田仁美"
     ],
@@ -26951,6 +27020,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>森井しづき",
       "<other><voice_actor>植田佳奈"
     ],
@@ -27098,6 +27168,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>huke",
       "<other><voice_actor>能登麻美子"
     ],
@@ -27240,6 +27311,7 @@
       "<servant><servant_classskill>道具作成",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>黒星紅白",
       "<other><voice_actor>ゆかな"
     ],
@@ -27550,6 +27622,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>能登麻美子"
     ],
@@ -27680,6 +27753,7 @@
       "<debuff><debuff_delay>[単]行動不能系付与",
       "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>sime",
       "<other><voice_actor>原由実"
     ],
@@ -27811,6 +27885,7 @@
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>近衛乙嗣",
       "<other><voice_actor>早見沙織"
     ],
@@ -27933,6 +28008,7 @@
       "<buff><buff_np>NP51～獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>近衛乙嗣",
       "<other><voice_actor>宮本充"
     ],
@@ -28059,6 +28135,7 @@
       "<buff><buff_attack>[自]A性能アップ",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<servant><servant_classskill>自己回復",
+      "<other><other_misc>未強化",
       "<other><illustrator>PFALZ",
       "<other><voice_actor>関俊彦"
     ],
@@ -28194,6 +28271,7 @@
       "<debuff><debuff_antibuff>[全]強化解除",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>danciao",
       "<other><voice_actor>黒田崇矢"
     ],
@@ -28334,6 +28412,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>近衛乙嗣",
       "<other><voice_actor>古川慎"
     ],
@@ -28478,6 +28557,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>近衛乙嗣",
       "<other><voice_actor>武内駿輔"
     ],
@@ -28597,6 +28677,7 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>近衛乙嗣",
       "<other><voice_actor>花江夏樹"
     ],
@@ -28724,6 +28805,7 @@
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>悠木碧"
     ],
@@ -28834,6 +28916,7 @@
       "<buff><buff_defence>[自]回避/無敵",
       "<buff><buff_critical>スター集中",
       "<servant><servant_classskill>気配遮断",
+      "<other><other_misc>未強化",
       "<other><illustrator>lack",
       "<other><voice_actor>吉野裕行"
     ],
@@ -28965,6 +29048,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>pako",
       "<other><voice_actor>加瀬康之 ",
       "<other><voice_actor> 堀江由衣"
@@ -29100,6 +29184,7 @@
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>Ryota-H",
       "<other><voice_actor>日野聡"
     ],
@@ -29237,6 +29322,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>三輪士郎",
       "<other><voice_actor>津田健次郎"
     ],
@@ -29377,6 +29463,7 @@
       "<buff><buff_critical>毎ターンスター獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>田中美海",
       "<other><voice_actor>小松未可子",
@@ -29516,6 +29603,7 @@
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>こやまひろかず",
       "<other><voice_actor>能登麻美子"
     ],
@@ -29644,6 +29732,7 @@
       "<buff><buff_np>NP40獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>坂本真綾"
     ],
@@ -29781,6 +29870,7 @@
       "<buff><buff_regist>弱体耐性アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>左",
       "<other><voice_actor>東山奈央"
     ],
@@ -29921,6 +30011,7 @@
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>坂本みねぢ",
       "<other><voice_actor>早見沙織"
     ],
@@ -30042,6 +30133,7 @@
       "<other><other_misc>デメリット",
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>坂本真綾"
     ],
@@ -30189,6 +30281,7 @@
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>領域外の生命",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>下屋則子"
     ],
@@ -30319,6 +30412,7 @@
       "<buff><buff_critical>[他]クリティカル威力アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>高山箕犀",
       "<other><voice_actor>佐倉綾音"
     ],
@@ -30476,6 +30570,7 @@
       "<servant><servant_classskill>領域外の生命",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>BUNBUN",
       "<other><voice_actor>川澄綾子"
     ],
@@ -30608,6 +30703,7 @@
       "<buff><buff_np>[自]NP獲得量アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>Azusa",
       "<other><voice_actor>緑川光"
     ],
@@ -30769,6 +30865,7 @@
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>BLACK",
       "<other><voice_actor>門脇舞以"
     ],
@@ -30919,6 +31016,7 @@
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>本庄雷太",
       "<other><voice_actor>悠木碧"
     ],
@@ -31035,6 +31133,7 @@
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
+      "<other><other_misc>未強化",
       "<other><illustrator>danciao",
       "<other><voice_actor>山寺宏一"
     ],
@@ -31170,6 +31269,7 @@
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>hou",
       "<other><voice_actor>森なな子"
     ],
@@ -31300,6 +31400,7 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>しまどりる",
       "<other><voice_actor>下屋則子"
     ],
@@ -31432,6 +31533,7 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>東冬",
       "<other><voice_actor>福山潤"
     ],
@@ -31570,6 +31672,7 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP25-27獲得",
       "<servant><servant_classskill>気配遮断",
+      "<other><other_misc>未強化",
       "<other><illustrator>toi8",
       "<other><voice_actor>伊瀬茉莉也"
     ],
@@ -31701,6 +31804,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_attack>[自]攻撃アップ",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>緑川美帆",
       "<other><voice_actor>緑川光"
     ],
@@ -31825,6 +31929,7 @@
       "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>saitom",
       "<other><voice_actor>森永千才"
     ],
@@ -31952,6 +32057,7 @@
       "<buff><buff_critical>特定カードスター集中",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>広江礼威",
       "<other><voice_actor>遠藤綾"
     ],
@@ -32114,6 +32220,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>気配遮断",
+      "<other><other_misc>未強化",
       "<other><illustrator>原田たけひと",
       "<other><voice_actor>久野美咲"
     ],
@@ -32239,6 +32346,7 @@
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_regist>[自]弱体無効",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>安井邦彦"
     ],
@@ -32365,6 +32473,7 @@
       "<buff><buff_probability>強化成功率アップ",
       "<buff><buff_np>NP30配布",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>ひろやまひろし",
       "<other><voice_actor>名塚佳織",
       "<other><voice_actor>かかずゆみ"
@@ -32498,6 +32607,7 @@
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>本庄雷太",
       "<other><voice_actor>茅野愛衣"
     ],
@@ -32640,6 +32750,7 @@
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>潘めぐみ"
     ],
@@ -32793,6 +32904,7 @@
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>単独顕現",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>ReDrop",
       "<other><voice_actor>下屋則子"
     ],
@@ -32934,6 +33046,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>坂本みねぢ",
       "<other><voice_actor>水瀬いのり"
     ],
@@ -33076,6 +33189,7 @@
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>東冬",
       "<other><voice_actor>伊藤静"
     ],
@@ -33213,6 +33327,7 @@
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>坂本みねぢ",
       "<other><voice_actor>上田麗奈",
       "<other><voice_actor>小野大輔"
@@ -33366,6 +33481,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>悠木碧"
     ],
@@ -33516,6 +33632,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>佐藤利奈"
     ],
@@ -33647,6 +33764,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>高橋慶太郎",
       "<other><voice_actor>藤井隼"
     ],
@@ -33776,6 +33894,7 @@
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>狂化",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>pako",
       "<other><voice_actor>島﨑信長"
     ],
@@ -33916,6 +34035,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>pako",
       "<other><voice_actor>鈴木達央"
     ],
@@ -34061,6 +34181,7 @@
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>悌太",
       "<other><voice_actor>鈴木崚汰"
     ],
@@ -34206,6 +34327,7 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>自己回復",
+      "<other><other_misc>未強化",
       "<other><illustrator>pako",
       "<other><voice_actor>釘宮理恵"
     ],
@@ -34327,6 +34449,7 @@
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>スター獲得",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>Dd",
       "<other><voice_actor>谷山紀章"
     ],
@@ -34465,6 +34588,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>水樹奈々"
     ],
@@ -34606,6 +34730,7 @@
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>下越",
       "<other><voice_actor>坂本真綾"
     ],
@@ -34746,6 +34871,7 @@
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>BLACK",
       "<other><voice_actor>保志総一朗"
     ],
@@ -34889,6 +35015,7 @@
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>輪くすさが",
       "<other><voice_actor>寺崎裕香"
     ],
@@ -35019,6 +35146,7 @@
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>ネコタワワ",
       "<other><voice_actor>桑原由気"
     ],
@@ -35144,6 +35272,7 @@
       "<buff><buff_critical>スター獲得",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
       "<other><illustrator>また",
       "<other><voice_actor>小林千晃"
     ],
@@ -35272,6 +35401,7 @@
       "<buff><buff_np>NP10-20配布",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_classskill>道具作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>真殿光昭"
     ],
@@ -35400,6 +35530,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<servant><servant_classskill>気配遮断",
+      "<other><other_misc>未強化",
       "<other><illustrator>蒼月タカオ",
       "<other><voice_actor>堀江由衣"
     ],
@@ -35531,6 +35662,7 @@
       "<buff><buff_np>NP配布",
       "<buff><buff_np>NP51～配布",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>下越",
       "<other><voice_actor>ブリドカットセーラ恵美"
     ],
@@ -35684,6 +35816,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>こやまひろかず",
       "<other><voice_actor>佐倉綾音"
     ],
@@ -35834,6 +35967,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>森山大輔",
       "<other><voice_actor>福圓美里"
     ],
@@ -35958,6 +36092,7 @@
       "<debuff><debuff_defence>[全]防御ダウン",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>気配遮断",
+      "<other><other_misc>未強化",
       "<other><illustrator>okojo",
       "<other><voice_actor>田中敦子"
     ],
@@ -36083,6 +36218,7 @@
       "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>黒星紅白",
       "<other><voice_actor>ゆかな"
     ],
@@ -36223,6 +36359,7 @@
       "<buff><buff_np>NP40獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>陣地作成",
+      "<other><other_misc>未強化",
       "<other><illustrator>石田あきら",
       "<other><voice_actor>川澄綾子"
     ],
@@ -36383,6 +36520,7 @@
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
       "<other><illustrator>ワダアルコ",
       "<other><voice_actor>早見沙織"
     ],
@@ -36525,6 +36663,7 @@
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>領域外の生命",
+      "<other><other_misc>未強化",
       "<other><illustrator>武内崇",
       "<other><voice_actor>悠木碧"
     ],
@@ -36682,6 +36821,7 @@
       "<servant><servant_classskill>単独行動",
       "<servant><servant_trait><servant_classskill>神性",
       "<servant><servant_classskill>自己回復",
+      "<other><other_misc>未強化",
       "<other><illustrator>森井しづき",
       "<other><voice_actor>植田佳奈"
     ],
@@ -36850,6 +36990,7 @@
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_classskill>気配遮断",
       "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
       "<other><illustrator>Bすけ",
       "<other><voice_actor>東山奈央"
     ],
@@ -36992,6 +37133,7 @@
       "<buff><buff_critical>特定カードスター集中",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
       "<other><illustrator>近衛乙嗣",
       "<other><voice_actor>大久保瑠美"
     ],
@@ -37127,6 +37269,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>狂化",
+      "<other><other_misc>未強化",
       "<other><illustrator>高橋慶太郎",
       "<other><voice_actor>沢城みゆき"
     ],
