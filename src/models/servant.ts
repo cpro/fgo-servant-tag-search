@@ -47,6 +47,8 @@ export default class Servant {
     this.skills = entry.skills.map(s => new Skill(s))
     this.classSkills = entry.classSkills.map(s => new ClassSkill(s))
     this.availability = entry.availability
+    this.illustrator = entry.illustrator
+    this.voiceActor = entry.voiceActor
     this.tags = entry.tags.map(t => new Tag(t))
     this.urlWiki1 = entry.urlWiki1
     this.urlWiki2 = entry.urlWiki2
@@ -70,6 +72,8 @@ export interface ServantJsonEntry {
   skills: SkillJsonEntry[]
   classSkills: ClassSkillJsonEntry[]
   availability: string
+  illustrator: string
+  voiceActor: string
   tags: string[]
   urlWiki1: string
   urlWiki2: string
