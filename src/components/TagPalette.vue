@@ -179,7 +179,15 @@ export default class TagPalette extends Vue {
     other: [
       {
         title: 'その他',
-        category: 'other',
+        category: 'other_misc',
+      },
+      {
+        title: 'イラストレーター',
+        category: 'illustrator',
+      },
+      {
+        title: '声優',
+        category: 'voice_actor',
       },
     ],
   }

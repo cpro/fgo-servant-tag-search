@@ -11,7 +11,7 @@ CLASS_TABLE = %w(
 class Servant
     attr_accessor :id, :name, :class_name, :rarity, :cost, :quick, :arts, :buster, 
         :attribution, :gender, :alignment, :traits, :skills, :noble_phantasm, 
-        :class_skills, :availability,
+        :class_skills, :availability, :illustrator, :voice_actor,
         :url_wiki1, :url_wiki2
     attr_reader :tags
 
@@ -40,6 +40,8 @@ class Servant
             skills: @skills,
             classSkills: @class_skills,
             availability: @availability,
+            illustrator: @illustrator,
+            voiceActor: @voice_actor,
             tags: @tags,
             urlWiki1: @url_wiki1,
             urlWiki2: @url_wiki2,
@@ -103,6 +105,12 @@ class Servant
         end
 
         @tags += @class_skills.map {|skill| skill.tags} .flatten
+
+        @tags.push("<other><illustrator>#{@illustrator.gsub(/[(（][^)）]+[)）]/, '')}")
+        @voice_actor.gsub(/[(（][^)）]+[)）]/, '').split(/[・＆&]|\s*→\s*/).each do |va|
+            @tags.push("<other><voice_actor>#{va}")
+        end
+
         @tags.uniq!
     end
 end
@@ -209,7 +217,7 @@ def parse_description_to_tag(desc)
 
     reg = /^[<【].+のみ使用可能[>】]/
     if reg.match?(desc)
-        tags.push('<other>使用条件付き')
+        tags.push('<other><other_misc>使用条件付き')
         desc = desc.sub(reg, '')
     end
     desc.delete_prefix!('皮を愛でて')
@@ -331,7 +339,7 @@ def parse_description_to_tag(desc)
         elsif s[4]
             tags.push('<buff><buff_critical>スター獲得')
         elsif s[5]
-            tags.push('<other>デメリット')
+            tags.push('<other><other_misc>デメリット')
         elsif s[6]
             cat = '<buff><buff_defence>'
             tags.push("#{cat}回避/無敵")
@@ -481,10 +489,10 @@ def parse_description_to_tag(desc)
             tags.push("#{cat}防御無視")
             tags.push("#{cat}防御無視状態付与")
         elsif s[37]
-            cat = '<other>'
+            cat = '<other><other_misc>'
             tags.push("#{cat}フィールド依存効果")
         elsif s[38]
-            cat = '<other>'
+            cat = '<other><other_misc>'
             tags.push("#{cat}フィールド特性変更")
         end
     end
@@ -557,6 +565,10 @@ def parse_servant_data(doc)
         servant.class_skills.push(parse_classskill(node_classskill))
         node_classskill = node_classskill.at_css('+ div')
     end
+
+    node_metainfo = doc.at_xpath('//h3[contains(.,"イラストレーター・声優")]/following-sibling::div[1]')
+    servant.illustrator = node_metainfo.at_xpath('.//td[contains(.,"ILLUST")]/following-sibling::td[1]').content.strip
+    servant.voice_actor = node_metainfo.at_xpath('.//td[contains(.,"CV")]/following-sibling::td[1]').content.strip
 
     servant
 end

@@ -69,6 +69,13 @@
         </ol>
         <v-divider />
 
+        <p class="caption text-xs-right pa-0 ma-0 grey--text text--darken-1">
+          イラスト : {{ servant.illustrator }}
+        </p>
+        <p class="caption text-xs-right pa-0 ma-0 grey--text text--darken-1">
+          声優 : {{ servant.voiceActor }}
+        </p>
+
         <v-btn round flat color="grey" small @click="showTags = !showTags">
           <span class="caption">タグ一覧</span>
           <v-icon>{{ showTags ? 'arrow_drop_up' : 'arrow_drop_down' }}</v-icon>
