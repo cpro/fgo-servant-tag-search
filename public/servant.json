@@ -25339,11 +25339,30 @@
       "description": "敵単体に超強力な攻撃[Lv]＆クリティカル発生率をダウン(3T)＆やけど状態を付与(5T)＆延焼状態（やけどの効果量がアップする状態）を付与(5T)<OC:効果UP>",
       "cardType": "Buster",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "真言・聖観世音菩薩",
+        "ruby": "オン・アロリキヤ・ソワカ",
+        "description": "敵単体に超強力な攻撃[Lv]＆クリティカル発生率をダウン(5T)＆やけど状態を付与(5T)＆延焼状態（やけどの効果量がアップする状態）を付与(5T)<OC:効果UP>",
+        "cardType": "Buster",
+        "unlock": "「わが心、あの旭を忘れじ」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>B宝具",
+          "<servant><servant_noblephantasm>攻撃宝具",
+          "<servant><servant_noblephantasm>単体攻撃宝具",
+          "<debuff><debuff_attack>[単]クリティカル発生ダウン",
+          "<debuff><debuff_slip>スリップダメージ",
+          "<debuff><debuff_slip>[単]スリップダメージ",
+          "<debuff><debuff_slip>やけど付与",
+          "<debuff><debuff_slip>スリップダメージ強化",
+          "<debuff><debuff_slip>延焼"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>B宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<debuff><debuff_attack>[単]クリティカル発生ダウン",
         "<debuff><debuff_slip>スリップダメージ",
         "<debuff><debuff_slip>[単]スリップダメージ",
@@ -25434,6 +25453,7 @@
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
       "<debuff><debuff_slip>スリップダメージ",
       "<debuff><debuff_slip>[単]スリップダメージ",
@@ -25450,7 +25470,6 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<servant><servant_classskill>狂化",
-      "<other><other_misc>未強化",
       "<other><illustrator>しらび",
       "<other><voice_actor>金元寿子"
     ],
@@ -28167,11 +28186,27 @@
       "description": "自身の宝具威力をアップ(1T)<OC:効果UP>＋敵全体に強力な攻撃[Lv]＆Buster攻撃耐性をダウン(3T)",
       "cardType": "Buster",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "我が旅路に従え獣",
+        "ruby": "ズヴェーリ・クレースニーホッド",
+        "description": "自身の宝具威力をアップ(1T)<OC:効果UP>＋敵全体に強力な攻撃[Lv]＆Buster攻撃耐性をダウン(3T)",
+        "cardType": "Buster",
+        "unlock": "「嗚呼、偉大なるアレクサンドリア恐るべきイヴァン…」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>B宝具",
+          "<servant><servant_noblephantasm>攻撃宝具",
+          "<servant><servant_noblephantasm>全体攻撃宝具",
+          "<buff><buff_attack>[自]宝具威力アップ",
+          "<debuff><debuff_defence>カード耐性ダウン",
+          "<debuff><debuff_defence>B耐性ダウン"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>B宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_attack>[自]宝具威力アップ",
         "<debuff><debuff_defence>カード耐性ダウン",
         "<debuff><debuff_defence>B耐性ダウン"
@@ -28255,6 +28290,7 @@
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<debuff><debuff_defence>カード耐性ダウン",
       "<debuff><debuff_defence>B耐性ダウン",
@@ -28271,7 +28307,6 @@
       "<debuff><debuff_antibuff>[全]強化解除",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
-      "<other><other_misc>未強化",
       "<other><illustrator>danciao",
       "<other><voice_actor>黒田崇矢"
     ],
@@ -29081,12 +29116,30 @@
       "description": "自身に防御無視状態を付与(1T)＋敵全体に強力な攻撃[Lv]＆〔神性〕特攻<OC:特攻威力UP>",
       "cardType": "Buster",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "凱旋を高らかに告げる虹弓",
+        "ruby": "アルク・ドゥ・トリオンフ・ドゥ・レトワール",
+        "description": "自身に防御無視状態を付与(1T)＋敵全体に強力な攻撃[Lv]＆〔神性〕特攻<OC:特攻威力UP>＋スターを大量獲得",
+        "cardType": "Buster",
+        "unlock": "「夢のあとさき」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>B宝具",
+          "<servant><servant_noblephantasm>攻撃宝具",
+          "<servant><servant_noblephantasm>全体攻撃宝具",
+          "<servant><servant_noblephantasm>特攻宝具",
+          "<buff><buff_attack>防御無視",
+          "<buff><buff_attack>防御無視状態付与",
+          "<buff><buff_extradamage>神性特攻",
+          "<buff><buff_critical>スター獲得"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>B宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>全体攻撃宝具",
         "<servant><servant_noblephantasm>特攻宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<buff><buff_attack>防御無視",
         "<buff><buff_attack>防御無視状態付与",
         "<buff><buff_extradamage>神性特攻"
@@ -29169,9 +29222,11 @@
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<servant><servant_noblephantasm>特攻宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<buff><buff_attack>防御無視",
       "<buff><buff_attack>防御無視状態付与",
       "<buff><buff_extradamage>神性特攻",
+      "<buff><buff_critical>スター獲得",
       "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_attack>[他]宝具威力アップ",
@@ -29184,7 +29239,6 @@
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
-      "<other><other_misc>未強化",
       "<other><illustrator>Ryota-H",
       "<other><voice_actor>日野聡"
     ],
