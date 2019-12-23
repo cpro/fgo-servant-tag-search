@@ -8394,7 +8394,7 @@
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
-      "<other><illustrator>I-Ⅳ",
+      "<other><illustrator>I-IV",
       "<other><voice_actor>神奈延年",
       "<other><voice_actor>沢城みゆき"
     ],
@@ -9229,7 +9229,7 @@
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_critical>スター集中",
       "<servant><servant_classskill>対魔力",
-      "<other><illustrator>I-Ⅳ",
+      "<other><illustrator>I-IV",
       "<other><voice_actor>野中藍",
       "<other><voice_actor>川澄綾子"
     ],
@@ -11229,7 +11229,7 @@
       "<buff><buff_attack>[自]宝具威力アップ",
       "<other><other_misc>デメリット",
       "<servant><servant_classskill>道具作成",
-      "<other><illustrator>I-Ⅳ",
+      "<other><illustrator>I-IV",
       "<other><voice_actor>稲田徹"
     ],
     "urlWiki1": "//w.atwiki.jp/f_go/pages/555.html",
@@ -18562,7 +18562,7 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
       "<other><other_misc>未強化",
-      "<other><illustrator>I-Ⅳ",
+      "<other><illustrator>I-IV",
       "<other><voice_actor>野中藍",
       "<other><voice_actor>川澄綾子"
     ],
@@ -37329,5 +37329,432 @@
     ],
     "urlWiki1": "//w.atwiki.jp/f_go/pages/4409.html",
     "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%EF%BC%88%E3%82%B5%E3%83%B3%E3%82%BF%EF%BC%89"
+  },
+  {
+    "id": 272,
+    "name": "超人オリオン",
+    "className": "アーチャー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 1,
+    "arts": 1,
+    "buster": 3,
+    "attribution": "地",
+    "gender": "男性",
+    "alignment": "混沌・中庸",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "神性",
+      "愛する者",
+      "ｷﾞﾘｼｬ神話系男性"
+    ],
+    "noblePhantasm": {
+      "name": "月女神の無垢な愛",
+      "ruby": "アルテミス・アグノス",
+      "description": "自身に無敵貫通状態を付与(3T)＆攻撃力をアップ[Lv](3T)＆クリティカル威力を大アップ(3T)<OC:効果UP>＆弱体無効状態を付与(3T)＆毎ターンスター獲得状態を付与(3T)",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>補助宝具",
+        "<buff><buff_attack>必中/無敵貫通",
+        "<buff><buff_attack>無敵貫通",
+        "<buff><buff_attack>[自]必中/無敵貫通",
+        "<buff><buff_attack>[自]攻撃アップ",
+        "<buff><buff_critical>[自]クリティカル威力アップ",
+        "<buff><buff_heal><buff_regist>弱体解除/無効",
+        "<buff><buff_regist>[自]弱体無効",
+        "<buff><buff_critical>毎ターンスター獲得"
+      ]
+    },
+    "skills": [
+      {
+        "name": "獣性の豪腕 B+",
+        "description": "自身のBusterカード性能をアップ[Lv](1T)＆〔猛獣と魔性〕特攻状態を付与[Lv](1T)",
+        "ct": "7",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]B性能アップ",
+          "<buff><buff_extradamage>猛獣特攻",
+          "<buff><buff_extradamage>魔性特攻"
+        ]
+      },
+      {
+        "name": "月女神の圧 EX",
+        "description": "自身にガッツ状態を付与[Lv](1回・3T)＆攻撃力をアップ[Lv](3T)＋スターを獲得[Lv]",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>ガッツ",
+          "<buff><buff_defence>[自]ガッツ付与",
+          "<buff><buff_attack>[自]攻撃アップ",
+          "<buff><buff_critical>スター獲得"
+        ]
+      },
+      {
+        "name": "三星の弓人 A+",
+        "description": "自身のスター集中度をアップ[Lv](3T)＆「Buster攻撃時のダメージ前に自身のクリティカル威力を大アップ[Lv](1T)する状態」を付与(3回・3T)",
+        "ct": "7",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_critical>スター集中",
+          "<buff><buff_critical>[自]クリティカル威力アップ"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "単独行動 EX",
+        "description": "自身のクリティカル威力をアップ",
+        "tags": [
+          "<servant><servant_classskill>単独行動"
+        ]
+      },
+      {
+        "name": "海神の祝福 B",
+        "description": "自身に与ダメージプラス状態を付与＆被ダメージカット状態を付与",
+        "tags": [
+
+        ]
+      },
+      {
+        "name": "天蠍の呪い D",
+        "description": "自身に蝕毒状態(毒の効果量がアップする状態)を付与【デメリット】",
+        "tags": [
+
+        ]
+      }
+    ],
+    "availability": "期間限定",
+    "illustrator": "I-IV",
+    "voiceActor": "神奈延年",
+    "tags": [
+      "<servant><servant_class>アーチャー",
+      "<servant><servant_class>三騎士",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>男性",
+      "<servant><servant_attr>混沌",
+      "<servant><servant_attr>中庸",
+      "<servant><servant_card>QABBB",
+      "<servant><servant_attr>地属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_trait>愛する者",
+      "<servant><servant_trait>ギリシャ神話系男性",
+      "<servant><servant_availability>期間限定",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>補助宝具",
+      "<buff><buff_attack>必中/無敵貫通",
+      "<buff><buff_attack>無敵貫通",
+      "<buff><buff_attack>[自]必中/無敵貫通",
+      "<buff><buff_attack>[自]攻撃アップ",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<buff><buff_heal><buff_regist>弱体解除/無効",
+      "<buff><buff_regist>[自]弱体無効",
+      "<buff><buff_critical>毎ターンスター獲得",
+      "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_extradamage>猛獣特攻",
+      "<buff><buff_extradamage>魔性特攻",
+      "<buff><buff_defence>ガッツ",
+      "<buff><buff_defence>[自]ガッツ付与",
+      "<buff><buff_critical>スター獲得",
+      "<buff><buff_critical>スター集中",
+      "<servant><servant_classskill>単独行動",
+      "<other><other_misc>未強化",
+      "<other><illustrator>I-IV",
+      "<other><voice_actor>神奈延年"
+    ],
+    "urlWiki1": "//w.atwiki.jp/f_go/pages/4438.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E8%B6%85%E4%BA%BA%E3%82%AA%E3%83%AA%E3%82%AA%E3%83%B3"
+  },
+  {
+    "id": 273,
+    "name": "マンドリカルド",
+    "className": "ライダー",
+    "rarity": 3,
+    "cost": 7,
+    "quick": 2,
+    "arts": 2,
+    "buster": 1,
+    "attribution": "人",
+    "gender": "男性",
+    "alignment": "中立・中庸",
+    "traits": [
+      "サーヴァント",
+      "騎乗スキル",
+      "人型",
+      "愛する者",
+      "王"
+    ],
+    "noblePhantasm": {
+      "name": "不帯剣の誓い",
+      "ruby": "セルマン・デ・デュランダル",
+      "description": "自身のQuickカード性能をアップ(1T)<OC:効果UP>＆Artsカード性能をアップ(1T)<OC:効果UP>＆Busterカード性能をアップ(1T)<OC:効果UP>＋敵単体に超強力な攻撃[Lv]＋自身の攻撃力をダウン(1T)【デメリット】",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<buff><buff_attack>[自]Q性能アップ",
+        "<buff><buff_attack>[自]A性能アップ",
+        "<buff><buff_attack>[自]B性能アップ",
+        "<buff><buff_attack>宝具前カード性能アップ",
+        "<other><other_misc>デメリット"
+      ]
+    },
+    "skills": [
+      {
+        "name": "九偉人の鎧 A",
+        "description": "自身の防御力をアップ[Lv](3T)＋味方全体の攻撃力をアップ[Lv](3T)",
+        "ct": "7",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>[自]防御アップ",
+          "<buff><buff_attack>[他]攻撃アップ"
+        ]
+      },
+      {
+        "name": "間際の一撃 C",
+        "description": "<HPが50%以下の場合のみ使用可能>自身の攻撃力をアップ[Lv](1回・1T)＆クリティカル威力をアップ[Lv](1回・1T)＆「攻撃時に敵単体の防御強化状態を解除＋自身に即死効果【デメリット】を付与する状態(1T)<強化扱い>」を付与",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<other><other_misc>使用条件付き",
+          "<buff><buff_attack>[自]攻撃アップ",
+          "<buff><buff_critical>[自]クリティカル威力アップ",
+          "<debuff><debuff_antibuff>防御強化解除",
+          "<other><other_misc>デメリット"
+        ]
+      },
+      {
+        "name": "ブリリアドーロの嘶き A",
+        "description": "自身のQuickカード性能をアップ[Lv](3T)＆Artsカード性能をアップ[Lv](3T)＆ターゲット集中状態を付与(1T)",
+        "ct": "7",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]Q性能アップ",
+          "<buff><buff_attack>[自]A性能アップ",
+          "<buff><buff_defence>タゲ集中"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "対魔力 C",
+        "description": "自身の弱体耐性を少しアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "騎乗 B",
+        "description": "自身のQuickカード性能をアップ",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>騎乗"
+        ]
+      }
+    ],
+    "availability": "",
+    "illustrator": "ギンカ",
+    "voiceActor": "増田俊樹",
+    "tags": [
+      "<servant><servant_class>ライダー",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★3",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★3以下",
+      "<servant><servant_rarity>★4以下",
+      "<servant><servant_trait>男性",
+      "<servant><servant_attr>中立",
+      "<servant><servant_attr>中庸",
+      "<servant><servant_card>QQAAB",
+      "<servant><servant_attr>人属性",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>愛する者",
+      "<servant><servant_trait>王",
+      "<servant><servant_availability>恒常",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<buff><buff_attack>[自]Q性能アップ",
+      "<buff><buff_attack>[自]A性能アップ",
+      "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_attack>宝具前カード性能アップ",
+      "<other><other_misc>デメリット",
+      "<buff><buff_defence>[自]防御アップ",
+      "<buff><buff_attack>[他]攻撃アップ",
+      "<other><other_misc>使用条件付き",
+      "<buff><buff_attack>[自]攻撃アップ",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
+      "<debuff><debuff_antibuff>防御強化解除",
+      "<buff><buff_defence>タゲ集中",
+      "<servant><servant_classskill>対魔力",
+      "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
+      "<other><illustrator>ギンカ",
+      "<other><voice_actor>増田俊樹"
+    ],
+    "urlWiki1": "//w.atwiki.jp/f_go/pages/4441.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%83%9E%E3%83%B3%E3%83%89%E3%83%AA%E3%82%AB%E3%83%AB%E3%83%89"
+  },
+  {
+    "id": 274,
+    "name": "エウロペ",
+    "className": "ライダー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 1,
+    "arts": 2,
+    "buster": 2,
+    "attribution": "天",
+    "gender": "女性",
+    "alignment": "中立・善",
+    "traits": [
+      "サーヴァント",
+      "騎乗スキル",
+      "人型",
+      "神性"
+    ],
+    "noblePhantasm": {
+      "name": "青銅巨人の超重鎚",
+      "ruby": "スフィリ・トゥ・ターロー",
+      "description": "自身のBusterカード性能をアップ(1T)<OC:効果UP>＆防御力を大アップ(1T)＋敵全体に強力な攻撃[Lv]",
+      "cardType": "Buster",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>B宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<buff><buff_attack>[自]B性能アップ",
+        "<buff><buff_defence>[自]防御アップ",
+        "<buff><buff_attack>宝具前カード性能アップ"
+      ]
+    },
+    "skills": [
+      {
+        "name": "無垢の姫 B",
+        "description": "自身に無敵状態を付与(3回)＆弱体耐性を大アップ(3回)[Lv]",
+        "ct": "8",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>無敵",
+          "<buff><buff_defence>[自]回避/無敵",
+          "<buff><buff_regist>弱体耐性アップ"
+        ]
+      },
+      {
+        "name": "主神の寵愛 A+",
+        "description": "自身のArtsカード性能をアップ(3T)[Lv]＆Busterカード性能をアップ(3T)[Lv]＆NPを増やす[Lv](20-30)",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]A性能アップ",
+          "<buff><buff_attack>[自]B性能アップ",
+          "<buff><buff_np>NP獲得"
+        ]
+      },
+      {
+        "name": "主神の白牡牛 C",
+        "description": "敵全体に確率で魅了状態を付与(1T)＆防御力をダウン(3T)[Lv]＆クリティカル発生率をダウン(3T)[Lv]",
+        "ct": "9",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<debuff><debuff_delay>行動不能系付与",
+          "<debuff><debuff_delay>魅了付与",
+          "<debuff><debuff_delay>[全]行動不能系付与",
+          "<debuff><debuff_defence>[全]防御ダウン",
+          "<debuff><debuff_attack>[全]クリティカル発生ダウン"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "対魔力 C",
+        "description": "自身の弱体耐性を少しアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "騎乗 A+",
+        "description": "自身のQuickカードの性能をアップ",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>騎乗"
+        ]
+      },
+      {
+        "name": "神性 C",
+        "description": "自身に与ダメージプラス状態を付与",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>神性"
+        ]
+      }
+    ],
+    "availability": "",
+    "illustrator": "redjuice",
+    "voiceActor": "Ｍ・Ａ・Ｏ",
+    "tags": [
+      "<servant><servant_class>ライダー",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>中立",
+      "<servant><servant_attr>善",
+      "<servant><servant_card>QAABB",
+      "<servant><servant_attr>天属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_availability>恒常",
+      "<servant><servant_card><servant_noblephantasm>B宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_defence>[自]防御アップ",
+      "<buff><buff_attack>宝具前カード性能アップ",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>無敵",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_regist>弱体耐性アップ",
+      "<buff><buff_attack>[自]A性能アップ",
+      "<buff><buff_np>NP獲得",
+      "<debuff><debuff_delay>行動不能系付与",
+      "<debuff><debuff_delay>魅了付与",
+      "<debuff><debuff_delay>[全]行動不能系付与",
+      "<debuff><debuff_defence>[全]防御ダウン",
+      "<debuff><debuff_attack>[全]クリティカル発生ダウン",
+      "<buff><buff_np>NP30獲得",
+      "<servant><servant_classskill>対魔力",
+      "<servant><servant_trait><servant_classskill>騎乗",
+      "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
+      "<other><illustrator>redjuice",
+      "<other><voice_actor>M・A・O"
+    ],
+    "urlWiki1": "//w.atwiki.jp/f_go/pages/4440.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A8%E3%82%A6%E3%83%AD%E3%83%9A"
   }
 ]
