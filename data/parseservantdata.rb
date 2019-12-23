@@ -69,7 +69,11 @@ class Servant
         @tags.push('<servant><servant_card>' + 'Q' * @quick + 'A' * @arts + 'B' * @buster)
         @tags.push("<servant><servant_attr>#{@attribution}属性")
         @tags.push('<servant><servant_attr>天または地') if @attribution == '天' or @attribution == '地'
-        @tags += @traits.select {|t| !t.match?(/^(サーヴァント|セイバークラスのサーヴァント|ｴﾇﾏ特攻無効|不明特性〔竜殺し？〕|騎乗スキル)$/)}.map {|t| "<servant><servant_trait>#{t}"}
+        @tags += @traits.select {|t| 
+            !t.match?(/^(サーヴァント|セイバークラスのサーヴァント|ｴﾇﾏ特攻無効|不明特性〔竜殺し？〕|騎乗スキル)$/)
+        }.map {|t| 
+            "<servant><servant_trait>#{normalize_tag(t)}"
+        }
 
         case @availability
         when /クリアで追加/
@@ -110,12 +114,20 @@ class Servant
             @tags.push("<other><other_misc>未強化")
         end
 
-        @tags.push("<other><illustrator>#{@illustrator.gsub(/[(（][^)）]+[)）]/, '')}")
-        @voice_actor.gsub(/[(（][^)）]+[)）]/, '').split(/[・＆&]|\s*→\s*/).each do |va|
-            @tags.push("<other><voice_actor>#{va}")
+        @tags.push("<other><illustrator>#{normalize_tag(@illustrator)}")
+        @voice_actor.split(/[・＆&](?=[^・＆&]{2})|\s*→\s*/).each do |va|
+            @tags.push("<other><voice_actor>#{normalize_tag(va)}")
         end
 
         @tags.uniq!
+    end
+
+    private
+    def normalize_tag(str)
+        # 括弧書き除去
+        str = str.gsub(/[(（][^)）]+[)）]/, '')
+        # Unicode正規化
+        str = str.unicode_normalize(:nfkc)
     end
 end
 
