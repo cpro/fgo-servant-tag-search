@@ -8888,7 +8888,18 @@
         "description": "味方全体の宝具威力をアップ[Lv](1T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "トロイアの守護者 A",
+          "description": "味方全体の宝具威力をアップ[Lv](3T)＆被ダメージカット状態を付与[Lv](2回・3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[他]宝具威力アップ",
+            "<buff><buff_defence>被ダメカット",
+            "<buff><buff_defence>[他]被ダメカット"
+          ]
+        },
         "tags": [
           "<buff><buff_attack>[他]宝具威力アップ"
         ]
@@ -8964,6 +8975,8 @@
       "<buff><buff_attack>防御無視",
       "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_defence>被ダメカット",
+      "<buff><buff_defence>[他]被ダメカット",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>スタン付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
@@ -37419,7 +37432,7 @@
         "name": "海神の祝福 B",
         "description": "自身に与ダメージプラス状態を付与＆被ダメージカット状態を付与",
         "tags": [
-
+          "<servant><servant_trait><servant_classskill>神性"
         ]
       },
       {
@@ -37469,6 +37482,7 @@
       "<buff><buff_critical>スター獲得",
       "<buff><buff_critical>スター集中",
       "<servant><servant_classskill>単独行動",
+      "<servant><servant_trait><servant_classskill>神性",
       "<other><other_misc>未強化",
       "<other><illustrator>I-IV",
       "<other><voice_actor>神奈延年"

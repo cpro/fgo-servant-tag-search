@@ -218,10 +218,15 @@ class ClassSkill
     def generate_tags
         @tags = []
 
-        @tags.push('<servant><servant_trait><servant_classskill>神性') if @name.start_with?("神性", "女神の神核", "愛神の神核")
+        # 神性特攻の対象となるクラススキル
+        divinity = %w(神性 女神の神核 愛神の神核 海神の祝福)
+        # 神性・騎乗は特攻対象として特性タグにも分類する
+        @tags.push('<servant><servant_trait><servant_classskill>神性') if @name.start_with?(*divinity)
         @tags.push('<servant><servant_trait><servant_classskill>騎乗') if @name.start_with?('騎乗')
+        # 特攻バフを付けるクラススキル
         @tags.concat(parse_description_to_tag(@description)) if @description.include?('特攻状態')
 
+        # その他タグ化するクラススキル
         %w(対魔力 陣地作成 狂化 道具作成 気配遮断 単独行動 自己回復 領域外の生命 単独顕現).each do |t|
             @tags.push("<servant><servant_classskill>#{t}") if @name.start_with?(t)
         end
