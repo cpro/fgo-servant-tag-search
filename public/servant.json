@@ -20921,7 +20921,7 @@
       },
       {
         "name": "ジャガー・アイ A+",
-        "description": "自身のクリティカル威力をアップ[Lv](3T)＋〔森〕のフィールドにおいてのみ、自身のスター発生率をアップ[Lv](3T)＆スター集中度をアップ[Lv](3T)",
+        "description": "自身のクリティカル威力をアップ[Lv](3T)＋〔森林〕のフィールドにおいてのみ、自身のスター発生率をアップ[Lv](3T)＆スター集中度をアップ[Lv](3T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
         "upgrade": null,
@@ -37576,7 +37576,7 @@
       },
       {
         "name": "騎乗 B",
-        "description": "自身のQuickカード性能をアップ",
+        "description": "自身のQuickカードの性能をアップ",
         "tags": [
           "<servant><servant_trait><servant_classskill>騎乗"
         ]
@@ -37770,5 +37770,143 @@
     ],
     "urlWiki1": "//w.atwiki.jp/f_go/pages/4440.html",
     "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%A8%E3%82%A6%E3%83%AD%E3%83%9A"
+  },
+  {
+    "id": 275,
+    "name": "楊貴妃",
+    "className": "フォーリナー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 2,
+    "arts": 2,
+    "buster": 1,
+    "attribution": "人",
+    "gender": "女性",
+    "alignment": "混沌・善",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "神性",
+      "人類の脅威"
+    ],
+    "noblePhantasm": {
+      "name": "霓裳羽衣 比翼連理",
+      "ruby": "げいしょううい ひよくれんり",
+      "description": "敵単体に超強力な攻撃[Lv]＆〔やけど〕特攻<OC:特攻威力UP>＆やけど状態を付与[Lv](3T)",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<servant><servant_noblephantasm>特攻宝具",
+        "<buff><buff_extradamage>やけど特攻",
+        "<debuff><debuff_slip>スリップダメージ",
+        "<debuff><debuff_slip>[単]スリップダメージ",
+        "<debuff><debuff_slip>やけど付与"
+      ]
+    },
+    "skills": [
+      {
+        "name": "三千寵愛在一身 A",
+        "description": "自身に無敵状態を付与(1T)＆毎ターンNP獲得状態を付与(3T)＆スターを獲得[Lv]＆〔男性〕に対するターゲット集中状態を付与(1T)",
+        "ct": "8",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>無敵",
+          "<buff><buff_defence>[自]回避/無敵",
+          "<buff><buff_np>毎ターンNP獲得",
+          "<buff><buff_np>[自]毎ターンNP獲得",
+          "<buff><buff_critical>スター獲得",
+          "<buff><buff_defence>タゲ集中"
+        ]
+      },
+      {
+        "name": "傾国の寵姫 A",
+        "description": "敵全体のチャージを減らし、減らせた量に応じたNPを獲得する[Lv]＆防御力をダウン[Lv](3T)",
+        "ct": "9",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<debuff><debuff_defence>[全]防御ダウン"
+        ]
+      },
+      {
+        "name": "妖星の火輪 A",
+        "description": "自身に〔生ける炎〕状態「被ダメージ時に敵単体の防御力をダウン(3回・3T)＆やけど状態を付与[Lv](3T)する状態」を付与(3回・3T)＆防御力をアップ[Lv](3T)",
+        "ct": "8",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<debuff><debuff_defence>[単]防御ダウン",
+          "<debuff><debuff_slip>スリップダメージ",
+          "<debuff><debuff_slip>[単]スリップダメージ",
+          "<debuff><debuff_slip>やけど付与"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "領域外の生命 EX",
+        "description": "自身に毎ターンスター獲得状態を付与＆弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_classskill>領域外の生命"
+        ]
+      },
+      {
+        "name": "神性 B",
+        "description": "自身に与ダメージプラス状態を付与",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>神性"
+        ]
+      }
+    ],
+    "availability": "期間限定",
+    "illustrator": "黒星紅白",
+    "voiceActor": "佳村はるか",
+    "tags": [
+      "<servant><servant_class>フォーリナー",
+      "<servant><servant_class>エクストラクラス",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>混沌",
+      "<servant><servant_attr>善",
+      "<servant><servant_card>QQAAB",
+      "<servant><servant_attr>人属性",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_trait>人類の脅威",
+      "<servant><servant_availability>期間限定",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<servant><servant_noblephantasm>特攻宝具",
+      "<buff><buff_extradamage>やけど特攻",
+      "<debuff><debuff_slip>スリップダメージ",
+      "<debuff><debuff_slip>[単]スリップダメージ",
+      "<debuff><debuff_slip>やけど付与",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>無敵",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_np>毎ターンNP獲得",
+      "<buff><buff_np>[自]毎ターンNP獲得",
+      "<buff><buff_critical>スター獲得",
+      "<buff><buff_defence>タゲ集中",
+      "<debuff><debuff_defence>[全]防御ダウン",
+      "<debuff><debuff_defence>[単]防御ダウン",
+      "<servant><servant_classskill>領域外の生命",
+      "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
+      "<other><illustrator>黒星紅白",
+      "<other><voice_actor>佳村はるか"
+    ],
+    "urlWiki1": "//w.atwiki.jp/f_go/pages/4478.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E6%A5%8A%E8%B2%B4%E5%A6%83"
   }
 ]
