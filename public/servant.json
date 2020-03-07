@@ -38092,5 +38092,150 @@
     ],
     "urlWiki1": "//w.atwiki.jp/f_go/pages/4508.html",
     "urlWiki2": "//grand_order.wicurio.com/index.php?%E6%B8%85%E5%B0%91%E7%B4%8D%E8%A8%80"
+  },
+  {
+    "id": 277,
+    "name": "オデュッセウス",
+    "className": "ライダー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 2,
+    "arts": 2,
+    "buster": 1,
+    "attribution": "地",
+    "gender": "男性",
+    "alignment": "中立・善",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "騎乗スキル",
+      "愛する者",
+      "王",
+      "ｷﾞﾘｼｬ神話系男性"
+    ],
+    "noblePhantasm": {
+      "name": "終焉の大木馬",
+      "ruby": "トロイア・イポス",
+      "description": "自身の宝具威力をアップ(1T)<OC:効果UP>＋敵全体の防御強化状態を解除＋強力な攻撃[Lv]",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<buff><buff_attack>[自]宝具威力アップ",
+        "<debuff><debuff_antibuff>防御強化解除",
+        "<debuff><debuff_defence>宝具前防御強化解除"
+      ]
+    },
+    "skills": [
+      {
+        "name": "知将の閃き B++",
+        "description": "味方全体のQuickカード性能をアップ[Lv](3T)＆Artsカード性能をアップ[Lv](3T)＆選択した味方単体を除く味方全体にターゲット集中状態を付与(3T)",
+        "ct": "8",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[他]Q性能アップ",
+          "<buff><buff_attack>[他]A性能アップ",
+          "<buff><buff_defence>タゲ集中"
+        ]
+      },
+      {
+        "name": "一意専心（愛） A",
+        "description": "自身のNPを増やす[Lv](20-30)＆スター集中度を大アップ[Lv](1T)＆魅了無効状態を付与(5T)",
+        "ct": "7",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_np>NP獲得",
+          "<buff><buff_critical>スター集中"
+        ]
+      },
+      {
+        "name": "神体結界 A",
+        "description": "自身に無敵状態を付与(1T)＆強化解除耐性をアップ[Lv](1T)＆防御力をアップ[Lv](3T)",
+        "ct": "7",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>無敵",
+          "<buff><buff_defence>[自]回避/無敵",
+          "<buff><buff_regist>強化解除耐性アップ",
+          "<buff><buff_defence>[自]防御アップ"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "対魔力 B",
+        "description": "自身の弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      },
+      {
+        "name": "騎乗 B+",
+        "description": "自身のQuickカードの性能をアップ",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>騎乗"
+        ]
+      },
+      {
+        "name": "伝令神の加護 B",
+        "description": "自身に大魔女による豚化無効状態を付与＆Artsカード性能をアップ",
+        "tags": [
+
+        ]
+      }
+    ],
+    "availability": "",
+    "illustrator": "redjuice",
+    "voiceActor": "桐本拓哉",
+    "tags": [
+      "<servant><servant_class>ライダー",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>男性",
+      "<servant><servant_attr>中立",
+      "<servant><servant_attr>善",
+      "<servant><servant_card>QQAAB",
+      "<servant><servant_attr>地属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>愛する者",
+      "<servant><servant_trait>王",
+      "<servant><servant_trait>ギリシャ神話系男性",
+      "<servant><servant_availability>恒常",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<buff><buff_attack>[自]宝具威力アップ",
+      "<debuff><debuff_antibuff>防御強化解除",
+      "<debuff><debuff_defence>宝具前防御強化解除",
+      "<buff><buff_attack>[他]Q性能アップ",
+      "<buff><buff_attack>[他]A性能アップ",
+      "<buff><buff_defence>タゲ集中",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_critical>スター集中",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>無敵",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_regist>強化解除耐性アップ",
+      "<buff><buff_defence>[自]防御アップ",
+      "<buff><buff_np>NP30獲得",
+      "<servant><servant_classskill>対魔力",
+      "<servant><servant_trait><servant_classskill>騎乗",
+      "<other><other_misc>未強化",
+      "<other><illustrator>redjuice",
+      "<other><voice_actor>桐本拓哉"
+    ],
+    "urlWiki1": "//w.atwiki.jp/f_go/pages/4531.html",
+    "urlWiki2": "//grand_order.wicurio.com/index.php?%E3%82%AA%E3%83%87%E3%83%A5%E3%83%83%E3%82%BB%E3%82%A6%E3%82%B9"
   }
 ]
