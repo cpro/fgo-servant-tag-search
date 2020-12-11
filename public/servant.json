@@ -7300,7 +7300,18 @@
         "description": "自身にガッツ状態(1回・5T)を付与[Lv]",
         "ct": "9",
         "unlock": "霊基再臨を３段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "戦慄の不死者 A+",
+          "description": "自身にガッツ状態(1回・1T・他のガッツと重複可能)を付与[Lv]&ガッツ状態(1回・5T)を付与[Lv]&NP獲得量をアップ[Lv](3T)",
+          "ct": "9",
+          "unlock": null,
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_defence>ガッツ",
+            "<buff><buff_defence>[自]ガッツ付与",
+            "<buff><buff_np>[自]NP獲得量アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_defence>ガッツ",
           "<buff><buff_defence>[自]ガッツ付与"
@@ -7348,6 +7359,7 @@
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
+      "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>狂化",
       "<other><illustrator>前田浩孝",
@@ -10582,7 +10594,17 @@
         "description": "スターを大量獲得[Lv]",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "シガレット・ライオン B+",
+          "description": "スターを大量獲得[Lv]自身のBusterカードのスター集中度アップ(1T)＆クリティカル威力アップ(3回・3T)",
+          "ct": "7",
+          "unlock": null,
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_critical>スター獲得",
+            "<buff><buff_critical>[自]クリティカル威力アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_critical>スター獲得"
         ]
@@ -10645,6 +10667,7 @@
       "<buff><buff_extradamage>アーサー特攻",
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_critical>スター獲得",
+      "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
       "<buff><buff_heal>[自]弱体解除",
       "<buff><buff_defence>[自]防御アップ",
@@ -13062,7 +13085,17 @@
         "description": "自身に毎ターンスター獲得を付与[Lv](3T)",
         "ct": "8",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "長き旅路への祈り A",
+          "description": "味方単体に毎ターンスター獲得を付与[Lv](3T)＋NP獲得量アップ[Lv](3T)",
+          "ct": "8",
+          "unlock": null,
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_critical>毎ターンスター獲得",
+            "<buff><buff_np>[他]NP獲得量アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_critical>毎ターンスター獲得"
         ]
@@ -13139,6 +13172,7 @@
       "<debuff><debuff_antibuff>[全]強化解除",
       "<debuff><debuff_attack>[全]クリティカル発生ダウン",
       "<buff><buff_critical>毎ターンスター獲得",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<debuff><debuff_delay>チャージ減",
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_np>毎ターンNP獲得",
@@ -38129,7 +38163,7 @@
     "noblePhantasm": {
       "name": "終焉の大木馬",
       "ruby": "トロイア・イポス",
-      "description": "自身の宝具威力をアップ(1T)<OC:効果UP>＋敵全体の防御強化状態を解除＋強力な攻撃[Lv]",
+      "description": "自身の宝具威力をアップ(1T)<OC:効果UP>＋敵全体の防御強化状態を解除＆強力な攻撃[Lv]",
       "cardType": "Arts",
       "unlock": null,
       "upgrade": null,
