@@ -128,6 +128,8 @@ class Servant
         str = str.gsub(/[(（][^)）]+[)）]/, '')
         # Unicode正規化
         str = str.unicode_normalize(:nfkc)
+        # 表記揺れ吸収
+        str = str.gsub('魔獣型', '魔獣')
     end
 end
 
