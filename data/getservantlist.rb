@@ -9,11 +9,15 @@ html = open(url_atwiki) do |f|
     f.read
 end
 
+File.open('./html/atwiki.html', 'w') do |f|
+    f.puts(html)
+end
+
 entries = []
 
 doc = Nokogiri::HTML.parse(html, nil, charset)
-doc.xpath('//div[@class="zeb svtlistnowrap"]//tr').each do |node|
-    node_link = node.at_xpath('.//a')
+doc.xpath('//div[contains(@class,"zeb svtlistnowrap")]//tr').each do |node|
+    node_link = node.at_xpath('.//td//a')
     next unless node_link
 
     id = node.at_xpath('./td[1]').content.to_i(10)
@@ -30,6 +34,10 @@ charset = nil
 html = open(url_wicurio) do |f|
     charset = f.charset
     f.read
+end
+
+File.open('./html/wicurio.html', 'w') do |f|
+    f.puts(html)
 end
 
 doc = Nokogiri::HTML.parse(html, nil, charset)
