@@ -95,7 +95,7 @@ class Servant
 
         skill_tags = @skills.map {|skill| skill.tags + (skill.upgrade ? skill.upgrade.tags : [])} .flatten
         @tags += skill_tags
-        if skill_tags.index {|tag| tag.match(/(?<!毎ターン)NP(獲得|配布)$/)}
+        if skill_tags.index {|tag| tag.match(/(?<!毎ターン|攻撃時)NP(獲得|配布)$/)}
             np_gain = @skills.reduce(0) {|total, skill| total + (skill.upgrade ? skill.upgrade.np_gain_max : skill.np_gain_max)}
             if np_gain <= 20
                 @tags.push("<buff><buff_np>NP#{$1 == '配布' ? '10-20' : np_gain}#{$1}")
@@ -257,7 +257,7 @@ def parse_description_to_tag(desc)
         '(無敵|回避)(?=(?:状態(?:\((?:\d+[T回]・?)+\))?を)?付与)',
         '(HPを?回復状態を付与)',
         '(ターゲット集中状態を付与)',
-        '(NPを(?:少し|すごく|ものすごく)?増やす)',
+        '((?<!攻撃時に)NPを(?:少し|すごく|ものすごく)?(?:増やす|獲得))',
         '(弱体|精神異常|毒)(?=(?:状態を)?解除)',
         '(防御強化|強化|無敵|回避)(?=状態を解除)',
         '(弱体|精神異常|やけど)(?=無効状態(?:\(.+\))?を付与)',
@@ -287,6 +287,7 @@ def parse_description_to_tag(desc)
         '(防御無視状態を付与)',
         '(〕(?:の|のある|している)フィールド|フィールドが〔[^〕]+〕の時)',
         '(フィールドを〔[^〕]+〕特性にする状態を付与)',
+        '(攻撃時にNPを(?:増やす|獲得))',
     ]
 
     target = '自身'
@@ -378,7 +379,7 @@ def parse_description_to_tag(desc)
             tags.push("#{cat}タゲ集中付与") if target == '味方単体'
         elsif s[9]
             cat = '<buff><buff_np>'
-            if target == '自身'
+            if target == '自身' || !is_ally
                 tags.push("#{cat}NP獲得")
             else
                 tags.push("#{cat}NP配布")
@@ -517,6 +518,9 @@ def parse_description_to_tag(desc)
         elsif s[38]
             cat = '<other><other_misc>'
             tags.push("#{cat}フィールド特性変更")
+        elsif s[39]
+            cat = '<buff><buff_np>'
+            tags.push("#{cat}攻撃時NP獲得")
         end
     end
 
@@ -677,7 +681,7 @@ def parse_desc(node)
 end
 
 def parse_skill_npgain(nodes, desc, skill)
-    if desc.match?(/NPを(?:少し|すごく|ものすごく)?増やす/)
+    if desc.match?(/(?<!攻撃時に)NPを(?:少し|すごく|ものすごく)?(?:増やす|獲得)/)
         skill.np_gain_min = nodes[0].content.strip.to_i
         skill.np_gain_max = nodes[nodes.size - 1].content.strip.to_i
         if skill.np_gain_min == skill.np_gain_max
