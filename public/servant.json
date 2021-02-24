@@ -3734,7 +3734,18 @@
         "description": "自身にガッツ状態(1回・5T)を付与[Lv]",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "戦場の糧 A+",
+          "description": "味方単体にガッツ状態(1回・5T)を付与[Lv]＆最大HPをアップ[Lv](5T)",
+          "ct": "8",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト4」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_defence>ガッツ",
+            "<buff><buff_defence>[他]ガッツ付与",
+            "<buff><buff_heal>最大HPアップ"
+          ]
+        },
         "tags": [
           "<buff><buff_defence>ガッツ",
           "<buff><buff_defence>[自]ガッツ付与"
@@ -3795,6 +3806,8 @@
       "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_defence>ガッツ",
       "<buff><buff_defence>[自]ガッツ付与",
+      "<buff><buff_defence>[他]ガッツ付与",
+      "<buff><buff_heal>最大HPアップ",
       "<buff><buff_attack>[他]A性能アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
@@ -7658,10 +7671,27 @@
       "description": "敵全体に高確率でスキル封印状態を付与[Lv:確率](3T)＆高確率で宝具封印状態を付与(3T)<OC:確率UP>",
       "cardType": "Arts",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "我が心を喰らえ、月の光",
+        "ruby": "フルクティクルス・ディアーナ",
+        "description": "敵全体に高確率でスキル封印状態を付与[Lv:確率](3T)＆高確率で宝具封印状態を付与(3T)<OC:確率UP>＆防御力をダウン(3T)",
+        "cardType": "Arts",
+        "unlock": "「強化クエスト2」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>A宝具",
+          "<servant><servant_noblephantasm>補助宝具",
+          "<debuff><debuff_delay>スキル封印",
+          "<debuff><debuff_delay>[全]スキル封印",
+          "<debuff><debuff_delay>宝具封印",
+          "<debuff><debuff_delay>[全]宝具封印",
+          "<debuff><debuff_defence>[全]防御ダウン"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>補助宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<debuff><debuff_delay>スキル封印",
         "<debuff><debuff_delay>[全]スキル封印",
         "<debuff><debuff_delay>宝具封印",
@@ -7736,10 +7766,12 @@
       "<servant><servant_availability>恒常",
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>補助宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_delay>スキル封印",
       "<debuff><debuff_delay>[全]スキル封印",
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[全]宝具封印",
+      "<debuff><debuff_defence>[全]防御ダウン",
       "<buff><buff_attack>[自]攻撃アップ",
       "<other><other_misc>デメリット",
       "<buff><buff_defence>[自]防御アップ",
@@ -7747,7 +7779,6 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_attack>[自]B性能アップ",
       "<servant><servant_classskill>狂化",
-      "<other><other_misc>未強化",
       "<other><illustrator>BLACK",
       "<other><voice_actor>鶴岡聡"
     ],
@@ -13636,7 +13667,8 @@
       "サーヴァント",
       "人型",
       "神性",
-      "王"
+      "王",
+      "子供"
     ],
     "noblePhantasm": {
       "name": "王の財宝",
@@ -13686,7 +13718,19 @@
         "description": "敵単体〔人型〕に確率で魅了付与[Lv:確率](1T)",
         "ct": "9",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "賢王の萌芽 B",
+          "description": "敵単体〔人型〕に確率で魅了付与[Lv:確率](1T)＋自身に毎ターンスター獲得状態を付与[Lv](3T)",
+          "ct": "9",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<debuff><debuff_delay>行動不能系付与",
+            "<debuff><debuff_delay>魅了付与",
+            "<debuff><debuff_delay>[単]行動不能系付与",
+            "<buff><buff_critical>毎ターンスター獲得"
+          ]
+        },
         "tags": [
           "<debuff><debuff_delay>行動不能系付与",
           "<debuff><debuff_delay>魅了付与",
@@ -13747,6 +13791,7 @@
       "<servant><servant_trait>人型",
       "<servant><servant_trait>神性",
       "<servant><servant_trait>王",
+      "<servant><servant_trait>子供",
       "<servant><servant_availability>恒常",
       "<servant><servant_card><servant_noblephantasm>B宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
@@ -13759,6 +13804,7 @@
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>魅了付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
+      "<buff><buff_critical>毎ターンスター獲得",
       "<buff><buff_np>[自]NP獲得量アップ",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_classskill>単独行動",
@@ -43036,5 +43082,182 @@
     ],
     "urlWiki1": "//w.atwiki.jp/f_go/pages/4972.html",
     "urlWiki2": "//www.wicurio.com/grand_order/index.php?%E9%AC%BC%E4%B8%80%E6%B3%95%E7%9C%BC"
+  },
+  {
+    "id": 305,
+    "name": "アムール〔カレン〕",
+    "className": "ルーラー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 2,
+    "arts": 2,
+    "buster": 1,
+    "attribution": "天",
+    "gender": "女性",
+    "alignment": "秩序・善",
+    "traits": [
+      "サーヴァント",
+      "人型",
+      "神性",
+      "ローマ",
+      "疑似サーヴァント",
+      "今を生きる人類"
+    ],
+    "noblePhantasm": {
+      "name": "遍く無償の無限の愛",
+      "ruby": "ザ・グレイテストヒッツ・“コーリング・アガペー”",
+      "description": "自身の宝具威力をアップ(1T)<OC:効果UP>＋敵全体に強力な攻撃[Lv]＆Quick攻撃耐性をダウン(3T)＆強化無効状態を付与(1回・3T)",
+      "cardType": "Quick",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>Q宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>全体攻撃宝具",
+        "<buff><buff_attack>[自]宝具威力アップ",
+        "<debuff><debuff_defence>カード耐性ダウン",
+        "<debuff><debuff_defence>Q耐性ダウン",
+        "<debuff><debuff_antibuff>強化無効",
+        "<debuff><debuff_antibuff>[全]強化無効"
+      ]
+    },
+    "skills": [
+      {
+        "name": "ヴァレンティヌスの聖骸布 A",
+        "description": "自身に無敵状態を付与(3回・3T)＆毎ターン自身を除く味方全体からNPを吸収する状態を付与(3T)＋自身を除く味方全体に無敵状態を付与(1回・3T)＆NP獲得量をアップ[Lv](3T)",
+        "ct": "8",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>回避/無敵",
+          "<buff><buff_defence>無敵",
+          "<buff><buff_defence>[自]回避/無敵",
+          "<buff><buff_defence>[他]回避/無敵",
+          "<buff><buff_np>[他]NP獲得量アップ"
+        ]
+      },
+      {
+        "name": "黄金の矢 A",
+        "description": "自身にターゲット集中状態を付与(1T)＆NPを増やす[Lv](20-30)＋敵全体のチャージを減らす＆攻撃力をダウン[Lv](3T)＆防御力をダウン[Lv](3T)",
+        "ct": "9",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>タゲ集中",
+          "<buff><buff_np>NP獲得",
+          "<debuff><debuff_delay>チャージ減",
+          "<debuff><debuff_delay>[全]チャージ減",
+          "<debuff><debuff_attack>[全]攻撃ダウン",
+          "<debuff><debuff_defence>[全]防御ダウン"
+        ]
+      },
+      {
+        "name": "魔力放出（愛） A",
+        "description": "自身のQuickカード性能をアップ[Lv](3T)＆Artsカード性能をアップ[Lv](3T)＆Busterカード性能をアップ[Lv](3T)＆NPを増やす[Lv](10-20)＋敵単体のチャージを減らす",
+        "ct": "8",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]Q性能アップ",
+          "<buff><buff_attack>[自]A性能アップ",
+          "<buff><buff_attack>[自]B性能アップ",
+          "<buff><buff_np>NP獲得",
+          "<debuff><debuff_delay>チャージ減",
+          "<debuff><debuff_delay>[単]チャージ減"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "道具作成 A",
+        "description": "自身の弱体付与成功率をアップ",
+        "tags": [
+          "<servant><servant_classskill>道具作成"
+        ]
+      },
+      {
+        "name": "単独行動 A",
+        "description": "自身のクリティカル威力をアップ",
+        "tags": [
+          "<servant><servant_classskill>単独行動"
+        ]
+      },
+      {
+        "name": "被虐霊媒体質 EX",
+        "description": "自身の弱体耐性をダウン<強化扱い>【デメリット】＆弱体状態の時に攻撃力がアップする状態を付与",
+        "tags": [
+
+        ]
+      },
+      {
+        "name": "女神の神核 B",
+        "description": "自身に与ダメージプラス状態を付与＆弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_trait><servant_classskill>神性"
+        ]
+      },
+      {
+        "name": "鋼の信仰 A",
+        "description": "自身に〔恐怖〕無効状態を付与＆〔魅了〕無効状態を付与＆Buster攻撃耐性を少しアップ",
+        "tags": [
+
+        ]
+      }
+    ],
+    "availability": "期間限定",
+    "illustrator": "森井しづき",
+    "voiceActor": "小清水亜美",
+    "tags": [
+      "<servant><servant_class>ルーラー",
+      "<servant><servant_class>エクストラクラス",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>秩序",
+      "<servant><servant_attr>善",
+      "<servant><servant_card>QQAAB",
+      "<servant><servant_attr>天属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_trait>神性",
+      "<servant><servant_trait>ローマ",
+      "<servant><servant_trait>疑似サーヴァント",
+      "<servant><servant_trait>今を生きる人類",
+      "<servant><servant_availability>期間限定",
+      "<servant><servant_card><servant_noblephantasm>Q宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>全体攻撃宝具",
+      "<buff><buff_attack>[自]宝具威力アップ",
+      "<debuff><debuff_defence>カード耐性ダウン",
+      "<debuff><debuff_defence>Q耐性ダウン",
+      "<debuff><debuff_antibuff>強化無効",
+      "<debuff><debuff_antibuff>[全]強化無効",
+      "<buff><buff_defence>回避/無敵",
+      "<buff><buff_defence>無敵",
+      "<buff><buff_defence>[自]回避/無敵",
+      "<buff><buff_defence>[他]回避/無敵",
+      "<buff><buff_np>[他]NP獲得量アップ",
+      "<buff><buff_defence>タゲ集中",
+      "<buff><buff_np>NP獲得",
+      "<debuff><debuff_delay>チャージ減",
+      "<debuff><debuff_delay>[全]チャージ減",
+      "<debuff><debuff_attack>[全]攻撃ダウン",
+      "<debuff><debuff_defence>[全]防御ダウン",
+      "<buff><buff_attack>[自]Q性能アップ",
+      "<buff><buff_attack>[自]A性能アップ",
+      "<buff><buff_attack>[自]B性能アップ",
+      "<debuff><debuff_delay>[単]チャージ減",
+      "<buff><buff_np>NP50獲得",
+      "<servant><servant_classskill>道具作成",
+      "<servant><servant_classskill>単独行動",
+      "<servant><servant_trait><servant_classskill>神性",
+      "<other><other_misc>未強化",
+      "<other><illustrator>森井しづき",
+      "<other><voice_actor>小清水亜美"
+    ],
+    "urlWiki1": "//w.atwiki.jp/f_go/pages/4995.html",
+    "urlWiki2": "//www.wicurio.com/grand_order/index.php?%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%BBC%E3%83%BB%E3%82%AA%E3%83%AB%E3%83%86%E3%83%B3%E3%82%B7%E3%82%A2"
   }
 ]
