@@ -6098,7 +6098,17 @@
         "description": "自身のスター発生率をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "十歩殺一人 B+",
+          "description": "自身に〔王〕特攻状態を付与[Lv](3T)＆「Quick攻撃時に敵単体の防御力をダウン(3T)する状態」を付与(5回・3T)＆スター発生率をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト 3」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_extradamage>王特攻",
+            "<debuff><debuff_defence>[単]防御ダウン"
+          ]
+        },
         "tags": [
           "<buff><buff_critical>[自]スター発生アップ"
         ]
@@ -6152,6 +6162,8 @@
       "<other><other_misc>デメリット",
       "<buff><buff_critical>スター集中",
       "<buff><buff_critical>[自]スター発生アップ",
+      "<buff><buff_extradamage>王特攻",
+      "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_attack>[自]Q性能アップ",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<servant><servant_classskill>気配遮断",
@@ -13386,7 +13398,7 @@
           "name": "長き旅路への祈り A",
           "description": "味方単体に毎ターンスター獲得を付与[Lv](3T)＋NP獲得量アップ[Lv](3T)",
           "ct": "8",
-          "unlock": null,
+          "unlock": "「強化クエスト2」クリア後",
           "upgrade": null,
           "tags": [
             "<buff><buff_critical>毎ターンスター獲得",
@@ -13402,7 +13414,22 @@
         "description": "敵単体〔死霊と悪魔〕のチャージを減らす＋自身のNPを毎ターン増やす[Lv](5T)",
         "ct": "12",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "熾天の杯 EX",
+          "description": "敵単体のチャージを減らす＋敵全体のBuster攻撃耐性をダウン[Lv](5T)＋自身のNPを増やす(20)＆NPを毎ターン増やす[Lv](5T)",
+          "ct": "10",
+          "unlock": "霊基再臨を１段階突破する＆「強化クエスト3」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<debuff><debuff_delay>チャージ減",
+            "<debuff><debuff_delay>[単]チャージ減",
+            "<debuff><debuff_defence>カード耐性ダウン",
+            "<debuff><debuff_defence>B耐性ダウン",
+            "<buff><buff_np>NP獲得",
+            "<buff><buff_np>毎ターンNP獲得",
+            "<buff><buff_np>[自]毎ターンNP獲得"
+          ]
+        },
         "tags": [
           "<debuff><debuff_delay>チャージ減",
           "<debuff><debuff_delay>[単]チャージ減",
@@ -13474,10 +13501,14 @@
       "<debuff><debuff_delay>[単]チャージ減",
       "<buff><buff_np>毎ターンNP獲得",
       "<buff><buff_np>[自]毎ターンNP獲得",
+      "<debuff><debuff_defence>カード耐性ダウン",
+      "<debuff><debuff_defence>B耐性ダウン",
+      "<buff><buff_np>NP獲得",
       "<debuff><debuff_delay>行動不能系付与",
       "<debuff><debuff_delay>行動不能付与",
       "<debuff><debuff_delay>[単]行動不能系付与",
       "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_np>NP20獲得",
       "<servant><servant_classskill>対魔力",
       "<other><illustrator>近衛乙嗣",
       "<other><voice_actor>内山昂輝"
@@ -18396,7 +18427,22 @@
         "description": "自身に弱体無効状態を付与(2T)＆毎ターンHP回復状態を付与[Lv](3T)＆NPを毎ターン増やす(3T)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "モナ・リザ A+",
+          "description": "自身に弱体無効状態を付与(2T)＆毎ターンHP回復状態を付与[Lv](3T)＆NPを毎ターン増やす(3T)＋味方全体のArtsカード性能をアップ(3T)",
+          "ct": "8",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_heal><buff_regist>弱体解除/無効",
+            "<buff><buff_regist>[自]弱体無効",
+            "<buff><buff_heal>毎ターンHP回復",
+            "<buff><buff_heal>[自]HP回復",
+            "<buff><buff_np>毎ターンNP獲得",
+            "<buff><buff_np>[自]毎ターンNP獲得",
+            "<buff><buff_attack>[他]A性能アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_heal><buff_regist>弱体解除/無効",
           "<buff><buff_regist>[自]弱体無効",
@@ -18471,6 +18517,7 @@
       "<buff><buff_heal>[自]HP回復",
       "<buff><buff_np>毎ターンNP獲得",
       "<buff><buff_np>[自]毎ターンNP獲得",
+      "<buff><buff_attack>[他]A性能アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_attack>必中/無敵貫通",
       "<buff><buff_attack>無敵貫通",
@@ -22662,7 +22709,17 @@
         "description": "自身のBusterカード性能をアップ[Lv](1T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "赤き竜の徴 A",
+          "description": "自身のBusterカード性能をアップ[Lv](3T)＆NP獲得量をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を３段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[自]B性能アップ",
+            "<buff><buff_np>[自]NP獲得量アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_attack>[自]B性能アップ"
         ]
@@ -22742,6 +22799,7 @@
       "<servant><servant_noblephantasm>全体攻撃宝具",
       "<buff><buff_attack>[自]宝具威力アップ",
       "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_np>[自]NP獲得量アップ",
       "<buff><buff_critical>スター獲得",
       "<buff><buff_critical>[自]クリティカル威力アップ",
       "<buff><buff_extradamage>超巨大特攻",
