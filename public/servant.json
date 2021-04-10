@@ -12948,7 +12948,19 @@
         "description": "味方単体のHPを回復[Lv]＆防御力をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "霊基再臨を３段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "人に愛を EX",
+          "description": "味方単体のHPを回復[Lv]＆防御力をアップ[Lv](3T)＆〔天の力を持つ敵〕特攻状態を付与[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を４段階突破する＆「強化クエスト2」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_heal>HP回復",
+            "<buff><buff_heal>[他]HP回復",
+            "<buff><buff_defence>[他]防御アップ",
+            "<buff><buff_extradamage>天の力を持つ敵特攻"
+          ]
+        },
         "tags": [
           "<buff><buff_heal>HP回復",
           "<buff><buff_heal>[他]HP回復",
@@ -13009,6 +13021,7 @@
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[他]HP回復",
       "<buff><buff_defence>[他]防御アップ",
+      "<buff><buff_extradamage>天の力を持つ敵特攻",
       "<buff><buff_np>NP30配布",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
@@ -26192,11 +26205,29 @@
       "description": "敵単体に超強力な攻撃[Lv]＆スキル封印状態を付与(1T)＆クリティカル発生率をダウン(3T)<OC:効果UP>",
       "cardType": "Arts",
       "unlock": null,
-      "upgrade": null,
+      "upgrade": {
+        "name": "口寄せ・伊吹大明神縁起",
+        "ruby": "くちよせ・いぶきだいみょうじんえんぎ",
+        "description": "敵単体に超強力な攻撃[Lv]＆スキル封印状態を付与(1T)＆クリティカル発生率をダウン(3T)<OC:効果UP>＆呪厄状態（呪いの効果量がアップする状態）を付与(3T)",
+        "cardType": "Arts",
+        "unlock": "「強化クエスト 望月千代女」クリア後",
+        "upgrade": null,
+        "tags": [
+          "<servant><servant_card><servant_noblephantasm>A宝具",
+          "<servant><servant_noblephantasm>攻撃宝具",
+          "<servant><servant_noblephantasm>単体攻撃宝具",
+          "<debuff><debuff_delay>スキル封印",
+          "<debuff><debuff_delay>[単]スキル封印",
+          "<debuff><debuff_attack>[単]クリティカル発生ダウン",
+          "<debuff><debuff_slip>スリップダメージ強化",
+          "<debuff><debuff_slip>呪厄"
+        ]
+      },
       "tags": [
         "<servant><servant_card><servant_noblephantasm>A宝具",
         "<servant><servant_noblephantasm>攻撃宝具",
         "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<servant><servant_noblephantasm>宝具強化済",
         "<debuff><debuff_delay>スキル封印",
         "<debuff><debuff_delay>[単]スキル封印",
         "<debuff><debuff_attack>[単]クリティカル発生ダウン"
@@ -26269,9 +26300,12 @@
       "<servant><servant_card><servant_noblephantasm>A宝具",
       "<servant><servant_noblephantasm>攻撃宝具",
       "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<servant><servant_noblephantasm>宝具強化済",
       "<debuff><debuff_delay>スキル封印",
       "<debuff><debuff_delay>[単]スキル封印",
       "<debuff><debuff_attack>[単]クリティカル発生ダウン",
+      "<debuff><debuff_slip>スリップダメージ強化",
+      "<debuff><debuff_slip>呪厄",
       "<debuff><debuff_delay>宝具封印",
       "<debuff><debuff_delay>[単]宝具封印",
       "<buff><buff_attack>[自]A性能アップ",
@@ -26281,7 +26315,6 @@
       "<buff><buff_np>NP獲得",
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>気配遮断",
-      "<other><other_misc>未強化",
       "<other><illustrator>ひろやまひろし",
       "<other><voice_actor>佐倉綾音"
     ],
@@ -28012,7 +28045,18 @@
         "description": "自身にArtsカードによる攻撃時に対象に防御力をダウン[Lv](3T)を付与する状態を付与(3T)",
         "ct": "8",
         "unlock": "霊基再臨を３段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "雅号・異星蛸 A",
+          "description": "自身にArtsカードによる攻撃時に対象に防御力をダウン[Lv](3T)を付与する状態を付与(3T)＆Artsカードのスター集中度をアップ[Lv](3T)＋ スターを獲得[Lv]",
+          "ct": "8",
+          "unlock": "霊基再臨を１段階突破する＆「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_critical>スター集中",
+            "<buff><buff_critical>特定カードスター集中",
+            "<buff><buff_critical>スター獲得"
+          ]
+        },
         "tags": [
 
         ]
@@ -28079,12 +28123,14 @@
       "<buff><buff_attack>[自]A性能アップ",
       "<buff><buff_regist>強化解除耐性アップ",
       "<buff><buff_regist>弱体耐性アップ",
+      "<buff><buff_critical>スター集中",
+      "<buff><buff_critical>特定カードスター集中",
+      "<buff><buff_critical>スター獲得",
       "<buff><buff_np>NP30獲得",
       "<servant><servant_classskill>領域外の生命",
       "<servant><servant_classskill>道具作成",
       "<servant><servant_classskill>陣地作成",
       "<servant><servant_trait><servant_classskill>神性",
-      "<other><other_misc>未強化",
       "<other><illustrator>黒星紅白",
       "<other><voice_actor>ゆかな"
     ],
@@ -43317,5 +43363,138 @@
     ],
     "urlWiki1": "//w.atwiki.jp/f_go/pages/4995.html",
     "urlWiki2": "//www.wicurio.com/grand_order/index.php?%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%BBC%E3%83%BB%E3%82%AA%E3%83%AB%E3%83%86%E3%83%B3%E3%82%B7%E3%82%A2"
+  },
+  {
+    "id": 306,
+    "name": "ガラテア",
+    "className": "バーサーカー",
+    "rarity": 5,
+    "cost": 16,
+    "quick": 1,
+    "arts": 1,
+    "buster": 3,
+    "attribution": "地",
+    "gender": "女性",
+    "alignment": "混沌・中庸",
+    "traits": [
+      "サーヴァント",
+      "人型"
+    ],
+    "noblePhantasm": {
+      "name": "理想を刻する王の鑿",
+      "ruby": "ピグマリオン・チーゼルアウト",
+      "description": "自身の宝具威力をアップ(3T)<OC:効果UP>＋敵単体に超強力な攻撃[Lv]＆チャージを減らす",
+      "cardType": "Arts",
+      "unlock": null,
+      "upgrade": null,
+      "tags": [
+        "<servant><servant_card><servant_noblephantasm>A宝具",
+        "<servant><servant_noblephantasm>攻撃宝具",
+        "<servant><servant_noblephantasm>単体攻撃宝具",
+        "<buff><buff_attack>[自]宝具威力アップ",
+        "<debuff><debuff_delay>チャージ減",
+        "<debuff><debuff_delay>[単]チャージ減"
+      ]
+    },
+    "skills": [
+      {
+        "name": "ピグマリオンの愛 EX",
+        "description": "自身のArtsカード性能をアップ[Lv](3T)＆Busterカード性能をアップ[Lv](3T)＆強化解除耐性をアップ[Lv](1回・3T)＆NPを増やす(20)",
+        "ct": "8",
+        "unlock": "初期",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_attack>[自]A性能アップ",
+          "<buff><buff_attack>[自]B性能アップ",
+          "<buff><buff_regist>強化解除耐性アップ",
+          "<buff><buff_np>NP獲得"
+        ]
+      },
+      {
+        "name": "彫像の乙女 A",
+        "description": "自身にガッツ状態(1回・3ターン・他のガッツ状態と重複可能)を付与[Lv]＆防御力を大アップ[Lv](2回・3T)",
+        "ct": "8",
+        "unlock": "霊基再臨を１段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_defence>ガッツ",
+          "<buff><buff_defence>[自]ガッツ付与",
+          "<buff><buff_defence>[自]防御アップ"
+        ]
+      },
+      {
+        "name": "アフロディーテの恩恵 EX",
+        "description": "自身に「毎ターン味方全体のHPを回復[Lv]＆弱体状態を解除する状態」を付与(3T)",
+        "ct": "9",
+        "unlock": "霊基再臨を３段階突破する",
+        "upgrade": null,
+        "tags": [
+          "<buff><buff_heal>HP回復",
+          "<buff><buff_heal>[他]HP回復",
+          "<buff><buff_heal><buff_regist>弱体解除/無効",
+          "<buff><buff_heal>[他]弱体解除"
+        ]
+      }
+    ],
+    "classSkills": [
+      {
+        "name": "狂化 EX",
+        "description": "自身のBusterカードの性能をアップ",
+        "tags": [
+          "<servant><servant_classskill>狂化"
+        ]
+      },
+      {
+        "name": "対魔力 B",
+        "description": "自身の弱体耐性をアップ",
+        "tags": [
+          "<servant><servant_classskill>対魔力"
+        ]
+      }
+    ],
+    "availability": "",
+    "illustrator": "島田フミカネ",
+    "voiceActor": "末柄里恵",
+    "tags": [
+      "<servant><servant_class>バーサーカー",
+      "<servant><servant_class>四騎士",
+      "<servant><servant_rarity>★5",
+      "<servant><servant_rarity>★2以上",
+      "<servant><servant_rarity>★3以上",
+      "<servant><servant_rarity>★4以上",
+      "<servant><servant_trait>女性",
+      "<servant><servant_attr>混沌",
+      "<servant><servant_attr>中庸",
+      "<servant><servant_card>QABBB",
+      "<servant><servant_attr>地属性",
+      "<servant><servant_attr>天または地",
+      "<servant><servant_trait>人型",
+      "<servant><servant_availability>恒常",
+      "<servant><servant_card><servant_noblephantasm>A宝具",
+      "<servant><servant_noblephantasm>攻撃宝具",
+      "<servant><servant_noblephantasm>単体攻撃宝具",
+      "<buff><buff_attack>[自]宝具威力アップ",
+      "<debuff><debuff_delay>チャージ減",
+      "<debuff><debuff_delay>[単]チャージ減",
+      "<buff><buff_attack>[自]A性能アップ",
+      "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_regist>強化解除耐性アップ",
+      "<buff><buff_np>NP獲得",
+      "<buff><buff_defence>ガッツ",
+      "<buff><buff_defence>[自]ガッツ付与",
+      "<buff><buff_defence>[自]防御アップ",
+      "<buff><buff_heal>HP回復",
+      "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_heal><buff_regist>弱体解除/無効",
+      "<buff><buff_heal>[他]弱体解除",
+      "<buff><buff_np>NP20獲得",
+      "<servant><servant_classskill>狂化",
+      "<servant><servant_classskill>対魔力",
+      "<other><other_misc>未強化",
+      "<other><illustrator>島田フミカネ",
+      "<other><voice_actor>末柄里恵"
+    ],
+    "urlWiki1": "//w.atwiki.jp/f_go/pages/5028.html",
+    "urlWiki2": "//www.wicurio.com/grand_order/index.php?%E3%82%AC%E3%83%A9%E3%83%86%E3%82%A2"
   }
 ]
