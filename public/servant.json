@@ -16561,7 +16561,19 @@
         "description": "自身にターゲット集中状態を付与(1T)＆被ダメージカット状態を付与[Lv](1T)",
         "ct": "8",
         "unlock": "霊基再臨を１段階突破する",
-        "upgrade": null,
+        "upgrade": {
+          "name": "妖惹の紅顔 A+",
+          "description": "自身にターゲット集中状態を付与(1T)＆被ダメージカット状態を付与[Lv](1T)＋味方全体の攻撃力をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "霊基再臨を１段階突破する＆「強化クエスト2」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_defence>タゲ集中",
+            "<buff><buff_defence>被ダメカット",
+            "<buff><buff_defence>[自]被ダメカット",
+            "<buff><buff_attack>[他]攻撃アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_defence>タゲ集中",
           "<buff><buff_defence>被ダメカット",
@@ -16628,6 +16640,7 @@
       "<buff><buff_defence>タゲ集中",
       "<buff><buff_defence>被ダメカット",
       "<buff><buff_defence>[自]被ダメカット",
+      "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_critical>[他]スター発生アップ",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
@@ -17247,7 +17260,19 @@
         "description": "味方全体の攻撃力をアップ[Lv](3T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "熱砂の神王 A",
+          "description": "味方全体の攻撃力をアップ[Lv](3T)＆〔陽射し〕のあるフィールドにおいてのみ、　「自身に毎ターンスター獲得状態を付与(3T)　　＋味方全体のクリティカル威力をアップ[Lv](3T)」",
+          "ct": "7",
+          "unlock": "「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[他]攻撃アップ",
+            "<other><other_misc>フィールド依存効果",
+            "<buff><buff_critical>毎ターンスター獲得",
+            "<buff><buff_critical>[他]クリティカル威力アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_attack>[他]攻撃アップ"
         ]
@@ -17328,6 +17353,9 @@
       "<debuff><debuff_delay>[単]宝具封印",
       "<debuff><debuff_defence>[単]防御ダウン",
       "<buff><buff_attack>[他]攻撃アップ",
+      "<other><other_misc>フィールド依存効果",
+      "<buff><buff_critical>毎ターンスター獲得",
+      "<buff><buff_critical>[他]クリティカル威力アップ",
       "<buff><buff_attack>[自]攻撃アップ",
       "<buff><buff_defence>[自]防御アップ",
       "<buff><buff_heal>HP回復",
@@ -17338,7 +17366,6 @@
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
       "<servant><servant_trait><servant_classskill>神性",
-      "<other><other_misc>未強化",
       "<other><illustrator>中原",
       "<other><voice_actor>子安武人"
     ],
@@ -17388,7 +17415,18 @@
         "description": "自身のBusterカード性能をアップ[Lv](1T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "光の奔流 A+",
+          "description": "自身のBusterカード性能をアップ[Lv](1T)＆〔混沌〕特攻状態を付与[Lv](1T)＆〔悪〕特攻状態を付与[Lv](1T)",
+          "ct": "7",
+          "unlock": "「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[自]B性能アップ",
+            "<buff><buff_extradamage>混沌特攻",
+            "<buff><buff_extradamage>悪特攻"
+          ]
+        },
         "tags": [
           "<buff><buff_attack>[自]B性能アップ"
         ]
@@ -17461,6 +17499,8 @@
       "<buff><buff_attack>無敵貫通",
       "<buff><buff_attack>[自]必中/無敵貫通",
       "<buff><buff_attack>[自]B性能アップ",
+      "<buff><buff_extradamage>混沌特攻",
+      "<buff><buff_extradamage>悪特攻",
       "<buff><buff_attack>[他]攻撃アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_heal><buff_regist>弱体解除/無効",
@@ -17468,7 +17508,6 @@
       "<buff><buff_np>NP50獲得",
       "<servant><servant_classskill>対魔力",
       "<servant><servant_trait><servant_classskill>騎乗",
-      "<other><other_misc>未強化",
       "<other><illustrator>石田あきら",
       "<other><voice_actor>川澄綾子"
     ],
@@ -17820,7 +17859,23 @@
         "description": "味方全体の精神異常状態を解除＆回避付与(1回)＆HPを回復[Lv]",
         "ct": "8",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "声高らかに愛を讃えん A",
+          "description": "自身のQuickカード性能をアップ[Lv](3T)＋味方全体の弱体状態を解除＆回避付与(1回)＆HPを回復[Lv]",
+          "ct": "8",
+          "unlock": "「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[自]Q性能アップ",
+            "<buff><buff_heal><buff_regist>弱体解除/無効",
+            "<buff><buff_heal>[他]弱体解除",
+            "<buff><buff_defence>回避/無敵",
+            "<buff><buff_defence>回避",
+            "<buff><buff_defence>[他]回避/無敵",
+            "<buff><buff_heal>HP回復",
+            "<buff><buff_heal>[他]HP回復"
+          ]
+        },
         "tags": [
           "<buff><buff_heal>精神異常解除",
           "<buff><buff_heal>[他]精神異常解除",
@@ -17907,6 +17962,9 @@
       "<buff><buff_defence>[他]回避/無敵",
       "<buff><buff_heal>HP回復",
       "<buff><buff_heal>[他]HP回復",
+      "<buff><buff_attack>[自]Q性能アップ",
+      "<buff><buff_heal><buff_regist>弱体解除/無効",
+      "<buff><buff_heal>[他]弱体解除",
       "<buff><buff_np>NP獲得",
       "<other><other_misc>デメリット",
       "<debuff><debuff_antibuff>強化解除",
@@ -18444,7 +18502,17 @@
         "description": "味方全体の宝具威力をアップ[Lv](1T)",
         "ct": "7",
         "unlock": "初期",
-        "upgrade": null,
+        "upgrade": {
+          "name": "騎士の軍略 B",
+          "description": "味方全体の宝具威力をアップ[Lv](3T)＆NP獲得量をアップ[Lv](3T)",
+          "ct": "7",
+          "unlock": "「強化クエスト」クリア後",
+          "upgrade": null,
+          "tags": [
+            "<buff><buff_attack>[他]宝具威力アップ",
+            "<buff><buff_np>[他]NP獲得量アップ"
+          ]
+        },
         "tags": [
           "<buff><buff_attack>[他]宝具威力アップ"
         ]
@@ -18514,6 +18582,7 @@
       "<buff><buff_attack>[自]B性能アップ",
       "<buff><buff_attack>宝具前カード性能アップ",
       "<buff><buff_attack>[他]宝具威力アップ",
+      "<buff><buff_np>[他]NP獲得量アップ",
       "<buff><buff_np>NP獲得",
       "<buff><buff_regist>弱体耐性アップ",
       "<buff><buff_defence>[他]防御アップ",
